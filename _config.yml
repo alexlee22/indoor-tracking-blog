@@ -6,6 +6,10 @@ description: > # this means to ignore newlines until "baseurl:"
     but there is a very good chance that I no longer think that!
 baseurl: "/BlankMindBlog" # the subpath of your site, e.g. /blog
 url: "http://notionparallax.github.io" # the base hostname & protocol for your site
+
+#google analytics
+GAcode: UA-52654925-12
+
 author:
   display_name: Ben
   first_name: Ben
@@ -13,6 +17,11 @@ author:
 twitter_username: notionparallax
 github_username:  notionparallax
 author-facebook:  ben.doherty1
+#schema.org data
+name:         Ben Doherty
+facebookURL:  ben.doherty1          # ignore the https://www.facebook.com/ part
+instagramURL: Pigsu_                # ignore the http://instagram.com/ part
+linkedInURL:  ben-doherty-b2a19359" # ignore the https://ca.linkedin.com/in/ part
 
 # Build settings
 markdown: kramdown
