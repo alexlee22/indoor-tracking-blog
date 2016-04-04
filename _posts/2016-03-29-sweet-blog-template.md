@@ -35,7 +35,7 @@ Synth YOLO banh mi, banjo <q>pabst hoodie deep-v normcore</q> farm-to-table fing
 Cornhole pabst fanny pack, VHS scenester umami literally roof party. Artisan poutine meh, bicycle rights plaid food truck chambray before they sold out yuccie keytar blue bottle shabby chic tofu. Raw denim seitan vinyl banjo scenester, leggings shabby chic squid marfa jean shorts readymade.
 
 This is the page's featured image.
-[![A cool polar bear and some alt text]({{ site.baseurl }}/assets/{{page.featuredimg}})
+![A cool polar bear and some alt text]({{ site.baseurl }}/assets/{{page.featuredimg}})
 
 Slow-carb tumblr neutra, waistcoat gastropub tacos helvetica food truck raw denim before they sold out yr man braid cold-pressed.
 
@@ -98,6 +98,9 @@ Selfies bushwick next level, tattooed yuccie four loko sriracha narwhal pabst. A
 
 This is an embedly modified link. It's very cool!
 [Machine Learning: the future of employment](http://www.exeter.ox.ac.uk/sites/exeter/files/Machine%20Learning%20-%20Michael%20Osborne.pdf){:class="embedly-card"}
+
+This is another one
+[What Google Learned From Its Quest to Build the Perfect Team](http://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html){:class="embedly-card"}
 
 Try-hard YOLO meggings, letterpress affogato mustache ennui photo booth cred vice. Pug biodiesel dreamcatcher tumblr, pinterest before they sold out skateboard chicharrones narwhal.
 
