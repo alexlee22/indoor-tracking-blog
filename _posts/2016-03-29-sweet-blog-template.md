@@ -10,7 +10,7 @@ tags: []
 description: You write here and it goes on the index page.
 # 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 twitter-body: you write here and it goes on the share for twitter
-featuredimg: beach.jpg #if you put an image here it goes on twitter too
+featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
 ---
 
 Feel free to use this, if you have trouble, then let me know so that I can update the readme.
@@ -33,6 +33,9 @@ Synth YOLO banh mi, banjo <q>pabst hoodie deep-v normcore</q> farm-to-table fing
 ### Third level header
 
 Cornhole pabst fanny pack, VHS scenester umami literally roof party. Artisan poutine meh, bicycle rights plaid food truck chambray before they sold out yuccie keytar blue bottle shabby chic tofu. Raw denim seitan vinyl banjo scenester, leggings shabby chic squid marfa jean shorts readymade.
+
+This is the page's featured image.
+[![A cool polar bear and some alt text]({{ site.baseurl }}/assets/{{page.featuredimg}})
 
 Slow-carb tumblr neutra, waistcoat gastropub tacos helvetica food truck raw denim before they sold out yr man braid cold-pressed.
 
@@ -72,7 +75,7 @@ Slow-carb tumblr neutra, waistcoat gastropub tacos helvetica food truck raw deni
 ### Figures
 
 <figure class="full-width">
-![something or other]({{ site.baseurl }}/assets/thesis-29.png)
+![something or other]({{ site.baseurl }}/assets/polar-bear.jpg)
 <figcaption>
 This figure is full width
 </figcaption>
@@ -83,7 +86,7 @@ Try-hard YOLO meggings, letterpress affogato mustache ennui photo booth cred vic
 Selfies bushwick next level, tattooed yuccie four loko sriracha narwhal pabst. Austin retro chambray biodiesel tattooed cliche. Slow-carb tumblr neutra, waistcoat gastropub tacos helvetica food truck raw denim before they sold out yr man braid cold-pressed.
 
 <figure class="half-width right">
-![something or other]({{ site.baseurl }}/assets/thesis-29.png)
+![something or other]({{ site.baseurl }}/assets/polar-bear.jpg)
 <figcaption>
 This figure is half-width and floated right
 </figcaption>
@@ -93,12 +96,15 @@ Try-hard YOLO meggings, letterpress affogato mustache ennui photo booth cred vic
 
 Selfies bushwick next level, tattooed yuccie four loko sriracha narwhal pabst. Austin retro chambray biodiesel tattooed cliche. Slow-carb tumblr neutra, waistcoat gastropub tacos helvetica food truck raw denim before they sold out yr man braid cold-pressed.
 
+This is an embedly modified link. It's very cool!
+[Machine Learning: the future of employment](http://www.exeter.ox.ac.uk/sites/exeter/files/Machine%20Learning%20-%20Michael%20Osborne.pdf){:class="embedly-card"}
+
 Try-hard YOLO meggings, letterpress affogato mustache ennui photo booth cred vice. Pug biodiesel dreamcatcher tumblr, pinterest before they sold out skateboard chicharrones narwhal.
 
 Selfies bushwick next level, tattooed yuccie four loko sriracha narwhal pabst. Austin retro chambray biodiesel tattooed cliche. Slow-carb tumblr neutra, waistcoat gastropub tacos helvetica food truck raw denim before they sold out yr man braid cold-pressed.
 
 <figure class="half-width left">
-![something or other]({{ site.baseurl }}/assets/thesis-29.png)
+![something or other]({{ site.baseurl }}/assets/polar-bear.jpg)
 <figcaption>
 This figure is half-width and floated left
 </figcaption>
