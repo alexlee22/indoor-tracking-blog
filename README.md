@@ -1,0 +1,4 @@
+# BlankMindBlog
+
+
+asdasdasd
