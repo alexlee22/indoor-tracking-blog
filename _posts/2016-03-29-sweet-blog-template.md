@@ -11,6 +11,8 @@ description: You write here and it goes on the index page.
 # 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 twitter-body: you write here and it goes on the share for twitter
 featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
+
+author: Beenbag
 ---
 
 Feel free to use this, if you have trouble, then let me know so that I can update the readme.
