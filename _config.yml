@@ -7,6 +7,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tuksun.github.io" # the base hostname & protocol for your site
 
+#Timezone settings
+timezone: Australia/Sydney
+
 #google analytics
 GAcode: UA-52654925-12
 

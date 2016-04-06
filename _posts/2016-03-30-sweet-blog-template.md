@@ -1,14 +1,14 @@
 ---
 layout: post
 title: RSSI Tests
-date: 2016-04-06 21:58:00 AEST
+date: 2016-04-06 05:11:19 PDT
 type: post
 published: true
 status: publish
 categories: []
 tags: []
 description: Testing RSSI with several Bluetooth technologies
-# 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
+# 110 marker 1  234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 twitter-body: you write here and it goes on the share for twitter
 featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
 
