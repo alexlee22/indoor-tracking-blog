@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Technology review: Indooratlas  
+title: Technology review for IPS  
 date: 2016-04-10 13:25:59  AET
 type: post
 published: true
@@ -11,6 +11,8 @@ description:
 
 author: Tiara 
 ---
+
+
 # Review of Indoor Positioning methods
 
 
