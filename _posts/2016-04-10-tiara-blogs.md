@@ -1,7 +1,7 @@
 ---
 layout: post
 title: monday some thoughts i had on monday 
-date: 2016-04-10 13:25:59  +1100
+date: 2016-04-10 13:25:59  AET
 type: post
 published: true
 status: publish
