@@ -12,26 +12,30 @@ description:
 author: Tiara 
 ---
 
+Critical analysis of Indoor positioning systems via radio waves, magnetic fields, acoustic signals, or other sensory information collected by mobile devices or beacon.
 
-# Review of Indoor Positioning methods
-
-
-###   IndoorAtlas   
+### Magnetic fields
 
 blahaha
 
-###   Beacon
+###   Bluetooth
 
 blahaha 
 
 
-###   Beecon
+###   Wifi
 
 
-###   Estimo 
+###   Acoustic signals 
+
+
+
 
 
 # Summary 
+
+
+
 
 Insert table here 
 
