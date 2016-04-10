@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Technology review for IPS  
-date: 2016-04-10 13:25:59  AET
+date: 2016-04-11 13:25:59  AET
 type: post
 published: true
 status: publish
@@ -16,11 +16,11 @@ Critical analysis of Indoor positioning systems via radio waves, magnetic fields
 
 ### Magnetic fields
 
-blahaha
+IndoorAtlas 
 
 ###   Bluetooth
 
-blahaha 
+Estimo  
 
 
 ###   Wifi
@@ -32,10 +32,7 @@ blahaha
 
 
 
-# Summary 
-
-
-
+### Summary 
 
 Insert table here 
 
