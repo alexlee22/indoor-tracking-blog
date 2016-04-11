@@ -27,10 +27,7 @@ authors:
     last_name: Doherty
     twitter_username: alexlee #personal twitter account
     github_username:  notionparallax
-    author-facebook:  XenriaLee
-    #schema.org data
-    name:         Ben Doherty
-    facebookURL:  ben.doherty1          # ignore the https://www.facebook.com/ part
+    facebookURL:  XenriaLee          # ignore the https://www.facebook.com/ part
     instagramURL: Pigsu_                # ignore the http://instagram.com/ part
     linkedInURL:  ben-doherty-b2a19359" # ignore the https://ca.linkedin.com/in/ part
   annisa:
@@ -39,10 +36,7 @@ authors:
     last_name: Doherty
     twitter_username: rollingrizlaz
     github_username:  notionparallax
-    author-facebook:  RIZZLEEEEEEEE
-    #schema.org data
-    name:         Ben Doherty
-    facebookURL:  ben.doherty1          # ignore the https://www.facebook.com/ part
+    facebookURL:  RIZZLEEEEEEEE          # ignore the https://www.facebook.com/ part
     instagramURL: Pigsu_                # ignore the http://instagram.com/ part
     linkedInURL:  ben-doherty-b2a19359" # ignore the https://ca.linkedin.com/in/ part
   tiara:
@@ -51,9 +45,6 @@ authors:
     last_name: Doherty
     twitter_username: tbag
     github_username:  notionparallax
-    author-facebook:  tiara.dobbs
-    #schema.org data
-    name:         Ben Doherty
-    facebookURL:  ben.doherty1          # ignore the https://www.facebook.com/ part
+    facebookURL:  tiara.dobbs          # ignore the https://www.facebook.com/ part
     instagramURL: Pigsu_                # ignore the http://instagram.com/ part
     linkedInURL:  ben-doherty-b2a19359" # ignore the https://ca.linkedin.com/in/ part
