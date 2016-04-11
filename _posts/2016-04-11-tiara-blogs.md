@@ -15,7 +15,7 @@ A critical analysis of the ongoing experimentation of IndoorAtlas magnetic IPS
 
 # IndoorAtlas 
 
-Check out: http://www.networkworld.com/article/2911467/internet-of-things/indoor-atlas-smartphones-can-navigate-inside-buildings-using-magnetic-fields.html
+Check out: [IndoorAtlas](http://www.networkworld.com/article/2911467/internet-of-things/indoor-atlas-smartphones-can-navigate-inside-buildings-using-magnetic-fields.html)
 
 ### Claim 
 
