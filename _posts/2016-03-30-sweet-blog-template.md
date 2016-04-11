@@ -17,7 +17,7 @@ author: Alexander Lee
 
 I ran some test on the RSSI values to test the Bluetooth reader on the Raspberry Pi's from the 2015 Hack Day. I will test with 'Stick n Find' and Estimote stickers
 
-###BECO
+### BECO
 
 |  **Distance (m)**   | **RSSI Value**   | **Fluxuation Range**   |
 | 0 | 40 | +-3 |
@@ -30,10 +30,10 @@ I ran some test on the RSSI values to test the Bluetooth reader on the Raspberry
 
 The RSSI is accurate around 0-1 meter distance, it then starts increasing the fluxation range.
 
-###Stick N Find
+### Stick N Find
 
 TBA
 
-###Estimote
+### Estimote
 
 TBA
