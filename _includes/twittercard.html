@@ -1,3 +1,4 @@
+<!-- TWITTER CARD -->
 <!-- Docs here https://dev.twitter.com/cards/types/summary-large-image -->
 <meta name="twitter:card"
       content="summary_large_image">
@@ -6,7 +7,7 @@
       content="@{{site.twitter_username}}">
 
 <meta name="twitter:creator"
-      content="@{% if page.author-twitter %}{{page.author-twitter}}{% else %}{{site.twitter_username}}{% endif %}">
+      content="@{% if include.author.twitter_username %}{{include.author.twitter_username}}{% else %}{{site.twitter_username}}{% endif %}">
 
 <meta name="twitter:title"
       content="{{ page.title }}">

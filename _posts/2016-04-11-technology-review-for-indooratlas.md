@@ -11,7 +11,7 @@ description:
 twitter-body: 
 featuredimg: 
 
-author: Tiara 
+author: tiara 
 ---
 
 A critical analysis of the ongoing experimentation of IndoorAtlas magnetic IPS 

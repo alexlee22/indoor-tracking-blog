@@ -12,11 +12,10 @@ description: You write here and it goes on the index page.
 twitter-body: you write here and it goes on the share for twitter
 featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
 
-author: Beenbag
+author: annisa
 ---
 
 Feel free to use this, if you have trouble, then let me know so that I can update the readme.
-
 
 # Below here is a rough guide to the types of elements you'll encounter as you make things in markdown.
 

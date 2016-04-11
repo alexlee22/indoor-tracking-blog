@@ -12,7 +12,7 @@ description: Testing RSSI with several Bluetooth technologies
 twitter-body: you write here and it goes on the share for twitter
 featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
 
-author: Alexander Lee
+author: alex
 ---
 
 I ran some test on the RSSI values to test the Bluetooth reader on the Raspberry Pi's from the 2015 Hack Day. I will test with 'Stick n Find' and Estimote stickers

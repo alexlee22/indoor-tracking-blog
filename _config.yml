@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
     but there is a very good chance that I no longer think that!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://where-in.space" # the base hostname & protocol for your site
+twitter_username: whereinspace #the twitter account for this project
 
 #Timezone settings
 timezone: Australia/Sydney
@@ -19,38 +20,38 @@ markdown: kramdown
 kramdown:
   parse_block_html: true
 
-author
+authors:
   alex:
-    display_name: Ben
+    display_name: Alexander Lee
     first_name: Ben
     last_name: Doherty
-    twitter_username: notionparallax
+    twitter_username: alexlee #personal twitter account
     github_username:  notionparallax
-    author-facebook:  ben.doherty1
+    author-facebook:  XenriaLee
     #schema.org data
     name:         Ben Doherty
     facebookURL:  ben.doherty1          # ignore the https://www.facebook.com/ part
     instagramURL: Pigsu_                # ignore the http://instagram.com/ part
     linkedInURL:  ben-doherty-b2a19359" # ignore the https://ca.linkedin.com/in/ part
   annisa:
-    display_name: Ben
+    display_name: Annisa
     first_name: Ben
     last_name: Doherty
-    twitter_username: notionparallax
+    twitter_username: rollingrizlaz
     github_username:  notionparallax
-    author-facebook:  ben.doherty1
+    author-facebook:  RIZZLEEEEEEEE
     #schema.org data
     name:         Ben Doherty
     facebookURL:  ben.doherty1          # ignore the https://www.facebook.com/ part
     instagramURL: Pigsu_                # ignore the http://instagram.com/ part
     linkedInURL:  ben-doherty-b2a19359" # ignore the https://ca.linkedin.com/in/ part
   tiara:
-    display_name: Ben
+    display_name: Tiara
     first_name: Ben
     last_name: Doherty
-    twitter_username: notionparallax
+    twitter_username: tbag
     github_username:  notionparallax
-    author-facebook:  ben.doherty1
+    author-facebook:  tiara.dobbs
     #schema.org data
     name:         Ben Doherty
     facebookURL:  ben.doherty1          # ignore the https://www.facebook.com/ part

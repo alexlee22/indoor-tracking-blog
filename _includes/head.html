@@ -15,7 +15,18 @@
   {% include favicon_stuff.html %}
 
   <!-- social meta -->
-  {% include facebook.html %}
-  {% include twittercard.html %}
+
+  {% if page.author %}
+    {% if page.author    == "alex"   %}
+      {% include twittercard.html author=site.authors.alex %}
+      {% include facebook.html    author=site.authors.alex %}
+    {% elsif page.author == "annisa" %}
+      {% include twittercard.html author=site.authors.annisa %}
+      {% include facebook.html    author=site.authors.annisa %}
+    {% elsif page.author == "tiara"  %}
+      {% include twittercard.html author=site.authors.tiara %}
+      {% include facebook.html    author=site.authors.tiara %}
+    {% endif %}
+  {% endif %}
 
 </head>
