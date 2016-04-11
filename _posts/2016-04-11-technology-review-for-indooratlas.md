@@ -8,9 +8,12 @@ status: publish
 categories: []
 tags: []
 description: 
+twitter-body: 
+featuredimg: 
 
 author: Tiara 
 ---
+
 A critical analysis of the ongoing experimentation of IndoorAtlas magnetic IPS 
 
 # IndoorAtlas 
