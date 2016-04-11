@@ -36,3 +36,4 @@ Still awaiting reply.
 ### Further work
 
 Continue trialling with beacons and smartphones, check usability within different building types: office spaces, malls, churches etc.
+
