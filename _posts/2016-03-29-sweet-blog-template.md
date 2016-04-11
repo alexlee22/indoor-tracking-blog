@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sweet blog template
-date: 2016-03-29 13:25:59  PDT
+date: 2016-03-29 13:25:59
 type: post
 published: true
 status: publish

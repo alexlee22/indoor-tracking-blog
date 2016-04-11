@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RSSI Tests
-date: 2016-04-06 05:11:19 PDT
+date: 2016-04-06 05:11:19
 type: post
 published: true
 status: publish
