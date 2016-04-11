@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Technology review for IndoorAtlas   
-date: 2016-04-11 13:25:59
+date: 2016-04-11 16:25:59
 type: post
 published: true
 status: publish
