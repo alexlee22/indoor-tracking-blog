@@ -1,0 +1,34 @@
+---
+layout: post
+title: Sweet blog template
+date: 2016-03-29 13:25:59
+type: post
+published: true
+status: publish
+categories: []
+tags: []
+description: Experimenting with IndoorAtlas
+
+author: Tiara Dobbs 
+---
+
+Critical analysis of Indoor positioning systems via magnetic fields using Indoor Atlas.
+
+### Magnetic fields
+
+reviewed technology: IndoorAtlas 
+Aim: to locate individuals in real time and measure the level of accuracy/lag. 
+
+Specifics:
+smart Phone: yes(Android/iOS) windows not yet tested 
+Beacon: no yet
+open source: no 
+accuracy: 1-2 meters 
+
+Was difficult downloading the software, sometimes didnt work on different versions of android and iOS: these include LG touch screens(IOS), smart devices(ipod, version 6), Windows tablet. 
+
+Worked on: iphone downloaded app, was extrememly accurate when picking up the location of the iphone(1-2 m)
+Information storage: still controlled by company, not easy to direct to a controlled storage system. testingwill be continued in this area. 
+
+# summary:
+useful for smartphone technology, not yet developed to the point to be quite competitiive with other IPS, however its accuracy makes it a very desirable alternative.
