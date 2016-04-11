@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
     head for new ideas. The ideas here were what I thought at the time,
     but there is a very good chance that I no longer think that!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://tuksun.github.io" # the base hostname & protocol for your site
+url: "http://where-in.space" # the base hostname & protocol for your site
 
 #Timezone settings
 timezone: Australia/Sydney
@@ -13,22 +13,46 @@ timezone: Australia/Sydney
 #google analytics
 GAcode: UA-52654925-12
 
-author:
-  display_name: Ben
-  first_name: Ben
-  last_name: Doherty
-twitter_username: notionparallax
-github_username:  notionparallax
-author-facebook:  ben.doherty1
-#schema.org data
-name:         Ben Doherty
-facebookURL:  ben.doherty1          # ignore the https://www.facebook.com/ part
-instagramURL: Pigsu_                # ignore the http://instagram.com/ part
-linkedInURL:  ben-doherty-b2a19359" # ignore the https://ca.linkedin.com/in/ part
-
 # Build settings
-markdown: kramdown
 permalink: "/:year/:title"
-
+markdown: kramdown
 kramdown:
   parse_block_html: true
+
+author
+  alex:
+    display_name: Ben
+    first_name: Ben
+    last_name: Doherty
+    twitter_username: notionparallax
+    github_username:  notionparallax
+    author-facebook:  ben.doherty1
+    #schema.org data
+    name:         Ben Doherty
+    facebookURL:  ben.doherty1          # ignore the https://www.facebook.com/ part
+    instagramURL: Pigsu_                # ignore the http://instagram.com/ part
+    linkedInURL:  ben-doherty-b2a19359" # ignore the https://ca.linkedin.com/in/ part
+  annisa:
+    display_name: Ben
+    first_name: Ben
+    last_name: Doherty
+    twitter_username: notionparallax
+    github_username:  notionparallax
+    author-facebook:  ben.doherty1
+    #schema.org data
+    name:         Ben Doherty
+    facebookURL:  ben.doherty1          # ignore the https://www.facebook.com/ part
+    instagramURL: Pigsu_                # ignore the http://instagram.com/ part
+    linkedInURL:  ben-doherty-b2a19359" # ignore the https://ca.linkedin.com/in/ part
+  tiara:
+    display_name: Ben
+    first_name: Ben
+    last_name: Doherty
+    twitter_username: notionparallax
+    github_username:  notionparallax
+    author-facebook:  ben.doherty1
+    #schema.org data
+    name:         Ben Doherty
+    facebookURL:  ben.doherty1          # ignore the https://www.facebook.com/ part
+    instagramURL: Pigsu_                # ignore the http://instagram.com/ part
+    linkedInURL:  ben-doherty-b2a19359" # ignore the https://ca.linkedin.com/in/ part
