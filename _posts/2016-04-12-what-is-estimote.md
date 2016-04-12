@@ -12,7 +12,7 @@ description: What is Estimote and why is it useful
 twitter-body: you write here and it goes on the share for twitter
 featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
 
-author: Alex
+author: alex
 ---
 
 ### What is it?
