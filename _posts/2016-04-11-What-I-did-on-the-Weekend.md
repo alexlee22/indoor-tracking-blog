@@ -15,8 +15,6 @@ featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
 author: annisa
 ---
 
-
-
 #### Progress with Beacon deck
 
 <b>So first ever post for me!</b>
