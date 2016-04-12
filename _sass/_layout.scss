@@ -39,26 +39,26 @@
   }
 
   @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
     background-color: $background-color;
-    border: 1px solid $grey-color-light;
     border-radius: 5px;
+    border: 1px solid $grey-color-light;
+    position: absolute;
+    right: $spacing-unit / 2;
     text-align: right;
+    top: 9px;
 
     .menu-icon {
       display: block;
       float: right;
-      width: 36px;
       height: 26px;
       line-height: 0;
       padding-top: 10px;
       text-align: center;
+      width: 36px;
 
       > svg {
-        width: 18px;
         height: 15px;
+        width: 18px;
 
         path {
           fill: $grey-color-dark;
@@ -78,12 +78,12 @@
 
     .page-link {
       display: block;
+      margin-left: 20px;
       padding: 5px 10px;
 
       &:not(:last-child) {
         margin-right: 0;
       }
-      margin-left: 20px;
     }
   }
 }
@@ -108,8 +108,8 @@
 }
 
 .footer-col-wrapper {
-  font-size: 15px;
   color: $grey-color;
+  font-size: 15px;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -180,7 +180,7 @@
 
   > li {
     border: 1px solid $grey-color-light;
-    border-top: .3em solid $brand-color;
+    border-top: .3em solid;// $brand-color;
     height: 20em;
     margin-bottom: $spacing-unit;
     overflow: hidden;
@@ -189,8 +189,11 @@
     padding-top: 1em;
     position: relative;
     transition: all .4s;
+    &.alex   {border-top-color: $alex-color;}
+    &.annisa {border-top-color: $annisa-color;}
+    &.tiara  {border-top-color: $tiara-color;}
 
-    .post-date {
+    .meta {
       font-family: $heading-font-family;
       font-size: 80%;
     }
@@ -222,11 +225,15 @@
     }
 
     &:hover {
-      background-color: $brand-color;
-      h2, h2 a, p, .read-more, .post-date {
+      //background-color: $brand-color;
+      h2, h2 a, p, .read-more, .meta {
         color: $text-color-invert;
       }
     }
+    
+    &.alex   { &:hover {background-color: $alex-color;}   }
+    &.annisa { &:hover {background-color: $annisa-color;} }
+    &.tiara  { &:hover {background-color: $tiara-color;}  }
 
     @include media(max-width 900px) {
       //single column
