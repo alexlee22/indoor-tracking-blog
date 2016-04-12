@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What I did on the Weekend
+title: Progress with beacon deck, acadia paper, annotated bibliography and annotated links
 date: 2016-04-12 02:24:00
 type: post
 published: true
@@ -15,25 +15,19 @@ featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
 author: annisa
 ---
 
-I ran some test on the RSSI values to test the Bluetooth reader on the Raspberry Pi's from the 2015 Hack Day. I will test with 'Stick n Find' and Estimote stickers
 
-### BECO
 
-|  **Distance (m)**   | **RSSI Value**   | **Fluxuation Range**   |
-| 0 | 40 | +-3 |
-| 0.1 | 50 | +-2 |
-| 0.2 | 58 | +-3 |
-| 0.5 | 63 | +-3 |
-| 1 | 80 | +-3 |
-| 2 | 85-90 | +-5 |
-| 5 |  |  |
+#### Progress with Beacon deck
 
-The RSSI is accurate around 0-1 meter distance, it then starts increasing the fluxation range.
+<b>So first ever post for me!</b>
+I had looked over the butchered beacon slides and decided to butcher it even more by partially starting all over again. As I'm programmed to think that deleting things are detrimental, there is still some old content towards the end of the deck. 
 
-### Stick N Find
+Was doing this in conjunction with doing a lot of reading. Reading things in relation to:
+> all things beacons, beacon bible, beacon experiments, ibeacon experiments, eddystone (some of the information has been added to the 'annotated bibliography' google document. Readings that are still outstanding or still need to finish being written about has been left in the 'outstanding texts to read' google document. Feel free to add to this google docs I'm sure we will keep checking this google docs to check more readings off this list.
+> case based reasoning - trying to establish whether this method is appropriate in relation to our honours project
 
-TBA
+#### Progress with the Annotated Bibliography
+Expanding on our current summaries of texts are still yet to come. Will try to do this preferably after Thursday - as a critical review of texts are needed for the 'Research Methods' assignment 2. 
 
-### Estimote
-
-TBA
+#### Progress with ACADIA paper
+At the moment, the aim is to add content about all things indoor tracking technology. The structure is still a little unclear to me. Trying to aim to add as much as I can by Wednesday night. 
