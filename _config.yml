@@ -1,7 +1,7 @@
 title: Automatic Indoor Tracking in Workplaces
 email: ben@notionparallax.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-    We are experimenting with indoor tracking technologys. This is our logbook
+    We are experimenting with indoor tracking technologies. This is our logbook
     to write down what we are doing and whatever!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://where-in.space" # the base hostname & protocol for your site
