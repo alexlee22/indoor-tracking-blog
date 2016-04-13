@@ -23,13 +23,13 @@ kramdown:
 authors:
   alex:
     display_name: Alexander Lee
-    first_name: Ben
-    last_name: Doherty
+    first_name: Alexander
+    last_name: Lee
     twitter_username: alexlee #personal twitter account
-    github_username:  notionparallax
+    github_username:  tuksun
     facebookURL:  XenriaLee          # ignore the https://www.facebook.com/ part
-    instagramURL: Pigsu_                # ignore the http://instagram.com/ part
-    linkedInURL:  ben-doherty-b2a19359" # ignore the https://ca.linkedin.com/in/ part
+    instagramURL: 50shadesofxen              # ignore the http://instagram.com/ part
+    linkedInURL:  alexander-lee-b1a16710a" # ignore the https://ca.linkedin.com/in/ part
   annisa:
     display_name: Annisa
     first_name: Ben
