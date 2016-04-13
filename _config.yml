@@ -1,9 +1,8 @@
 title: Automatic Indoor Tracking in Workplaces
 email: ben@notionparallax.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-    This is where I write things down. It's the way I make space in my
-    head for new ideas. The ideas here were what I thought at the time,
-    but there is a very good chance that I no longer think that!
+    We are experimenting with indoor tracking technologys. This is our logbook
+    to write down what we are doing and whatever!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://where-in.space" # the base hostname & protocol for your site
 twitter_username: whereinspace #the twitter account for this project
@@ -12,7 +11,7 @@ twitter_username: whereinspace #the twitter account for this project
 timezone: Australia/Sydney
 
 #google analytics
-GAcode: UA-52654925-12
+GAcode: UA-76337945-1
 
 # Build settings
 permalink: "/:year/:title"
