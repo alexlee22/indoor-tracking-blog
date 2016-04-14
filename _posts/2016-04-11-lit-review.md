@@ -9,7 +9,7 @@ categories: []
 tags: []
 description: Some notes I made about writing a critical review
 
-author: Tiara 
+author: tiara 
 ---
 
 On my flight to tahiti this smorning, I got the chance to read "through Undertaking a literature review:
@@ -22,11 +22,11 @@ non-research literature for each article you read(related to your topic) is a on
 
 ### Primary source 
 
-Title: 
-Author and year: 
-Journal (full reference): 
-Purpose of study: 
-Type of study: 
+* Title: 
+* Author and year: 
+* Journal (full reference): 
+* Purpose of study: 
+* Type of study: 
 Setting: 
 Data collection method: 
 Major findings: 
