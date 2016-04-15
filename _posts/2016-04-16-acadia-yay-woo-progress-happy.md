@@ -17,6 +17,7 @@ author: annisa
 
 So Alex and I made some more progress on the ACADIA paper due next friday.
 Can be viewed here: https://docs.google.com/document/d/1TOP8hbP5tGvcG8SKAddURZvKOHg_yaM5LSJxACgmWaE/mobilebasic#
+Old version here: https://docs.google.com/document/d/1HpB89197DrZDj180aLALbHt-49Uh8ahRJVgnBkJAvHM
 We added a little more structure, where in the end were able to smash out majority (close to finish) of the paper in one day.
 Theres still alot of culling that needs to happen - chopping and changing as the word count is over the maximum, as well as flushing out all the dirty, bad worded stuff.
 
