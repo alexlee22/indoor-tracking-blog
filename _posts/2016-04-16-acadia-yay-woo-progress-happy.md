@@ -18,7 +18,7 @@ author: annisa
 So Alex and I made some more progress on the ACADIA paper due next friday.
 Can be viewed here: https://docs.google.com/document/d/1TOP8hbP5tGvcG8SKAddURZvKOHg_yaM5LSJxACgmWaE/mobilebasic#
 Old version here: https://docs.google.com/document/d/1HpB89197DrZDj180aLALbHt-49Uh8ahRJVgnBkJAvHM
-We added a little more structure, where in the end were able to smash out majority (close to finish) of the paper in one day.
+We added a little more structure, majority of the paper is filled out.
 Theres still alot of culling that needs to happen - chopping and changing as the word count is over the maximum, as well as flushing out all the dirty, bad worded stuff.
 
 The technologies we tried to focus on were the most commercially available, viable, accurate and most developed indoor positioning system. We used the listed IPS for our evaluation against our case study- Case study being the brief of the honours project.
