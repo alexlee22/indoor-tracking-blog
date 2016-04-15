@@ -1,0 +1,15 @@
+.image-square-grid{
+	width: 100%;
+}
+
+.image-square-grid-box{
+	width: 25%;
+	float: left;
+}
+
+@media screen and (max-width: 700px){
+
+	.image-square-grid-box{
+	width: 50%;
+	}
+}
