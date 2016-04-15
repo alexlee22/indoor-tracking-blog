@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ACADIA yay woo happy!
-date: 2016-04-16 00:00:00
+date: 2016-04-15 12:00:00
 type: post
 published: true
 status: publish
@@ -20,6 +20,9 @@ Can be viewed here: https://docs.google.com/document/d/1TOP8hbP5tGvcG8SKAddURZvK
 Old version here: https://docs.google.com/document/d/1HpB89197DrZDj180aLALbHt-49Uh8ahRJVgnBkJAvHM
 We added a little more structure, majority of the paper is filled out.
 Theres still alot of culling that needs to happen - chopping and changing as the word count is over the maximum, as well as flushing out all the dirty, bad worded stuff.
+
+![When you want to stop but you can't...]({{ site.baseurl }}/assets/acadia-yay-woo-happy/much-work-arcadia.png)
+
 
 The technologies we tried to focus on were the most commercially available, viable, accurate and most developed indoor positioning system. We used the listed IPS for our evaluation against our case study- Case study being the brief of the honours project.
 Reason being is due to the fact that each indoor positioning system is tailored for each scenario. One indoor positioning solution may not be applicable for another. 
@@ -43,3 +46,5 @@ Overall list of things to do throughout the week:
 - Replicate tracking experiment
 
 - Catherine's crit review
+
+<iframe src="//giphy.com/embed/vPDfV26hKegow" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/tired-sleep-exhausted-vPDfV26hKegow"></a></p>
