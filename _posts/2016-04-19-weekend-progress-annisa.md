@@ -38,3 +38,7 @@ Monday:
 - As she is not able to perform any experiments whilst she is away, I drilled her about other things she can work on in the meantime - the beacon deck, reading more/adding to the annotated doc and any contribution to the acadia paper. 
 
 - This post is published now so no hiding T ;)
+
+Today:
+
+- Plan to try out of the courier experiment. 
