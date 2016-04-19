@@ -1,15 +1,25 @@
 .image-square-grid{
-	width: 100%;
+	@include span-columns(12);
 }
 
 .image-square-grid-box{
-	width: 25%;
+	@include span-columns(3);
 	float: left;
 }
+
+.image-square-grid-box-half{
+	@include span-columns(6);
+	float: left;
+}
+
 
 @media screen and (max-width: 700px){
 
 	.image-square-grid-box{
-	width: 50%;
+		@include span-columns(6);
+	}
+
+	.image-square-grid-box-half{
+		@include span-columns(12);
 	}
 }
