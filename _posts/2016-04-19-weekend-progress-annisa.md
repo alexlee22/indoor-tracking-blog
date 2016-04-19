@@ -42,3 +42,4 @@ Monday:
 Today:
 
 - Plan to try out of the courier experiment. 
+- Refine my research question - be clearer about unique angle amongst the others
