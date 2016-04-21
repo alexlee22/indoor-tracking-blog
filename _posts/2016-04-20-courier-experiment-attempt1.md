@@ -17,10 +17,13 @@ author: annisa
 
 Wanted to see how far I would get when trying to replicate the Courier ibeacon implementation experiment. <b>Long story short, RPI = 1, Annisa = 0. </b>
 
-The node-library specified that it needed bleno and noble to run the code on the RPI. Attempted to install the prerequisites and the prerequisites for the prerequisites.
-Next, I installed Bleacon which is used to run the node.js library. However, as shown in the image, there are a lot of errors that happen during the install. 
+The node-library specified that it needed bleno and noble to run the code on the RPI. Attempted to install the prerequisites and the prerequisites for the prerequisites. As you can see in the image when installing bleno, there were errors that showed up along the way. Same thing happened with noble. I tried to move forward to see if I could get anything out of it anyway. 
 
 ![failed attempt at installing bleno]({{ site.baseurl }}/assets/bleno1.png)
+
+Next, I installed Bleacon which is used to run the node.js library. However, as shown in the image, there are a lot of errors that happen during the install. 
+
+![failed attempt at installing bleacon]({{ site.baseurl }}/assets/bleacon1.png)
 
 However, when trying to execute any of test.js codes, the results had shown that there were missing modules. 
 
