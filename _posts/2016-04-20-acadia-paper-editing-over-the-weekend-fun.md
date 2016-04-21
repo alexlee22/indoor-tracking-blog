@@ -1,6 +1,6 @@
 ---
 layout: post
-title: arcadia paper editing 
+title: acadia paper editing 
 date: 2016-04-20 13:25:59
 type: post
 published: true
