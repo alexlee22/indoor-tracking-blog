@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sweet blog template
+title: Review of Literature
 date: 2016-04-15 13:25:59
 type: post
 published: true
@@ -9,7 +9,7 @@ categories: []
 tags: []
 description: Why do a literature review 
 
-author: Tiara
+author: tiara
 ---
 
 drawing conclusions about writting a literature review. 
