@@ -6,8 +6,9 @@ type: post
 published: true
 status: publish
 categories: []
+# 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 
-author: Tiara
+author: tiara
 ---
 
 Some notes about conducting a technology review with articles 
