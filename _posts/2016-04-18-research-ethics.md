@@ -8,8 +8,9 @@ status: publish
 categories: []
 tags: []
 description: some notes about ethics dilemas in research
+# 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 
-author: Tiara
+author: tiara
 ---
 
 Consulting a few articles, Ive put together some notes about ethics dilemas with a focus on our overall indoor positioning project. 
