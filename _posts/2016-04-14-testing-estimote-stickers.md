@@ -20,7 +20,7 @@ Anniza and I tested the Estimote stickers at BVN office where the VR and Trainin
 <div class="image-square-grid">
 <div class="image-square-grid-box">
 
-![STICKERS!!]({{ site.baseurl }}/assets/estimote-stickers.jpg)
+![STICKERS!!]({{ site.baseurl }}/assets/testing-estimote-stickers/estimote-stickers.jpg)
 
 </div>
 
