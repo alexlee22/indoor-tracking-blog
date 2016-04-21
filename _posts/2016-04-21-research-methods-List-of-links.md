@@ -8,9 +8,9 @@ status: publish
 categories: []
 tags: []
 description: List of helpful links that will guide you in conducting a variety of research methods. 
+# 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 
-
-author: Tiara
+author: tiara
 ---
 
 
