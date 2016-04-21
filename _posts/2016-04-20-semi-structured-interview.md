@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Semi structured interview 
+title: Semi-Structured interview 
 date: 2016-04-20 13:25:59
 type: post
 published: true
 status: publish
 categories: []
 tags: []
-description: some notes about conducting a semistructured interview 
+description: Some notes about conducting a semistructured interview 
 # 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 
 author: tiara
 ---
 
-I consulted a few articles about writting a semi-structured interview and this is what I came up with as a summary. 
+I consulted a few articles about writing a semi-structured interview and this is what I came up with as a summary. 
 
 # Conducting a Semi-structured interview is hard. 
 
