@@ -8,8 +8,9 @@ status: publish
 categories: []
 tags: []
 description: some articles saying we should do structured experimentation
+# 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 
-author: Tiara 
+author: tiara 
 ---
 
 Some experts say we should do structured experiments in a certain way. Here is a summary I did of what I thought they said. 
