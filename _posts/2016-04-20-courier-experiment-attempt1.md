@@ -22,9 +22,11 @@ Next, I installed Bleacon which is used to run the node.js library. However, as 
 
 ![failed attempt at installing bleno]({{ site.baseurl }}/assets/bleno1.png)
 
-However, when trying to execute any of test.js codes, the results had shown that there were missing modules. Didn't get very far after that. 
+However, when trying to execute any of test.js codes, the results had shown that there were missing modules. 
 
 I used npm list to show any anymore unmet depenencies that may stop this process. As shown in the image below, bleacon was not installed properly due to the errors that were showing during the install of noble and bleno. When attempting to install the unmet dependencies individually..more errors.
+
+![npm list]({{ site.baseurl }}/assets/npmlist.png)
 
 Then I didn't get very far after that. One thing I noticed is that there is a version of node already in Raspbian Jessie. Node has progressed since then and one thing I didn't do is upgrade the version. 
 (I also signed up for the Amazon Web Service, and also used sudo and no sudo to install all and did not make a difference).
