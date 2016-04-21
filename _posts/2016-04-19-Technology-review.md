@@ -7,7 +7,7 @@ published: true
 status: publish
 categories: []
 
-author: Tiara (TOG)
+author: Tiara
 ---
 
 Some notes about conducting a technology review with articles 
