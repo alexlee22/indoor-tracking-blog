@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setting up for Structured Experimentation
-date: 2016-04-21 13:25:59
+date: 2016-04-20 13:25:59
 type: post
 published: true
 status: publish
