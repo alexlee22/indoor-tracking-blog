@@ -7,7 +7,7 @@ published: true
 status: publish
 categories: []
 tags: []
-description: Attempt #1
+description: First Attempt
 # 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 twitter-body: you write here and it goes on the share for twitter
 featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
@@ -20,7 +20,7 @@ Wanted to see how far I would get when trying to replicate the Courier ibeacon i
 The node-library specified that it needed bleno and noble to run the code on the RPI. Attempted to install the prerequisites and the prerequisites for the prerequisites.
 Next, I installed Bleacon which is used to run the node.js library. However, as shown in the image, there are a lot of errors that happen during the install. 
 
-[some failed attempt at installing bleno] ({{ site.baseurl }}/assets/bleno1.png.jpg)
+[some failed attempt at installing bleno] ({{ site.baseurl }}/assets/bleno1.png)
 
 However, when trying to execute any of test.js codes, the results had shown that there were missing modules. Didn't get very far after that. 
 
