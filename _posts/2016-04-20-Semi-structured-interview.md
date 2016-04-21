@@ -8,8 +8,9 @@ status: publish
 categories: []
 tags: []
 description: some notes about conducting a semistructured interview 
+# 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 
-author: Tiara
+author: tiara
 ---
 
 I consulted a few articles about writting a semi-structured interview and this is what I came up with as a summary. 
