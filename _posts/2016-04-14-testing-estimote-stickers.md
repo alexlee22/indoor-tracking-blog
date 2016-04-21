@@ -20,7 +20,7 @@ Anniza and I tested the Estimote stickers at BVN office where the VR and Trainin
 <div class="image-square-grid">
 <div class="image-square-grid-box">
 
-![failed attempt at installing bleno]({{ site.baseurl }}/assets/bleno1.png)
+![STICKERS!!]({{ site.baseurl }}/assets/estimote-stickers.jpg)
 
 </div>
 
