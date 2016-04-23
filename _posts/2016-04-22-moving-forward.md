@@ -3,7 +3,7 @@ layout: post
 title: Moving forward
 date: 2016-04-22 00:00:00
 type: post
-published: true
+published: false
 status: publish
 categories: []
 tags: []
@@ -15,4 +15,9 @@ featuredimg: doge.jpg
 author: alex
 ---
 
+The presentation went well, for this week we should focus on:
+
+- Focusing on finishing the ARCADIA paper
+- Reviewing all the products available
+- Revisit the 
 
