@@ -38,11 +38,12 @@ The RSSI is a relative measurement that is mostly defined by each chip manufactu
 
 The arbitrariness of RSSI units and the way they are reported is important when the RSSI in the office place environment. The RSSI values will fluctuate even on a fixed location or distance. With the amount of interference that may occur in this particular environment setting implies RSSI might not necessarily be accurate or precise. Another issue is the variance of hardware/radio platforms. RSSI value of two different Android phones with two different chipsets will mean two different signal strengths. However this information may not be applicable if phone tracking is out. If this is the case, need to make sure the chipsets plugged into each RPI is the same and need to make sure the tx power amongst all estimote stickers are kept at a constant value to maintain consistency of RSSI values. 
 
-![acceptable RSSI]({{ site.baseurl }}/assets/acceptable RSSI.png.)
+![acceptable RSSI]({{ site.baseurl }}/assets/acceptable RSSI.png)
 
 When reading RSSI values, it will come up as ‘-‘. E.g. – 30
+
 Does the – sign count? Yes it does 
 
-![acceptable RSSI]({{ site.baseurl }}/assets/RSSI table.png)
+![RSSI table]({{ site.baseurl }}/assets/RSSI table.png)
 
 The signal strengths of Bluetooth Low Energy beacons are always negative dBm values, as the transmitted network is not strong enough to give positive dBm values. Higher the RSSI value, the better the signal or the closer to 0 dBm, the better the signal is.
