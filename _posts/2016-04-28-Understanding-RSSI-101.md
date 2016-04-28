@@ -30,7 +30,9 @@ Measurement of how well your receiver can hear a signal from your beacon – but
 
 <b>Transmit Power (Tx Power)</b>
 
-Specifies the strength of the signal that the beacon produces during the times it is transmitting signals. Increasing the tx power will increase accuracy of results. Lower setting means the signal will not transmit as far. This is measured in decibels per miliwatt (dBm).
+Specifies the strength of the signal that the beacon produces during the times it is transmitting signals. Increasing the tx power will increase signal range. Lower setting means the signal will not transmit as far. This is measured in decibels per miliwatt (dBm). It indicates the expected RSSI at a distance of 1 meter to the reciever. 
+
+![tx table]({{ site.baseurl }}/assets/tx table.png)
 
 <b>Max RSSI values</b>
 
@@ -47,3 +49,5 @@ Does the – sign count? Yes it does
 ![RSSI table]({{ site.baseurl }}/assets/RSSI table.png)
 
 The signal strengths of Bluetooth Low Energy beacons are always negative dBm values, as the transmitted network is not strong enough to give positive dBm values. Higher the RSSI value, the better the signal or the closer to 0 dBm, the better the signal is.
+
+
