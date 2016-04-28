@@ -12,7 +12,7 @@ description: Some notes I made about writting an annotated bibliography
 author: tiara 
 ---
 
-On my this smorning, I got the chance to read "through Undertaking a literature review:
+On my flight this smorning, I got the chance to read "through Undertaking a literature review:
 a step-by-step approach" by Patricia Cronin, Frances Ryan, Michael Coughlan. I got alot out of this article 
 and its worth a good read when you get a chance. 
 As a general rule of thumb, when your conducting an annotated bibliograsking the following templates for Primary, secondary(reviews) and  
