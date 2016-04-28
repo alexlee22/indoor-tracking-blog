@@ -18,7 +18,7 @@ and its worth a good read when you get a chance.
 As a general rule of thumb, when your conducting an annotated bibliograsking the following templates for Primary, secondary(reviews) and  
 non-research literature for each article you read(related to your topic) is a ong process but is extrememly helpful in the end. 
 
-# Annotated bibliography
+## Annotated bibliography
 
 ### Primary source 
 
@@ -63,7 +63,7 @@ Recommendations:
 Key thoughts/comments,
 e.g. strengths/weakness:
 
-# Literature review
+## Literature review
 
 After you have finished your annotated bibliography for at leaste the majority of your articles(articles are better than books),
 you can start working towards making/writting your literature review. 
