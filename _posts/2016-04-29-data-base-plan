@@ -1,0 +1,62 @@
+---
+layout: post
+title: Data base plan and information flow
+date: 2016-04-29 13:25:59
+type: post
+published: true
+status: publish
+categories: []
+tags: []
+description: drawing diagrams for information communication, and planning a data base
+
+author: tiara
+---
+
+In todays meeting, we looked at the issues we are facing in the Hello experiment and further developments. We also 
+
+### Issue in experiment 'Hello' 
+
+There are many issues with the experiment but the following outlines our most pressing concerns. 
+Problem a)
+We managed to get the experiment up and running again but issues in syncronising the transmitting signals of the 'SticknFind' bluetooth emitters with the recieved RBP readers are still occuring. 
+We believe it has something to do with the Bluez documentation which we will try and play with over the weekend. 
+
+### ARUP meeting. 
+
+We discussed data collection techniques and formulated a general outline for information management for the Beacon. Basically, what we agreed with was a One table (all data collection point) which the Beacon speaks too and can call specific values when necessary. 
+
+Explanded data flow
+**bold** Beacon --> **bold** RBP --> **bold** Server --> **bold** Quiry Engine --> **bold** webfront --> **bold** user 
+
+Note: These flows can be broken into clusters. that means that entire datat flow does not have to be developed in a linear way, using 'dummy data' can be developed simultaneously. 
+
+A simplified data flow 
+**bold** Beacon --> **bold** Data Base --> **bold** Analysis 
+
+### Technology architecture 
+
+seperation of concerns 
+dont know enough - understand th ewhole thing as a lump 
+Toaster strong sepration of concerns 
+
+--> listeners for beacons moving around
+--> emitter (I have heard this) message to the data base
+--> listener on the server that gathers 
+
+client--> data base  
+
+raaspberry pi and the reader --> webclient(mongos) the website is wanting to know things to display (place kiten??) is a good example api 
+http://placekitten.com/  
+json data transfer 
+
+
+### New learnt commands 
+
+--> npm install (Installs the NPM) Read: http://raspberrypi.stackexchange.com/questions/4194/getting-npm-installed-on-raspberry-pi-wheezy-image
+--> sudo python testblescan.py | grep d0d (insert transmitter unique identifier) eg. 3fa86ca7645ec9bd96af403cb9b43A 
+ 
+### API documentation 
+--> 
+--> sock.getsockopt (description) 
+
+
