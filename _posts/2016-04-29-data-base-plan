@@ -7,21 +7,14 @@ published: true
 status: publish
 categories: []
 tags: []
-description: drawing diagrams for information communication, and planning a data base
+description: Drawing a 
 
 author: tiara
 ---
 
-In todays meeting, we looked at the issues we are facing in the Hello experiment and further developments. We also 
 
-### Issue in experiment 'Hello' 
 
-There are many issues with the experiment but the following outlines our most pressing concerns. 
-Problem a)
-We managed to get the experiment up and running again but issues in syncronising the transmitting signals of the 'SticknFind' bluetooth emitters with the recieved RBP readers are still occuring. 
-We believe it has something to do with the Bluez documentation which we will try and play with over the weekend. 
-
-### ARUP meeting. 
+### Data collection 
 
 We discussed data collection techniques and formulated a general outline for information management for the Beacon. Basically, what we agreed with was a One table (all data collection point) which the Beacon speaks too and can call specific values when necessary. 
 
@@ -58,5 +51,13 @@ json data transfer
 ### API documentation 
 --> 
 --> sock.getsockopt (description) 
+
+### Issue in experiment 'Hello' 
+
+There are many issues with the experiment but the following outlines our most pressing concerns. 
+Problem a)
+We managed to get the experiment up and running again but issues in syncronising the transmitting signals of the 'SticknFind' bluetooth emitters with the recieved RBP readers are still occuring. 
+We believe it has something to do with the Bluez documentation which we will try and play with over the weekend. 
+
 
 
