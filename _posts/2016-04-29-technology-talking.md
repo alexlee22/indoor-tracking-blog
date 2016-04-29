@@ -29,7 +29,7 @@ Note: These flows can be broken into clusters. for example
 
 3. (Webfront > User)
 
-#### This means that building the appropriate technology structure that supports this flow does not have to be done in a linear way. Using 'dummy data' for testing means each component can be developed simultaneously.
+This means that building the appropriate technology structure that supports this flow does not have to be done in a linear way. Using 'dummy data' for testing means each component can be developed simultaneously.
 
 ### Seperation of concerns 
 
