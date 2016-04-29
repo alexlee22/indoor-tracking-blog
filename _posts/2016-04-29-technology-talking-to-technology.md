@@ -18,32 +18,28 @@ Just a simple recap of the proposed data collection
 
 We discussed data collection techniques and formulated a general outline for information management for the Beacon. Basically, what we agreed with was a One table (all data collection point) which the Beacon speaks too and can call specific values when necessary. 
 
-Explanded data flow
-**bold** Beacon --> **bold** RBP --> **bold** Server --> **bold** QuiryEngine --> **bold** Webfront --> **bold** User 
+#### Explanded data flow
+**Beacon** > **RBP** > **Server** > **QuiryEngine** > **Webfront** > **User** 
 
-Note: These flows can be broken into clusters. for example
+#### Note: These flows can be broken into clusters. for example
 
-**bold** (Beacon --> **bold** RBP) 
-**bold** (Server --> **bold** Quiry-Engine) 
-**bold** (Webfront --> **bold** User) 
+**(Beacon > RBP)**
+**(Server > Quiry-Engine)** 
+**(Webfront > User)**
 
-This means that b datauilding the appropriate technology structure to support this flow of data does not have to be done in a linear way. 
-Using 'dummy data' for testing means each component can be developed simultaneously.
+#### This means that b datauilding the appropriate technology structure to support this flow of data does not have to be done in a linear way. Using 'dummy data' for testing means each component can be developed simultaneously.
 
 ### Seperation of concerns 
-dont know enough - understand th ewhole thing as a lump 
-Toaster strong sepration of concerns 
 
---> listeners for beacons moving around
---> emitter (I have heard this) message to the data base
---> listener on the server that gathers 
+Basically, if you don;t know everything, then breaking things up and telling people to figure out other stuff while you've working on stuff yourself is kinda how you do team work and it generally gets things done quickly. Basically, the entire data flow can be summarised intothese three general commands:
 
-client--> data base  
+##### The listeners for beacons moving around
+##### The emitter (I have heard this) message to the data base
+##### The listener on the server that gathers information and does something with it
 
-raaspberry pi and the reader --> webclient(mongos) the website is wanting to know things to display (place kiten??) is a good example api 
-http://placekitten.com/  
-json data transfer 
+### Displaying the information
 
+After the data has gone somewhere and is being recorded, we have to think about how we are going to display things and make them pretty. The webclient (mongos) just acts like a storage facility, but we still need a front desk with a receptionist. It maybe worthwhile to use a processer like **json data transfer**, fr example, the one available on http://placekitten.com/  
 
 ### New learnt commands 
 
