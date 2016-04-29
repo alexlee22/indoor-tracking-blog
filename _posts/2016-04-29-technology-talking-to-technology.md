@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Data base plan and information flow
+title: Technology talking to technology
 date: 2016-04-29 13:25:59
 type: post
 published: true
 status: publish
 categories: []
 tags: []
-description: Drawing a 
+description: Data base plan and information flow
 
 author: tiara
 ---
