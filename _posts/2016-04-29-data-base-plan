@@ -12,23 +12,25 @@ description: Drawing a
 author: tiara
 ---
 
+Just a simple recap of the proposed data collection
 
-
-### Data collection 
+### Technology architecture 
 
 We discussed data collection techniques and formulated a general outline for information management for the Beacon. Basically, what we agreed with was a One table (all data collection point) which the Beacon speaks too and can call specific values when necessary. 
 
 Explanded data flow
-**bold** Beacon --> **bold** RBP --> **bold** Server --> **bold** Quiry Engine --> **bold** webfront --> **bold** user 
+**bold** Beacon --> **bold** RBP --> **bold** Server --> **bold** QuiryEngine --> **bold** Webfront --> **bold** User 
 
-Note: These flows can be broken into clusters. that means that entire datat flow does not have to be developed in a linear way, using 'dummy data' can be developed simultaneously. 
+Note: These flows can be broken into clusters. for example
 
-A simplified data flow 
-**bold** Beacon --> **bold** Data Base --> **bold** Analysis 
+**bold** (Beacon --> **bold** RBP) 
+**bold** (Server --> **bold** Quiry-Engine) 
+**bold** (Webfront --> **bold** User) 
 
-### Technology architecture 
+This means that b datauilding the appropriate technology structure to support this flow of data does not have to be done in a linear way. 
+Using 'dummy data' for testing means each component can be developed simultaneously.
 
-seperation of concerns 
+### Seperation of concerns 
 dont know enough - understand th ewhole thing as a lump 
 Toaster strong sepration of concerns 
 
@@ -48,8 +50,7 @@ json data transfer
 --> npm install (Installs the NPM) Read: http://raspberrypi.stackexchange.com/questions/4194/getting-npm-installed-on-raspberry-pi-wheezy-image
 --> sudo python testblescan.py | grep d0d (insert transmitter unique identifier) eg. 3fa86ca7645ec9bd96af403cb9b43A 
  
-### API documentation 
---> 
+### API documentation
 --> sock.getsockopt (description) 
 
 ### Issue in experiment 'Hello' 
@@ -59,5 +60,5 @@ Problem a)
 We managed to get the experiment up and running again but issues in syncronising the transmitting signals of the 'SticknFind' bluetooth emitters with the recieved RBP readers are still occuring. 
 We believe it has something to do with the Bluez documentation which we will try and play with over the weekend. 
 
-
+Further work: Read up on Bluex documentation and find out the problem in the parametrics. 
 
