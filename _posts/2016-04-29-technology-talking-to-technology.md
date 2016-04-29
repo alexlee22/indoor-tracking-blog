@@ -23,9 +23,9 @@ We discussed data collection techniques and formulated a general outline for inf
 
 #### Note: These flows can be broken into clusters. for example
 
-**(Beacon > RBP)**
-**(Server > Quiry-Engine)** 
-**(Webfront > User)**
+###### **(Beacon > RBP)**
+###### **(Server > Quiry-Engine)** 
+###### **(Webfront > User)**
 
 #### This means that b datauilding the appropriate technology structure to support this flow of data does not have to be done in a linear way. Using 'dummy data' for testing means each component can be developed simultaneously.
 
@@ -33,9 +33,9 @@ We discussed data collection techniques and formulated a general outline for inf
 
 Basically, if you don;t know everything, then breaking things up and telling people to figure out other stuff while you've working on stuff yourself is kinda how you do team work and it generally gets things done quickly. Basically, the entire data flow can be summarised intothese three general commands:
 
-##### The listeners for beacons moving around
-##### The emitter (I have heard this) message to the data base
-##### The listener on the server that gathers information and does something with it
+####### The listeners for beacons moving around
+####### The emitter (I have heard this) message to the data base
+####### The listener on the server that gathers information and does something with it
 
 ### Displaying the information
 
