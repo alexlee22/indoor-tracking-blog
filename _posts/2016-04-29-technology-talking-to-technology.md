@@ -16,28 +16,24 @@ Just a simple recap of the proposed data collection
 
 ### Technology architecture 
 
-We discussed data collection and agreed to use an overall tabled 
-
-s and formulated a general outline for information management for the Beacon. Basically, what we agreed with was a One table (all data collection point) which the Beacon speaks too and can call specific values when necessary. 
+We discussed data collection and agreed to use an overall tabled that acts like a general outline for information management for the Beacon. Basically, what we agreed with was a One table (all data collection point) which the Beacon speaks too and can call specific values when necessary. 
 
 #### Explanded data flow
 **Beacon** > **RBP** > **Server** > **QuiryEngine** > **Webfront** > **User** 
 
 Note: These flows can be broken into clusters. for example
 
-**(Beacon > RBP)**
-**(Server > Quiry-Engine)** 
-**(Webfront > User)**
+1. (Beacon > RBP)
+
+2. (Server > Quiry-Engine)
+
+3. (Webfront > User)
 
 #### This means that building the appropriate technology structure that supports this flow does not have to be done in a linear way. Using 'dummy data' for testing means each component can be developed simultaneously.
 
 ### Seperation of concerns 
 
-Basically, if you don;t know everything, then breaking things up and telling people to figure out other stuff while you've working on stuff yourself is kinda how you do team work and it generally gets things done quickly. Basically, the entire data flow can be summarised intothese three general commands:
-
-The listeners for beacons moving around
-The emitter (I have heard this) message to the data base
-The listener on the server that gathers information and does something with it
+Basically, if you don't know everything, then breaking things up and telling people to figure out other stuff while you've working on stuff yourself is kinda how you do team work and it generally gets things done quickly. 
 
 ### Displaying the information
 
