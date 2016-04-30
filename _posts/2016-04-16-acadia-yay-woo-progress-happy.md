@@ -29,11 +29,11 @@ Reason being is due to the fact that each indoor positioning system is tailored 
 
 Over the weekend:
 
-All three of us kids have an assignment due Monday. Assignment being a critical review of texts to support the reseasoning of our methodology. 
+All three of us kids have an assignment due Monday. Assignment being a critical review of texts to support the reasoning of our methodology. 
 
 Thoughts about the meeting today:
 
-- Coming out of that meeting, personally (Annisa) felt a little more hopeful than I did coming in! Obviously there is alot of work to do, which has been clouding my judgement.
+- Coming out of that meeting, personally (Annisa) felt a little more hopeful than I did coming in! Obviously there is a lot of work to do, which has been clouding my judgement.
 
 Plans for next week:
 
@@ -48,3 +48,4 @@ Overall list of things to do throughout the week:
 - Catherine's crit review
 
 <iframe src="//giphy.com/embed/vPDfV26hKegow" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/tired-sleep-exhausted-vPDfV26hKegow"></a></p>
+
