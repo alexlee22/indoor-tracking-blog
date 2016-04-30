@@ -41,10 +41,13 @@ After the data has gone somewhere and is being recorded, we have to think about 
 
 ### New learnt commands 
 
-1. npm install (Installs the NPM) Read:  http://raspberrypi.stackexchange.com/questions/4194/getting-npm-installed-on-raspberry-pi-wheezy-image
+1. 'npm install' (Installs the NPM) Read:  http://raspberrypi.stackexchange.com/questions/4194/getting-npm-installed-on-raspberry-pi-wheezy-image
 
-2. sudo python testblescan.py | grep d0d (insert transmitter unique identifier) eg. 3fa86ca7645ec9bd96af403cb9b43A 
+2. 'sudo python testblescan.py | grep d0d' (insert transmitter unique identifier) eg. '3fa86ca7645ec9bd96af403cb9b43A'
+So all together it would be 'sudo python testblescan.py | grep d0d 3fa86ca7645ec9bd96af403cb9b43A' 
 
-3. sock.getsockopt (description) 
+This finds an individual Beacon, based on its 'UUID', 'Major' and 'Minor' identfiers.
+
+3. 'sock.getsockopt' Read http://apidock.com/ruby/v1_9_3_392/BasicSocket/getsockopt for documentation
 
 
