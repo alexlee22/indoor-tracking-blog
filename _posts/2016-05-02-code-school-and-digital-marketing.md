@@ -24,7 +24,7 @@ One of the greatest things my work is teaching me right now is digital marketing
 Here’s my own step-by-step process to get images on my works website within the first return on google. Its not foolproof, but it will get you started. 
 
 1. use Google AdWords Keyword Tool, SEO Book Keyword Tool, WordTracker, Keyword Discovery to brainstorm some key words that relate too your site and product. start with 50-100 words. by then you’ll start to notice some core themes emerging. 
-sometimes it might cost you some cash if you want to pay-by-click but it also offers alot of insight about the process of naming your image files which is all for free. 
+Google Adword is good for doing this. Youll have to make an account and sometimes it might cost you some cash if you want to pay-by-click but, the system also offers help about chooseing appropriate search words and thats all for free! :) 
 
 2. The second thing to be away of it naming your images with too many search words, for example furniture-black-couch-leather-couch-sofa-couch-comfy-couch.jsp. Google will penalize you here and again your results will fall low on the search bar. 
 
