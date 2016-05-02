@@ -7,7 +7,7 @@ published: true
 status: publish
 categories: []
 tags: []
-description: JavaScripting for dummies and online data strategies
+description: JavaScripting for dummies and online search engine strategies
 
 author: tiara
 ---
