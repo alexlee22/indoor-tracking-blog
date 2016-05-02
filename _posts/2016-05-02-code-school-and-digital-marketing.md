@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CodeSchool and Digital Marketting 
+title: CodeSchool and Digital Marketing 
 date: 2016-05-02 11:00:00
 type: post
 published: true
@@ -12,42 +12,9 @@ description: Javascripting for dummies and online data strategies
 author: tiara
 ---
 
-I learnt a few things today. Not stricktly related to indoor positioning but it might come in handy later down the track. To keep up to scratch on my coding abilities, I've enrolled into Codeschool to Learn javascripting, Mongo and Node. Its so far ok but I think I need to write these things down as I go otherwise, being blonde, Ill probably forget it. I'm also working ona  wordpress project at work and its actually quite interesting and potentially enlightening for this research project later down the track. 
-heres what I learnt
-
-### CodeSchool
-
-Just recapping a few key javascripting words to keep my mind 
-
-1. Var (before a variable name) is the signifyier for a new variable
-2. .length (returns the length of an item (string or number)
-3. <script> (signifys a new scrit document) to source a specific code in a file, its <scripts> src = "trains.js"></script>
-for deep foldered files use: 
-<scripts> src = "../scripts/yellowstone/oldFaithful.js"></scripts> 
-4. console.log("...." + trainRunTime + " is running late");
-5. the ';' keeps everything neat and tell the computer to execute this one thing, use the console.log to print it when your done. 
-6. while loops
-var x = 10;
-while(x >= 0);
-{console.log(variable);
-x--;
-}
-7. '.charAt()' (returns the character at a specific location. for example antidistablishmentarianism.charAt(11) will return 'i'
-
-### WordPress(add images)
-
-When your preparing images before uploading to any online resource, you dont want your viewers to be so caught up with load time and you also want your viewers to be able to find your images as well. 
-when dealing with wordpress exactly, it might seem pretty straight forward but wordpress can be a little iffy and tempermental at times. Thats why you have to be extra sensitive when it comes to images, otherwise the whole thing may go to a big mess(this is especially the case when working on a multiuser project like mine). 
-anway I learnt the best image size is 
-
-**Large images** As your web page is usually going to have a content area of up to 984px, sizing your ‘large’ images to around 800 px wide should be quite adequate for a normal website.
-In terms of overall monitor widths, most of your web visitors have computer monitors that are at least 1,024 px wide (more than 98%). Some may have very large monitors – 1,280 px, 1,440px, 1,680 px, 1,920 px or even larger.
-
-When writing or editing a post, you can add an image using the Add Media button above the editor box. This opens a window that displays the multi-file uploader. From here you can drag and drop your picture or select it using the file selector.
-The images you add here will be automatically added to the Media Library.
-
-try uploading your images too https://tinypng.com/ 
-before placing them on a website. Its pretty straight forward 
+I learnt a thing or two today. Its Not stricktly related to indoor positioning but it might come in handy later down the track. To keep up to scratch on my coding abilities, I've enrolled into Codeschool and am Learning javascripting, Mongo and Node. Its so far ok but I think I need to write these things down as I go otherwise, being blonde, Ill probably forget it, like last time I learnt it.
+I'm also working on a  wordpress project at work. I'm learning alot about Search engine optimisation and digital marketting. 
+For codes school, heres what I learn..
 
 ### Digitial marketting: Adding search words
 
@@ -67,7 +34,7 @@ Nameing webpages pages
 3. Use brief, but descriptive titles
 4. Make use of the "description" meta tag :
 
-<html>
+```html
 <head>
 <title>Brandon's Baseball Cards - Buy Cards, Baseball News, Card Prices</title>
 <meta name="description=" content="Brandon's Baseball Cards provides a
@@ -75,18 +42,61 @@ large selection of vintage and modern baseball cards for sale. We also offer
 daily baseball news and events in">
 </head>
 <body>
+```
  
 ### Beginner’s Guide to SEO: Best Practices
 
 Search engine optimisation is a subset of marketing. In general terms, following these three rules will kinda lead you in the right direction. 
 
-Informational queries – searching for information from general to specific
-Navigational queries – searching for a specific site or page
-Transactional queries – searching with an intent to purchase
+1. Informational queries – searching for information from general to specific
+2. Navigational queries – searching for a specific site or page
+3. Transactional queries – searching with an intent to purchase
  
-### Further readings 
+### WordPress: image preparation 
 
-For more light reading about the topic discussed above, check out these links:
+Yoast SEO for meta tags, titles: Long story short, get your images resized and it will save you a world or hurt. Heres how to do that. An your web page is usually going to have a content area of up to 984px, sizing your ‘large’ images to around **800 px wide** should be quite adequate for a normal website. In terms of overall monitor widths, most of your web visitors have computer monitors that are at least **1,024 px wide** (more than 98%). Some may have very large monitors **– 1,280 px, 1,440px, 1,680 px, 1,920 px** or even larger.
+
+When writing or editing a post, you can add an image using the Add Media button above the editor box. This opens a window that displays the multi-file uploader. From here you can drag and drop your picture or select it using the file selector.
+The images you add here will be automatically added to the Media Library. Try uploading your images too https://tinypng.com/ 
+before placing them on a website. This part is pretty straight forward. 
+
+### CodeSchool
+
+Just recapping a few key javascripting words to keep my mind bored.
+
+```html
+<Var string1 = 2; //(before a variable name) is the signifyier for a new variable
+<.length          // (returns the length of an item (string or number)
+<script>        //(signifys a new scrit document) to source a specific code in a file, its <scripts> src = "trains.js"></script>
+                // for deep foldered files use: 
+                //<scripts> src = "../scripts/yellowstone/oldFaithful.js"></scripts> 
+< console.log  //console.log("...." + trainRunTime + " is running late");
+< //the ';' keeps everything neat and tell the computer to execute this one thing, use the console.log to print it when your done. 
+```
+
+While loops
+
+```html
+< var numSheep = 4;
+< var monthNumber = 1;
+< var monthsToPrint = 12;
+
+< while (monthNumber <= monthsToPrint) {
+  numSheep *= 4;
+  console.log("There will be " + numSheep + " sheep after " + monthNumber + " month(s)!");
+  monthNumber++;
+}
+```
+
+Some more special symbols
+```html
+<x--;
+< .charAt()'   // (returns the character at a specific location. for example antidistablishmentarianism.charAt(11) will return 'i'
+< \n // "\n" is the new line
+< \t // "\t" is the tab space away
+```
+If your sorta interested in half the stuff I talked about in this pst, check out these Further readings 
+
 http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf
 http://www.hongkiat.com/blog/beginners-guide-to-seo-best-practices-part-13/
 http://www.smartinsights.com/digital-marketing-strategy/local-seo-website-optimisation/ >> Smart insights are a great resource for all digital marketing info
