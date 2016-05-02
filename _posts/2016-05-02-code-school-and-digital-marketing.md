@@ -23,22 +23,26 @@ Google is great... Just saying.
 One of the greatest things my work is teaching me right now is digital marketing. Adding search words to images on your site can help users not only find the products/information etc.. they are looking for, but also discover your site/brand by accident or intent.
 Here’s my own step-by-step process to get images on my works website within the first return on google. Its not foolproof, but it will get you started. 
 
-1. use Google AdWords Keyword Tool, SEO Book Keyword Tool, WordTracker, Keyword Discovery to brainstorm some key words that relate too your site and product. start with 50-100 words. by then you’ll start to notice some core themes emerging. 
+1. Use Google AdWords Keyword Tool, SEO Book Keyword Tool, WordTracker, Keyword Discovery to brainstorm some key words that relate too your site and product. start with 50-100 words. by then you’ll start to notice some core themes emerging. 
 Google Adword is good for doing this. Youll have to make an account and sometimes it might cost you some cash if you want to pay-by-click but, the system also offers help about chooseing appropriate search words and thats all for free! :) 
 
-2. The second thing to be away of it naming your images with too many search words, for example furniture-black-couch-leather-couch-sofa-couch-comfy-couch.jsp. Google will penalize you here and again your results will fall low on the search bar. 
+2. The second thing to be aware off is naming your images with too many search words, for example furniture-black-couch-leather-couch-sofa-couch-comfy-couch.jsp. Google will penalize you here and again your results will fall low on the search bar. 
 
-3. another technique is adding the items serial number, or object number too the name. I found a book online the other day by searching for its serial number.
+3. Another technique is adding the items serial number, or object number too the name. I found a book online the other day by searching for its serial number.
 
 WALA! IT WORKS! 
 
-It doesn’t have to be just serial numbers; it can be furniture object numbers or anything uniquely identifying about the object. Often though people are going to search for general terms first then lean into the more specific things later. so name your images with the more general terms first 'furniture, couch, sofa', then with the more unique identifying terms(serial number: 1232345345) towards the end of the file name. 
+It doesn’t have to be just serial numbers; it can be furniture object numbers or anything uniquely identifying about the object. Often though people are going to search for general terms first then lean into the more specific things later, so name your images with the more general terms first 'furniture, couch, sofa', then with the more unique identifying terms(serial number: 1232345345) towards the end of the file name. 
 
-Naming webpages pages
+### Naming webpages pages
+
+Google is going to rain on your life if you don't do all of the following for your website(in my opinion);
 1. Accurately describe the page's content
 2. Create unique title tags for each page
 3. Use brief, but descriptive titles
 4. Make use of the "description" meta tag :
+
+** For example..
 
 ```html
 <head>
@@ -50,6 +54,8 @@ daily baseball news and events in">
 <body>
 ```
  
+ Its a simple way of integrating these principles into your code and getting the best results..LITERALLY!!
+ 
 ### Beginner’s Guide to SEO: Best Practices
 
 Search engine optimization is a subset of marketing. In general terms, following these three rules will kind of lead you in the right direction. 
@@ -58,7 +64,7 @@ Search engine optimization is a subset of marketing. In general terms, following
 2. Navigational queries – searching for a specific site or page
 3. Transactional queries – searching with an intent to purchase
 
-I recommend downloading the WordPress plugin for Yoast SEO for meta tags, titles, etc.
+I recommend downloading the WordPress plugin for Yoast SEO for meta tags, titles, etc, as described above. 
 Read this article: http://www.hongkiat.com/blog/beginners-guide-to-seo-best-practices-part-13/ 
  
 ### WordPress: image preparation 
