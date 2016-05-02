@@ -42,7 +42,7 @@ Google is going to rain on your life if you don't do all of the following for yo
 3. Use brief, but descriptive titles
 4. Make use of the "description" meta tag :
 
-** For example..**
+**For example**
 
 ```html
 <head>
@@ -70,6 +70,8 @@ Read this article: http://www.hongkiat.com/blog/beginners-guide-to-seo-best-prac
 ### WordPress: image preparation 
 
 SEO for meta tags, titles: Long story short, get your images resized and it will save you a world or hurt. Here’s how to do that. Your web page is usually going to have a content area of up to 984px, sizing your ‘large’ images to around **800 px wide** should be quite adequate for a normal website. In terms of overall monitor widths, most of your web visitors have computer monitors that are at least **1,024 px wide** (more than 98%). Some may have very large monitors **– 1,280 px, 1,440px, 1,680 px, 1,920 px** or even larger.
+
+""For Wordpress** 
 
 When writing or editing a post, you can add an image using the Add Media button above the editor box. This opens a window that displays the multi-file uploader. From here you can drag and drop your picture or select it using the file selector.
 The images you add here will be automatically added to the Media Library. Try uploading your images too https://tinypng.com/ 
