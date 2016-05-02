@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CodeSchool and Digital Marketting 
-date: 2016-03-29 13:25:59
+date: 2016-05-02 11:00:00
 type: post
 published: true
 status: publish
