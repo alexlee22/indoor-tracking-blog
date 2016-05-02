@@ -77,6 +77,7 @@ before placing them on a website. This part is pretty straight forward.
 
 ### CodeSchool
 Just recapping a few key Java scripting words to keep my mind bored.
+
 ```html
 <Var string1 = 2; //(before a variable name) is the signifier for a new variable
 <.length          // (returns the length of an item (string or number)
@@ -101,7 +102,8 @@ While loops
 }
 ```
 
-Some more special symbols
+and some more special symbols
+
 ```html
 <x--;
 < .charAt()'   // (returns the character at a specific location. for example antidisestablishmentarianism.charAt(11) will return 'i'
