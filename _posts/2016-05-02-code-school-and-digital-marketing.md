@@ -42,7 +42,7 @@ Google is going to rain on your life if you don't do all of the following for yo
 3. Use brief, but descriptive titles
 4. Make use of the "description" meta tag :
 
-** For example..
+** For example..**
 
 ```html
 <head>
@@ -108,9 +108,3 @@ Some more special symbols
 < \n // "\n" is the new line
 < \t // "\t" is the tab space away
 ```
-If your sort of interested in half the stuff I talked about in this post, check out these Further readings 
-
-http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf
-
-http://www.smartinsights.com/digital-marketing-strategy/local-seo-website-optimisation/ >> Smart insights are a great resource for all digital marketing info
-
