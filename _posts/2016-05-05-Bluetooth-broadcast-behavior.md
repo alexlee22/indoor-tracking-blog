@@ -16,3 +16,7 @@ Looking through past posts, I realised how little I knew about the behavior of b
 
 
 still making this post 
+
+### tackleing the Face to face interactions part of my thesis
+
+http://notionparallax.co.uk/2016/mongo
