@@ -26,9 +26,9 @@ Click file > open and open your folder. not just a post but the entire blankmind
 
 5. Now you will Install package control from package control.io so Copy and paste this code into the console from this website: https://packagecontrol.io/installation
 
-  ```python
+  ~~~python
   import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
-  ```
+  ~~~
   Make sure its Sublime 3, not sublime 2. 
 
   ***For manual instructions,***
