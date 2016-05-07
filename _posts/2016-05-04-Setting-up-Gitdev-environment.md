@@ -7,7 +7,7 @@ published: true
 status: publish
 categories: []
 tags: []
-description: Setting up your Github dev environment for dummies/ offline env running
+description: Setting up your Github dev environment for dummies
 
 author: tiara
 ---
