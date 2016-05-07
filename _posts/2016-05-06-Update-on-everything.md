@@ -24,15 +24,16 @@ MongoDB: Still going, kinda.
 
 ***important life questions: what Ben wrote:***
 
-1) You were talking yesterday about there being a chance of not being picked up by the RPi on a particular cycle of broadcast.
-a) What is the likelihood that this will happen? Is it every other time, 1 in 10, 1 in 100? We need to know this.
-b) given average walking speed, and the likelihood of missing a detection cycle, would a person walk through the entire range without being picked up?
+1. You were talking yesterday about there being a chance of not being picked up by the RPi on a particular cycle of broadcast.
+    
+    1. What is the likelihood that this will happen? Is it every other time, 1 in 10, 1 in 100? We need to know this.
+    2. given average walking speed, and the likelihood of missing a detection cycle, would a person walk through the entire range without being picked up?
 
-2) Can someone write a post on:
-a) The estimote sticker. What is its range, how does it behave if it's moving vs still, what's in it's broadcast packet, what does that mean  etc.
-b) how to get an off line DEV environment working (Annisa, I'm looking at you here)
+2. Can someone write a post on:
+    1. The estimote sticker. What is its range, how does it behave if it's moving vs still, what's in it's broadcast packet, what does that mean  etc.
+    2. how to get an off line DEV environment working (Annisa, I'm looking at you here).
 
-3) Data volume
-a) We need to know what data comes off the sensors. I'm guessing you'll have RSSI, date time, beacon id, base station id. What else is there?
-b) in an ideal world, how often are we recording this?
-c) if we multiply these things out, how much data is that per unit of time. E.g. it's 50000 recordings per day which means 10mb of data
+3. Data volume
+    1. We need to know what data comes off the sensors. I'm guessing you'll have RSSI, date time, beacon id, base station id. What else is there?
+    2. in an ideal world, how often are we recording this?
+    3. if we multiply these things out, how much data is that per unit of time. E.g. it's 50000 recordings per day which means 10mb of data
