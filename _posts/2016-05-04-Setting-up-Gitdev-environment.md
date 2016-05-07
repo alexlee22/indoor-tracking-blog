@@ -42,7 +42,7 @@ Restart Sublime Text.
 
 This lets you make file sin sublime and then when you save your new post in sublime, GitHub will automatically detect what is missing from GitHub and your blank mind folder so you just press 'sync' to push it all back. 
 
-6.***Control shift p***. This lets you see what you have installed and what abilities you have on the github tool bar. For example if we installed eg Jekyll and typed Jekyll in there , it'll give us a list of stuff we can do with Jekyll. So now we gotta install Jekyll. 
+6. ***Control shift p***. This lets you see what you have installed and what abilities you have on the github tool bar. For example if we installed eg Jekyll and typed Jekyll in there , it'll give us a list of stuff we can do with Jekyll. So now we gotta install Jekyll. 
 
 ### Interesting things list
 
