@@ -47,4 +47,5 @@ This lets you make file sin sublime and then when you save your new post in subl
 ### Interesting things list
 
 For a better version of what I just described above: https://guides.github.com/introduction/getting-your-project-on-github/
+
 For all some interesting events/happenings, check out: https://medium.com/ 
