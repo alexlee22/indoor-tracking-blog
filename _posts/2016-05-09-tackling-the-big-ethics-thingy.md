@@ -45,7 +45,7 @@ This is kinda how it would work
 <div class="image-square-grid">
 <div class="image-square-grid-box-half">
 
-!(/assets/tackling-the-big-ethics-question/database_workflow.jpg)
+![alt text](/assets/tackling-the-big-ethics-question/database_workflow.jpg)
 
 </div>
 </div>
