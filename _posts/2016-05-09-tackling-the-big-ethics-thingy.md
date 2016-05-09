@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GitHub Dev Environment
+title: Tackling the Big ethics thingy
 date: 2016-05-09 13:25:59
 type: post
 published: true
@@ -18,7 +18,11 @@ Oh boy. Ethics at last. This day was inevitable but I always thought it would be
 ### People's locations 
 
 OK this is a no brainer. No matter what ethics application i hand in, and no matter how well versed the research is, I am still fundamentally tracking people. And people might not like that. 
-but..... I'm not going to be tracking those people. I'm going to be tracking people that are OK with being tracked, plus their identity is hidden, they are in a secure environment(not personal life) like a workplace(where their actions are open to be scrutinized by their superiors and fellow colleagues anyway). So who cares? we'll if this technology is used for good, then no more 40 minute lunch breaks for you my friend. say good bye to flirting with the cute guy at the office over the water cooler. Your time is being watched and how you use it defines you. This goes against our feeling of freedom and is pretty annoying to say the least. Its good for management teams, they can fire people now based on their time/work usage (it will! I betcha!). 
+but..... I'm not going to be tracking those people. I'm going to be tracking people that are OK with being tracked, plus their identity is hidden, they are in a secure environment(not personal life) like a workplace(where their actions are open to be scrutinized by their superiors and fellow colleagues anyway). 
+
+So who cares? its just your personal information right??? 
+
+We'll if this technology is used for evil, then no more 40 minute lunch breaks for you my friend. say good bye to flirting with the cute guy at the office over the water cooler. Your time is being watched and how you use it defines you. This goes against our feeling of freedom and is pretty annoying to say the least. Its good for management teams, they can fire people now based on their time/work usage (it will! I betcha!). 
 
 Human Research Ethics Committees (HRECs)gives a pretty good description of ethics: 
 
@@ -41,7 +45,7 @@ This is kinda how it would work
 <div class="image-square-grid">
 <div class="image-square-grid-box-half">
 
->(/assets/tackling-the-big-ethics-question/database_workflow.jpg)
+(/assets/tackling-the-big-ethics-question/database_workflow.jpg)
 
 </div>
 </div>
