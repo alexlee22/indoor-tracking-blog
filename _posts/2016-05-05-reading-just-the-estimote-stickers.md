@@ -34,7 +34,7 @@ The scans seem to be picking up everything (include Low Energy and core Bluetoot
 
 ### The Solution
 
-Using the Estimote App and past reseach and experiments I did, we can take the identical partial UUID codes in which all Estimote Stickers have, the first 20 characters `d0d3fa86ca7645ec9bd9`. We can use these parameters when comparing the string results.
+Using the Estimote App and past research and experiments I did, we can take the identical partial UUID codes in which all Estimote Stickers have, the first 20 characters `d0d3fa86ca7645ec9bd9`. We can use these parameters when comparing the string results.
 
 The results from the requested list put all the values into a long string `db:2c:99:29:8e:b4,d0d3fa86ca7645ec9bd96af4b0acc487,61435,39432,-65,-71` in which needs to be split up. Using the `.split(",")` command which splits by comma, it should be broken into a list like so:
 
@@ -69,13 +69,6 @@ Then for testing, anything that isn't Estimote Ibeacon is still identified, just
 </div>
 </div>
 
-Final Results:
-
 Simple huh? Then we just need to run a `if` statement which will check to see if they match. We now only get the beacon IDS we need which are from Estimote ibeacon. It seems to be running at a fast rate, so at this point we may not need to play with the scan parameters.
 
 \#dumpdatahere #nofilter #ripdoge
-
-
-
-
-
