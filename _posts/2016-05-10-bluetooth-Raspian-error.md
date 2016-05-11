@@ -20,22 +20,23 @@ Thought this could be a good starting point for everyone to add anything I have 
 
 If you have downloaded the latest version of Raspian, then Blue tooth should already be installed. To test wither the RBP can scan for Blue tooth, type in the following command 
 
-'''html
+~~~ bash
 sudo hcitool lescan
-'''
+~~~
 
 This will tell you if the Pi is scanning of not. The first time I tried, I got this runtime error: 
 
-'''html
+~~~ bash
 active running
 sap driver initialization failed 
 sap-server: operation not permitted)
-'''
+~~~
+
 As long as somewhere in the output it says "active running" in a friendly green, your OK, but if you want to get rid of the warning, try
 
-'''html
+~~~ bash
 ExecStart=/usr/lib/bluetooth/bluetoothd---noplugin=sap
-'''
+~~~
 
 That should clear up the error, then try the sudo lescan command again. 
 
@@ -45,15 +46,9 @@ or
 
 reboot. 
 
-<div class="image-square-grid">
-<div class="image-square-grid-box-half">
-
 ![alt text](/assets/bluetooth-commit-setup-and-commit-error/have-you-tried-turning-it-on-an-on-again.jpg)
 
 You should start receiving something like this
-
-<div class="image-square-grid">
-<div class="image-square-grid-box-half">
 
 ![alt text](/assets/bluetooth-commit-setup-and-commit-error/its.scanning.jpg)
 
@@ -64,9 +59,10 @@ If you're like me and came across this error
 ![alt text](/assets/bluetooth-commit-setup-and-commit-error/commit-error-1.jpg)
 
 or 
+
 ![alt text](/assets/bluetooth-commit-setup-and-commit-error/commit-error-2.jpg)
 
-Then have no fear! Sometimes Hithub/sublime have some buggy thingys so there is a solution. ***ps: cootos to Alex for talking me through this one.***
+Then have no fear! Sometimes Hithub/sublime have some buggy thingys so there is a solution. ***ps: kudos to Alex for talking me through this one.***
 
 ### Step One: Save your current files 
 
