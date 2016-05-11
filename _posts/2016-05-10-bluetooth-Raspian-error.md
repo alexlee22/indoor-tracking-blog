@@ -50,17 +50,17 @@ reboot.
 
 You should start receiving something like this
 
-![alt text]({{ site.baseurl}}/assets/bluetooth-commit-setup-and-commit-error/its.scanning.jpg)
+![alt text]({{ site.baseurl}}/assets/bluetooth-commit-setup-and-commit-error/its-scanning.jpg)
 
 # Commit to Github through desktop: error
 
 If you're like me and came across this error
 
-![alt text]({{ site.baseurl}}/assets/bluetooth-commit-setup-and-commit-error/commit-error-1.jpg)
+![alt text]({{ site.baseurl}}/assets/bluetooth-commit-setup-and-commit-error/commit-error-1.png)
 
 or 
 
-![alt text]({{ site.baseurl}}/assets/bluetooth-commit-setup-and-commit-error/commit-error-2.jpg)
+![alt text]({{ site.baseurl}}/assets/bluetooth-commit-setup-and-commit-error/commit-error-2.png)
 
 Then have no fear! Sometimes Hithub/sublime have some buggy thingys so there is a solution. ***ps: kudos to Alex for talking me through this one.***
 
