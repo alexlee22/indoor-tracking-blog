@@ -46,7 +46,7 @@ or
 
 reboot. 
 
-![alt text]({{ site.baseurl}}/assets/bluetooth-commit-setup-and-commit-error/have-you-tried-turning-it-on-an-on-again.jpg)
+![alt text]({{ site.baseurl}}/assets/bluetooth-commit-setup-and-commit-error/have-you-tried-turning-it-off-an-on-again.jpg)
 
 You should start receiving something like this
 
