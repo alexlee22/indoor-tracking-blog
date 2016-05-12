@@ -17,7 +17,7 @@ author: annisa
 
 Discussion on the broadcast and recieving intervals of information. Estimote stickers were set to advertise 5000ms ~ (when moving), 10000ms ~ (still). Raspberry Pi were set to scan 5000ms ~ as well. The likelyhood of the advertise and scan to match and synchonise need to be experimented with. 
 
-![nearable_iOS]({{ site.baseurl }}/assets/estimote_advertise.png)
+![estimote_iOS]({{ site.baseurl }}/assets/estimote_advertise.png)
 
 Me and Alex attempted to change the advertising interval of an estimote sticker. This can easily be done on the Estimote app on iOS, Android not so much. All we had to do was connect and move the slider. The slider is not snapped nor moving at certain increments so if we happen to decide to change this again, need to make sure the advertising intervals for each estimote sticker are the same as the other for consistency. 
 
