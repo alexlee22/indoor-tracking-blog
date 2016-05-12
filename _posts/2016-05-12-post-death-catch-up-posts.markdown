@@ -102,6 +102,7 @@ var BeaconSchema = new Schema({
 ~~~
 
 wanted to comment out the audio and filename - to which I did. However, when I pulled the git repo, no changes were made, already up to date...strange - because I did modify the script.
+
 ~~~
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -113,6 +114,7 @@ Changes not staged for commit:
 ~~~
 
 Turns out the web server on AWS is running from the original Make & Build repo than our ArupCode one.
+
 ~~~
 ubuntu@ip-172-31-7-225:~/Courier/.git$ cat config
 [core]
@@ -135,6 +137,8 @@ $ ls
 bower.json  Gruntfile.js   node_modules        README.md
 client      karma.conf.js  package.json        server
 e2e         LICENSE        protractor.conf.js  wiki
+~~~
+
 ~~~
 /Courier/ $ cd server
 /Courier/server$ cd models
