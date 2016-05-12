@@ -1,13 +1,13 @@
 ---
 layout: post
-title: ethics submissions
-date: 2016-05-12 12:00:00
+title: Ethics
+date: 2016-05-12 12:05:00
 type: post
 published: true
 status: publish
 categories: []
 tags: []
-description: Oopsies, here they come!
+description: Not talking about ethics in general, but just what was due
 # 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 twitter-body: you write here and it goes on the share for twitter
 featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
@@ -15,7 +15,7 @@ featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
 author: annisa
 ---
 
-Short and sweet.
+Short and sweet. 
 
 This week has been an entire week of ethics and ...more writing. These submission papers are following us and its dangerous.
 ![running]({{ site.baseurl }}/assets/running.png) 
