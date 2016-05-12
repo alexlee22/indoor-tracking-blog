@@ -22,7 +22,7 @@ Yesterday was a day filled with love and happiness with Revit - modelling an exi
 Got home and followed a tutorial with Node, Express and MongoDb. Can be found [here](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/). Mainly was just a way for me to understand what to do when it comes to it. Have completed 62% of CodeSchool for MongoDb. Whilst I was fairly confident when doing queries from CodeSchool, I didn't really grasp how I would implement and push this information into web. This tutorial was pretty good as it showed the full stack in jargon that was easy to understand and worked.
 Tutorial was on Windows 8 - however, tried to do everything on the Raspberry and worked so wonderfully. Would show pictures, but the pictures look exactly the same as the pictures on the website. 
 
-I'm trying to push my code skills, as I feel like theres going to be a lot of it so always willing to try and learn! Might not succeeed but won't hurt to try it out myself! 
+I'm trying to keep up my code skills, as I feel like theres going to be a lot of it so always willing to try and learn! Might not succeed but won't hurt to try it out myself! 
 
 Today, had tutoring - more fun!
 
