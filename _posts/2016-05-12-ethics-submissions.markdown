@@ -18,6 +18,7 @@ author: annisa
 Short and sweet. 
 
 This week has been an entire week of ethics and ...more writing. These submission papers are following us and its dangerous.
+
 ![running]({{ site.baseurl }}/assets/running.png) 
 
 So submissions and what else we need at this current stage - 
