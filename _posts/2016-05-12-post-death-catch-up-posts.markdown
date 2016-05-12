@@ -39,7 +39,7 @@ $ ssh -i ~/Downloads/arupstudents.pem ubuntu@52.63.188.123
 $ mongo
 
 > show dbs
-<b>courier-dev 0.140625GB</b> << thats our db
+courier-dev 0.140625GB << thats our db
 local 0.078125GB
 test  (empty)
 
@@ -48,7 +48,7 @@ test  (empty)
 > show collections
 agents
 beacondetections
-<b>beacons</b> << one I was trying to fill out
+beacons << one I was trying to fill out
 engines
 system.indexes
 users
@@ -119,7 +119,7 @@ ubuntu@ip-172-31-7-225:~/Courier/.git$ cat config
   bare = false
   logallrefupdates = true
 [remote "origin"]
-  <b>url = https://github.com/makeandbuild/Courier.git</b>
+  url = https://github.com/makeandbuild/Courier.git <<
   fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "master"]
   remote = origin
