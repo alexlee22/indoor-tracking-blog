@@ -1,6 +1,6 @@
 ---
 layout: post
-title: post-death-catch-up-posts
+title: Post Death Catch-up Posts
 date: 2016-05-12 12:00:00
 type: post
 published: true
@@ -19,14 +19,14 @@ Here comes the posts...
 
 Yesterday was a day filled with love and happiness with Revit - modelling an existing building all day, fun!
 
-Got home and followed a tutorial with Node, Express and MongoDb. Can be found here [Mongdb tutorial](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/).Mainly was just a way for me to understand what to do when it comes to it. Have completed 62% of CodeSchool for MongoDb. Whilst I was fairly confident with the queries from CodeSchool, I didn't really grasp how I would implement and push this information into web. This tutorial was pretty good as it showed the full stack in jargon that was easy to understand and worked.
+Got home and followed a tutorial with Node, Express and MongoDb. Can be found [here](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/). Mainly was just a way for me to understand what to do when it comes to it. Have completed 62% of CodeSchool for MongoDb. Whilst I was fairly confident when doing queries from CodeSchool, I didn't really grasp how I would implement and push this information into web. This tutorial was pretty good as it showed the full stack in jargon that was easy to understand and worked.
 Tutorial was on Windows 8 - however, tried to do everything on the Raspberry and worked so wonderfully. Would show pictures, but the pictures look exactly the same as the pictures on the website. 
 
 I'm trying to push my code skills, as I feel like theres going to be a lot of it so always willing to try and learn! Might not succeeed but won't hurt to try it out myself! 
 
 Today, had tutoring - more fun!
 
-Went to ARUP. Set up 1/2 Raspberry Pi's near the workshop area - plan to steal one of the RPI's from BVN and set it up ASAP. Seen one sitting next to me beside my table owned by IDT hehe. I then spent majority of the day trying to understand what the courier-dev repo was by going through all the code. Got a somewhat understanding of it all - enough to keep me alive and navigate around to see what can be touched if I ever want to touch anything. 
+Went to ARUP. Set up 1 out 2 Raspberry Pi's near the workshop area - plan to steal one of the RPI's from BVN and set it up at BVN next week. I then spent majority of the day trying to understand what the courier-dev repo was by going through all the code. Got a somewhat understanding of it all - enough to keep me alive and navigate around to see what can be touched if I ever want to touch anything. 
 So I wanted to try pushing things from Mongodb onto the web server. Things meaning the static beacon information. As the server is being kept alive from AWS that isn't mine, needed to ssh into it. 
 
 Commands on a mac for future reference - 
