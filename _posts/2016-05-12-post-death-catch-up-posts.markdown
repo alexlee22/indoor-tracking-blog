@@ -69,11 +69,12 @@ users
 
 ![beacon mongotest]({{ site.baseurl }}/assets/post-death-post/beacon_mongodb_bike.png)
 
-Then I tried inputting the other beacon information in. Not sure the best way. Honestly did it all manually with trusty copy and paste. [mongo test example](https://docs.google.com/spreadsheets/d/1ZCl6oKogn0ZApxo5SwLHUrwjSq5bcUY1cGMsfjwCaME/edit?usp=drive_web)
+Then I tried inputting the other beacon information in. Not sure the best way. Honestly did it all manually with trusty copy and paste. [beacon table](https://docs.google.com/spreadsheets/d/1ZCl6oKogn0ZApxo5SwLHUrwjSq5bcUY1cGMsfjwCaME/edit?usp=drive_web)
 
 ~~~
 > newStuff = *insert new stuff*
 > db.beacons.insert(newStuff)
+~~~
 
 ![beacon everything]({{ site.baseurl }}/assets/post-death-post/beacon_mongodb_everything.png)
 
