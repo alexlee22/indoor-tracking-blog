@@ -18,8 +18,6 @@ Following this tutorial. http://cwbuecheler.com/web/tutorials/2013/node-express-
 
 Pretty straight forward. Had to translate the commands to RBP console thingys. I have to add more, but I accidently closed the console before I saved them all. Will run through the tutorial again and add them again later. 
 
-### List of commands 
-
 To install npm
 ~~~ bash 
 sudo apt-get install npm
