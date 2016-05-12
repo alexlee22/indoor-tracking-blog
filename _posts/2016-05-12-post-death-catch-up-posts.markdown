@@ -142,7 +142,7 @@ e2e         LICENSE        protractor.conf.js  wiki
 ~~~
 /Courier/ $ cd server
 /Courier/server$ cd models
-/Courier/server/models$ nano beacon.model.js
+/Courier/server/models$ nano beacon.model.js <<< comment out audio lines of code 
 /Courier/server/models$ mongo <<< input beacons again
 ~~~
 
