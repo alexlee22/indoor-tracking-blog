@@ -57,7 +57,7 @@ This sort of has the layout we are working towards, just a matter of adding the 
 
 ***General:***schema design in MongoDB
 
-***Mongo** redo the tutorial/codeschool and then record all the steps within this post.
+***Mongo*** redo the tutorial/codeschool and then record all the steps within this post.
 
 Hand In Ethics application: Tomorrow (eeek!)
 
