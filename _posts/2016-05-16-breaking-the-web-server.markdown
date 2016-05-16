@@ -34,3 +34,5 @@ After all that, I tried again and didn't succeed. The information from mongodb s
 ~~~
 
 Then I gave up. I'll let this one slide.....for now. 
+
+Today: Work and learning dynamo! and tonight will learn mongoose. 
