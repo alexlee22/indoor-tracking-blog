@@ -35,7 +35,7 @@ In a general sense, try and make your writing and use of images as if you were e
 
 ![alt text]({{ site.baseurl}}/assets/Frog_outline_by_DelightsJD.jpg)
 
-This image, references to later when I talk about introuction, main body and conclusion writing, but I thought it applies directly to what I talked about above. (so be nice to me!). 
+This image, references to later when I talk about introduction, main body and conclusion writing, but I thought it applies directly to what I talked about above. (so be nice to me!). 
 
 ### What does normal writing look like?
 
