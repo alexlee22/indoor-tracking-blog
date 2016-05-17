@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Query with Mongoose!
-date: 2016-05-06 00:00:00
+date: 2016-05-17 00:00:00
 type: post
 published: true
 status: publish
@@ -21,14 +21,48 @@ After the setup I want to work more on using the Queries with Mongoose to get th
 
 We needed to find out how to find the proximity using the data. When called, the data dump will look like this:
 
--
+		[ { time: '2016-05-08T08:34:40.249Z',
+			minor: 25502,
+			agentId: '12346',
+			rssi: -86,
+			tx: -65,
+			uuid: 'd0d3fa86ca7645ec9bd96af487e1f6b6',
+			major: 149,
+			_id: 572efa20747345af0512ea51 },
+		  { time: '2016-05-08T08:34:41.388Z',
+			minor: 7901,
+			agentId: '12346',
+			rssi: -81,
+			tx: -65,
+			uuid: 'd0d3fa86ca7645ec9bd96af4a83fb1f2',
+			major: 51843,
+			_id: 572efa21747345af0512ea52 },
+		  { time: '2016-05-08T08:34:46.065Z',
+			minor: 49413,
+			agentId: '12346',
+			rssi: -81,
+			tx: -65,
+			uuid: 'd0d3fa86ca7645ec9bd96af459405c0f',
+			major: 42746,
+			_id: 572efa26747345af0512ea53 },
+		.....
+		  { time: '2016-05-08T08:38:05.016Z',
+			minor: 57905,
+			agentId: '12346',
+			rssi: -75,
+			tx: -65,
+			uuid: 'd0d3fa86ca7645ec9bd96af497e31b92',
+			major: 58437,
+			_id: 572efaed747345af0512eb3e } ]
+
+
 
 The plan I set out of the plan was to `each 'major' tagged -> 'sort' by major -> descending 'RSSI' -> take 'first' -> 'return' value.`
 
 So I looked up some of the Mongo commands within Mongoose. It was difficult finding some of them to use in Javascript.
 
 - `distinct` find the unique IDs within the value
-- `find({})` find whatever is within the criteria of the curvey brackets
+- `find({})` find whatever is within the criteria of the curvy brackets
 - `sort` arranges by ascending or descending based on +/-
 - `limit` only shows x number of results
 
@@ -97,6 +131,8 @@ Which prints:
 		uuid: 'd0d3fa86ca7645ec9bd96af497e31b92',
 		major: 58437,
 		_id: 572efa3e747345af0512ea72 } ]
+
+Ta-Da! Now we get which Estimote sticker is closes to which beaconID.
 
 ### Where to go from here
 
