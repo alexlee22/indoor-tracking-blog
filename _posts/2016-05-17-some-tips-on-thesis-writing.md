@@ -1,16 +1,17 @@
 ---
 layout: post
-title: some tips on thesis writing
+title: Some tips on thesis writing
 date: 2016-05-17 11:25:59
 type: post
 published: true
 status: publish
-categories: []
-tags: []
+categories: [TipsTricks,thesisWriting]
+tags: [ThesisWritting]
 description: making life less hard for your readers
 
 author: tiara
 ---
+
 
 This post is basically a summary of how I plan to arrange my thesis as advised by Catherine Bridges today in class. She is pretty smart and gave quite a lot of good advice as to structuring and making life easy for your reader. 
 There is quite a lot to get through so bear with me and try and read the whole post. Drop your comments/ concerns and or thoughts below, weither you agree/disagree or think I missed something and I'll add to it. 
