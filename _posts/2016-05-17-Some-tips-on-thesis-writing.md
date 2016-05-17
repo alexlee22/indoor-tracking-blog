@@ -11,6 +11,7 @@ description: Making life less hard for your readers
 
 author: tiara
 ---
+
 This post is basically a summary of how I plan to arrange my thesis as advised by Catherine Bridges today in class. She is pretty smart and gave quite a lot of good advice as to structuring and making life easy for your reader. 
 There is quite a lot to get through so bear with me and try and read the whole post. Drop your comments/ concerns and or thoughts below, weither you agree/disagree or think I missed something and I'll add to it. 
 
@@ -81,11 +82,9 @@ If you’re in the editing stage, think carefully about the relevance of the wri
 ### Making claims
 
 Make your claims tentative rather than definite
-•	This leaves the door open for further discussion and/or research. After all, it’s unlikely that you’re reached the only possible conclusions!
-
-•	Television viewing causes reading problems in childhood.
-
-•	Excessive television viewing may be a contributing cause of some cases of reading problems in childhood. 
+1. This leaves the door open for further discussion and/or research. After all, it’s unlikely that you’re reached the only possible conclusions!
+2. Television viewing causes reading problems in childhood.
+3. Excessive television viewing may be a contributing cause of some cases of reading problems in childhood. 
 
 # ESSAY format/structure
 
@@ -94,7 +93,7 @@ Make your claims tentative rather than definite
 3.	End Matter: references 
 
 ### Preliminary 
-•	The title page should contain information to enable your lecturer to identify exactly what the pieces of work is. It should include: 
+The title page should contain information to enable your lecturer to identify exactly what the pieces of work is. It should include: 
 1. Your group names and 
 2.	Course;
 3.	The title of the assignment
@@ -122,55 +121,55 @@ Paragraphs are usually structured as: Topic Sentence (This is the first sentence
 Check out this link: ***The Thesis whisperer https://thesiswhisperer.com/*** 
 
 ### The conclusion
-•	The conclusion includes the writer’s final points
-o	It should recall the issues raised in the introduction and draw together the points made in the main body 
-•	And explain the overall significance of the conclusion. (what general points etc)
-•	Recalling the main points you went over
+1. The conclusion includes the writer’s final points
+2. It should recall the issues raised in the introduction and draw together the points made in the main body 
+3. And explain the overall significance of the conclusion. (what general points etc)
+4. Recalling the main points you went over
 
 # ADD SOME STYLE 
 
-•	Writing is a very logical exercise, adding style to it will enhance clearness and power of convincing.
-•	Phrases for the transition
-•	Phrases for emphasis
-•	Phrases for counterpoints
+1. Writing is a very logical exercise, adding style to it will enhance clearness and power of convincing.
+2. Phrases for the transition
+3. Phrases for emphasis
+4. Phrases for counterpoints
 
 
 ### PHRASES FOR EMPHASIS
 
-•	Moreover(old English mate!)
-•	In fact
-•	Additionally 
-•	For example
-•	In point of fact 
-•	As a matter of fact
-•	Indeed
-•	extrapolated(this sounds cool, but use it carefully)
+1. Moreover(old English mate!)
+2. In fact
+3. Additionally 
+4. For example
+5. In point of fact 
+6. As a matter of fact
+7. Indeed
+8. Extrapolated(this sounds cool, but use it carefully)
 Simple, and direct. 
-
 
 ### PHRASES FOR COUNTERPOINT
 
-•	Conversely
-•	On the other hand
-•	However
-•	Nevertheless
-•	Notwithstanding
-•	Nonetheless 
-•	Yet
-•	Despite
-•	Although
-•	Instead
+1. Conversely
+2. On the other hand
+3. However
+4. Nevertheless
+5. Notwithstanding
+6. Nonetheless 
+7. Yet
+8. Despite
+9. Although
+10. Instead
+
 It shows your argument
 
 ### Conclude writing
 
-•	Writing = logic + style 
-•	You should always concentrate on the objectives 
-•	Good writing skills needs a lot of READING and exercise 
-•	Writing is important for, university assignments, exams
-Don’t forget about future work!
+1. Writing = logic + style 
+2. You should always concentrate on the objectives 
+3. Good writing skills needs a lot of READING and exercise 
+4. Writing is important for, university assignments, exams
+5. Don’t forget about future work!
 
-# Further work: MOVEING FORWARD	
+# MOVEING FORWARD	
 I might check out Per Mollerup 'Wayshowing and wayfinding: Basic and interactive'
 Further work on MongoDB and reading the code. probably upload another post tonight with my progress.
 
