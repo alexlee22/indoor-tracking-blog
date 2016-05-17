@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Some tips on thesis writing
-date: 2016-05-17 11:25:59
+date: 2016-05-17 01:01:59
 type: post
 published: true
 status: publish
