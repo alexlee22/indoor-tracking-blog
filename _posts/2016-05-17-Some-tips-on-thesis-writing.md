@@ -20,9 +20,8 @@ It is sometimes to out detriment that we 'designers' spend too much time making 
 
 ### Conveying the message
 
-1. It is the message that is important. (not the cover, but if making a nice cover help you convey the message, make that cover look nice). eg: a thesis on designing nice looking cover's, will definetly need a nice looking cover.(You Know What Im saying)
-•	The story is the most important. Put effort into arranging the different elements into a flow that leads the reader through your process.  
-•	general rule: Get content right, edit your content, then play with how it looks. 
+It is the message that is important. (not the cover, but if making a nice cover help you convey the message, make that cover look nice). eg: a thesis on designing nice looking cover's, will definetly need a nice looking cover.(You Know What Im saying)
+The story is the most important. Put effort into arranging the different elements into a flow that leads the reader through your process.  General rule: Get content right, edit your content, then play with how it looks. 
 
 In the long run, you need to think about who is marking your work, what are their values and can they appreciate your work? 
 Thinking in this kind of way makes it easier to prioritize information. You can include information that is necessary to know, or nice to know. A general rule would keep you well away from the latter, however you need to think about the context that the reader is coming from, weither they might have a glass or two before reading your work, how familiar they are with your study area and what can you do to make things easier for them to understand/read. Sometimes making things look nice and adding diagrams (even though the text works by itself) makes the whole endeavor more pleasant for the reader/marker. And if your marker enjoys reading your paper, then well, you might get rewarded with a good mark. And who doesn't want a good mark? 
@@ -30,8 +29,8 @@ In a general sense, try and make your writing and use of images as if you were e
 (I get away with it in this blog post because its a blogpost, not a thesis essay!). 
 
 ### PLAN THE ESSAY AND ORGANISE IDEAS
-•	There should be a central question that the essay is trying to answer 
-•	Images help you explain things, even though you might not need it. 
+1. There should be a central question that the essay is trying to answer 
+2. Images help you explain things, even though you might not need it. 
 
 ![alt text]({{ site.baseurl}}/assets/Frog_outline_by_DelightsJD.jpg)
 
@@ -39,8 +38,7 @@ This image, references to later when I talk about introuction, main body and con
 
 ### What does normal writing look like?
 
-This leads us onto the second point for introducing your topics/theories/points within your thesis. 
-•	Focus on the issue, not the writer, keeping your writing objective and impersonal can make it more convincing. 
+This leads us onto the second point for introducing your topics/theories/points within your thesis. Focus on the issue, not the writer, keeping your writing objective and impersonal can make it more convincing. 
 
 1. "It will be argued that the benefit of sales promotion outweighs the disadvantage" 
 2. "I will argue in this essay that (problem in using this, the responsibility falls directly on you, your credibility etc..)
