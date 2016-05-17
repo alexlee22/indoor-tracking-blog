@@ -1,18 +1,19 @@
 ---
 layout: post
-title: Hardening the #@%$ up!
+title: Hardening the hell up!
 date: 2016-05-16 01:01:59
 type: post
 published: true
 status: publish
 categories: [MongoDB,Database]
-tags: [ThesisWritting]
+tags: [querie questions ]
 description: Getting over my hate for stupid things
 
 author: tiara
 ---
 
 Mongo = 2
+
 Tiara = 1
 
 It is coming to the time when we are getting ready to organise the query questions for our database. To do this I have to think very carefully as mine may not be exactly the same as my partners Alex and Annisa. To do this I will need to explore my thesis question and aim very carefully.
@@ -52,23 +53,19 @@ This step is pretty straight forward: The main idea is that when the person with
 
 The message could look a little like this. 
 
-*** 1. "yo dude, are you in today?"
-*** 2. "are you taking visitors today or do you not want to be bothered?"
+***"yo dude, are you in today?"***
+***"are you taking visitors today or do you not want to be bothered?"***
 
-This would tell the server that (person) is in today = ~~~ bash status = at work ~~~ and is ~~~ bash available/ unavailable~~~ . Now we are in the buildings and people can find us, let's find a person!
+This would tell the server that (person) is in today = status = at work and isavailable/ unavailabl. Now we are in the buildings and people can find us, let's find a person!
 
 ### Finding people in near real time. 
 
-We can now start to querie finding people within a floor plan. 
-
-![alt text]({{ site.baseurl}}/assets/bluetooth-commit-setup-and-commit-error/floorplan.jpg)
-
-Now we can try and apply specifics and try and get the exactly location of people from the data in *** real time***, however we are going to run into some problems with this. 
+Now we can try and apply specifics and try and get the exactly location of people from the data in ***real time***, however we are going to run into some problems with this. 
 
 ![alt text]({{ site.baseurl}}/assets/bluetooth-commit-setup-and-commit-error/floorplan_beacon_range.jpg)
 
 Here we have the blue squares representing a hypothethical location of a beacon location which recieves information from the trackers. The orange representing the range of the tracker. some of the ranges 'overlap' while others fail to cover specific areas within the space, shown by the white space within the plan. 
-The issue here is that the individual being tracker may step into this 'unmonitored territory' and then go off the grid completely. A way of overcoming this is searching for individuals, but doing it in a *** near-real time*** basis. 
+The issue here is that the individual being tracker may step into this 'unmonitored territory' and then go off the grid completely. A way of overcoming this is searching for individuals, but doing it in a ***near-real time*** basis. 
 
 The floor plan could then be divided into a grid which could represent zones within the floor plan. The grid might look a little like this. 
 
@@ -78,7 +75,7 @@ This would mean we could search for *** the last recorded positioning*** of a sp
 
 ![alt text]({{ site.baseurl}}/assets/bluetooth-commit-setup-and-commit-error/floorplan_redzone.jpg)
 
-*** Johnny Derp was last seen in the 'Red Zone'.*** Now ***alert*** Johnny derp that *** Matty blair*** is looking for him. 
+***Johnny Derp*** was last seen in the 'Red Zone'***alert Johnny derp*** that *** Matty blair*** is looking for him. 
 
 Seperating the different spaces of the office into zones can also work for some of the other queries
 such as Finding the occupancy within a given zone at a specific time. (as the location of everyone is recorded throughout the day) or to find how many people have used (state room/zone type) between (state start time) to (finish time).
