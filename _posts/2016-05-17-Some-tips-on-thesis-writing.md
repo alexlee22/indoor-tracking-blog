@@ -55,6 +55,7 @@ General rule: No hard and fast way of doing things.
 (1)	Bridges (1987) says “We are awesome". 30% of the time.
 (2)	We are awesome (bridges 1987) 70% of the time. 
 You shouldn't have none of the first, but it’s generally good to stick with the second. If you’re making a statement, about your own point, and it is backed by a reference, use the second. If you are using a direct quote or piece of writing, use the first. (generally). 
+
 ### Writing your introduction 
 Now every chapter has an introduction, and then you have your introduction Chapter (know the difference!!!!). 
 The introduction is generally done last and introduces your core themes and ideas. It’s also a good way to let your reader to understand how you have organized your thesis (for way finding). 
@@ -65,17 +66,13 @@ etc...
 
 ### Avoid words with vague meanings
 
-•	Compare
-o	The writer looks to the issue
-•	With
-o	The writer examines the issues
+1.	Compare: The writer looks to the issue
+2. With: The writer examines the issues
 
 
 The second option is more formal
-•	Formal choices
-o	He states…maintaining…argues
-•	Informal choices:
-o	He says…talks about…
+1. Formal choices: He states…maintaining…argues
+2. Informal choices: He says…talks about…
 
 ### Cut the crap
 
@@ -85,7 +82,9 @@ If you’re in the editing stage, think carefully about the relevance of the wri
 
 Make your claims tentative rather than definite
 •	This leaves the door open for further discussion and/or research. After all, it’s unlikely that you’re reached the only possible conclusions!
+
 •	Television viewing causes reading problems in childhood.
+
 •	Excessive television viewing may be a contributing cause of some cases of reading problems in childhood. 
 
 # ESSAY format/structure
@@ -96,34 +95,31 @@ Make your claims tentative rather than definite
 
 ### Preliminary 
 •	The title page should contain information to enable your lecturer to identify exactly what the pieces of work is. It should include: 
-o	Your group names and 
-o	Course;
-o	The title of the assignment
-•	An editor is ok to have. 
-You’re must acknowledge them all. 
+1. Your group names and 
+2.	Course;
+3.	The title of the assignment
+4. Acknowledgements: When in doubt, acknowledge, acknowledge, acknowledge. 
 
 ### The introduction
-•	The introduction consists of two parts:
-o	It should include a few general statements about the subject to provide a background to your essay and to attract the reader’s attention. Your writing should try to explain why you are writing the essay. It may include a definition of terms in the content of the essay. Etc.
-o	It should also include an indicative of how the topic is going to be tackled in order to specifically address the questions
-•	It should introduce the central idea of the main purpose of the writing. 
-•	Way finding in text: This chapter…1 goes into this 
-•	Way finding goes into this. 
-•	Naming the heading as a question may help you answer it. 
+
+The introduction consists of two parts:	It should include a few general statements about the subject to provide a background to your essay and to attract the reader’s attention. Your writing should try to explain why you are writing the essay. It may include a definition of terms in the content of the essay. Etc.
+
+It should also include an indicative of how the topic is going to be tackled in order to specifically address the questions
+1. It should introduce the central idea of the main purpose of the writing. 
+2. Way finding in text: This chapter…1 goes into this 
+3. Way finding goes into this. 
+4. Naming the heading as a question may help you answer it. 
 
 ### The Main body
 
-•	The main body of one or more paragraphs of ideas and arguments, together with illustrated or examples
-•	The paragraphs are linked in order to connect the ideas
-•	The purpose of the essay, used be made clear and reader must be able to follow its developments.
+1. The main body of one or more paragraphs of ideas and arguments, together with illustrated or examples
+2. The paragraphs are linked in order to connect the ideas
+3. The purpose of the essay, used be made clear and reader must be able to follow its developments.
+
 Flow of information in paragraphs
-•	Paragraphs are usually structured as
-o	Topic Sentence
-	This is the first sentence and it expresses the main idea
-o	Supporting sentences
-	Details that expand your main idea
-o	Concluding sentences 
-	A rounding off, possible by summarizing what has been said or drawing a logical conclusion from it. The Thesis whisperer https://thesiswhisperer.com/
+Paragraphs are usually structured as: Topic Sentence (This is the first sentence and it expresses the main idea),Supporting sentences (Details that expand your main idea), Concluding sentences (A rounding off, possible by summarizing what has been said or drawing a logical conclusion from it.)
+
+Check out this link: ***The Thesis whisperer https://thesiswhisperer.com/*** 
 
 ### The conclusion
 •	The conclusion includes the writer’s final points
