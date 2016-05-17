@@ -92,17 +92,21 @@ This is a tricky one, howeve if it is possible to identify who has face-to-face 
 
 ![alt text]({{ site.baseurl}}/assets/bluetooth-commit-setup-and-commit-error/floorplan_people_interactions.jpg)
 
-I think the best way of this working is that the user wears the tracker around their neck, is it can deter which side is the stronger signal(looking out) or the weaker signal(going through the persons body). That would 
+I think the best way of this working is that the user wears the tracker around their neck, is it can deter which side is the stronger signal(looking out) or the weaker signal(going through the persons body). The general parameters needed to make this happen might look like the following.  
 
 The parameters:
+
 1. The direction of the tracker in association to the other
+
 2. The distance between the tracker to the other
+
 3. The duration of time spent in interaction
-4. The person in which the interaction happened. 
+
+4. The people who had the interaction. 
 
 # Moving forward
 
-The next phase for me is going to be sitting down with MongoDB open, playing with the thingys and tutorials and trying to implement some code. Probably talk to Jorke about it as well as he seems to be the only one who knows what's going on. 
+The next phase for me is going to be sitting down with MongoDB open, playing with the thingys and tutorials and trying to implement some code. Probably talk to Jorke about it as well as he seems to be the only one who knows what's going on. Tomorrow I'll go into privacy and who can see what, who can search what etc. 
 
 ### Some things to think about: Duck debugging
 
