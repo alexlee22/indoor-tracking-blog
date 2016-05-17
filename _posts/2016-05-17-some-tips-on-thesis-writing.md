@@ -48,7 +48,7 @@ There is no clear cut way of introducing these things, but you need to think thr
 
 This is not to say you can't use 'I', but you enter into unfamiliar territory when you do so you better have some good explanation to back you up on everything you state/claim. 
 
-### integrating Citations into your writing
+### Integrating Citations into your writing
 
 This is good to keep in mind for when you are writing your literature review. There are two major ways of citing something:
 General rule: No hard and fast way of doing things. 
