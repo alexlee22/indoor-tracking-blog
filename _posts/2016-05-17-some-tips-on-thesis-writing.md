@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Some tips on thesis writing
+title: some tips on thesis writing
 date: 2016-05-17 11:25:59
 type: post
 published: true
 status: publish
 categories: []
 tags: []
-description: Making life less hard for your readers
+description: making life less hard for your readers
 
 author: tiara
 ---
