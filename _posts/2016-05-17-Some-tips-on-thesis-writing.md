@@ -15,33 +15,38 @@ This post is basically a summary of how I plan to arrange my thesis as advised b
 There is quite a lot to get through so bear with me and try and read the whole post. Drop your comments/ concerns and or thoughts below, weither you agree/disagree or think I missed something and I'll add to it. 
 
 # Quality not quantity
-It is sometimes to out detriment that we 'designers' spend too much time making things look nice because, well, the types of people that are going to be marker our work are 'designers' who care about how nice things look. 
-However, in the great scheme of things there a few guidelines to live by for thesis writing will help you prioritise your content.
+It is sometimes to out detriment that we 'designers' spend too much time making things look nice because, well, the types of people that are going to be markering our work are 'designers' who care about how nice things look. So how do we overcome these issues? we need to think carefully about what is the message we are trying to convey, and how is the best way of conveying it. 
 
 ### Conveying the message
 
-1. It is the message that is important, not the cover (but if it does help you convey the message more, put effort into the design). 
-•	The story is the most important. 
-•	Get content right, then play with how it looks. 
+1. It is the message that is important. (not the cover, but if making a nice cover help you convey the message, make that cover look nice). eg: a thesis on designing nice looking cover's, will definetly need a nice looking cover.(You Know What Im saying)
+•	The story is the most important. Put effort into arranging the different elements into a flow that leads the reader through your process.  
+•	general rule: Get content right, edit your content, then play with how it looks. 
 
 In the long run, you need to think about who is marking your work, what are their values and can they appreciate your work? 
 Thinking in this kind of way makes it easier to prioritize information. You can include information that is necessary to know, or nice to know. A general rule would keep you well away from the latter, however you need to think about the context that the reader is coming from, weither they might have a glass or two before reading your work, how familiar they are with your study area and what can you do to make things easier for them to understand/read. Sometimes making things look nice and adding diagrams (even though the text works by itself) makes the whole endeavor more pleasant for the reader/marker. And if your marker enjoys reading your paper, then well, you might get rewarded with a good mark. And who doesn't want a good mark? 
 In a general sense, try and make your writing and use of images as if you were explaining to a friend in simple terms, however avoiding informal language. This is a normal style of thesis writing and overall gets good results as a style guide. 
+(I get away with it in this blog post because its a blogpost, not a thesis essay!). 
 
 ### PLAN THE ESSAY AND ORGANISE IDEAS
-•	There should be a central question that essay is trying to answer 
+•	There should be a central question that the essay is trying to answer 
 •	Images help you explain things, even though you might not need it. 
 
 ![alt text]({{ site.baseurl}}/assets/Frog_outline_by_DelightsJD.jpg)
 
+This image, references to later when I talk about introuction, main body and conclusion writing, but I thought it applies directly to what I talked about above. (so be nice to me!). 
+
 ### What does normal writing look like?
 
-So this leads us onto my second point for introducing your topics/theories/points within your thesis. 
+This leads us onto the second point for introducing your topics/theories/points within your thesis. 
 •	Focus on the issue, not the writer, keeping your writing objective and impersonal can make it more convincing. 
-•	It will be argued that the benefit of sales promotion outweighs the disadvantage 
-•	I will argue in this essay that (problem in using this, the responsibility falls directly on you, your credibility etc..)
 
-There is no clear cut way of introducing these things, but you need to think through how the writing suggests of you. If you sound too arrogant/too overstating in your thesis, the marker might not like that and you might get a bad mark. (it’s all a power play, safe to stay objective and let the references do the talking, not you). This is not to say you can't use 'I', but you enter into unfamiliar territory when you do so you better have some good explanation to back you up on everything you state/claim. 
+1. "It will be argued that the benefit of sales promotion outweighs the disadvantage" 
+2. "I will argue in this essay that (problem in using this, the responsibility falls directly on you, your credibility etc..)
+
+There is no clear cut way of introducing these things, but you need to think through what the writing suggests about you. If you sound too arrogant/too overstating in your thesis, the marker might not like that and you might get a bad mark. (it’s all a power play, safe to stay objective and let the references do the talking, not you).
+
+This is not to say you can't use 'I', but you enter into unfamiliar territory when you do so you better have some good explanation to back you up on everything you state/claim. 
 
 ### integrating Citations into your writing
 
