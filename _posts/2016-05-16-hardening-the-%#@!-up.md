@@ -54,11 +54,11 @@ This step is pretty straightforward: The main idea is that when the person with 
 
 The message could look a little like this. 
 
-***"yo dude, are you in today?"***
+***"Are you in today?"***
 
 and 
 
-***"are you taking visitors today or do you not want to be bothered?"***
+***"Are you taking visitors or do you not want to be bothered?"***
 
 This would tell the server that (person) is in today = status = at work and is available/ unavailable. Now we are in the buildings and people can find us, let's find a person!
 
@@ -68,7 +68,7 @@ Now we can try and apply specifics and try and get the exactly location of peopl
 
 ![alt text]({{ site.baseurl}}/assets/bluetooth-commit-setup-and-commit-error/floorplan_beacon_range.jpg)
 
-Here we have the blue squares representing a hypothetical location of a beacon location which receives information from the trackers. The orange representing the range of the tracker. some of the ranges 'overlap' while others fail to cover specific areas within the space, shown by the white space within the plan. 
+Here we have the blue squares representing a hypothetical location of a beacon location which receives information from the trackers. The orange representing the range of the beacon. some of the ranges 'overlap' while others fail to cover specific areas within the space, shown by the white space within the plan. 
 The issue here is that the individual being tracker may step into this 'unmonitored territory' and then go off the grid completely. A way of overcoming this is searching for individuals, but doing it in a ***near-real time*** basis. This structure assumes that the tracker may at some point be out of range of the reciever, so best to design for worste case scenario. 
 
 The floor plan could then be divided into a grid which could represent zones within the floor plan. The grid might look a little like this. 
@@ -79,7 +79,7 @@ This would mean we could search for ***the last recorded positioning*** of a spe
 
 ![alt text]({{ site.baseurl}}/assets/bluetooth-commit-setup-and-commit-error/floorplan_redzone.jpg)
 
-The output might look a little like: ***Johnny Derp*** was last seen in the ***Red Zone*** now ***alert Johnny derp*** that ***Matty blair*** is looking for him. 
+The output might look a little like ***Johnny Derp*** was last seen in the ***Red Zone*** now ***alert Johnny derp*** that ***Matty blair*** is looking for him. 
 
 Separating the different spaces of the office into zones can also work for some of the other queries
 such as Finding the occupancy within a given zone at a specific time. (as the location of everyone is recorded throughout the day) or to find how many people have used (state room/zone type) between (state start time) to (finish time).
