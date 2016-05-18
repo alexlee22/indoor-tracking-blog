@@ -15,7 +15,7 @@ featuredimg: doge.jpg
 author: alex
 ---
 
-### Why isovists
+### Why Isovists
 
 For an Indoor Positioning System (IPS) to properly track an individual within an indoor space, we need to use the data collected by access points (RSSI, proximity, TXpower, etc). But past information has show that radio signals can be interrupted through obstructions including walls, floors and bodies of water (humans), which can interrupt the accuracy of an IPS. Indoor spaces have multiple obstructions which make it difficult to create an accurate IPS. We can use the isovists ideology to create an estimated result when using beacons to estimate the approximate coverage on the workspace floorplan.
 
