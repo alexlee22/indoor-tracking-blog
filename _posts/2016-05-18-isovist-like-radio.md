@@ -21,7 +21,7 @@ For an Indoor Positioning System (IPS) to properly track an individual within an
 
 ### Past Experiment
 
-A past University of New South Wales student studied the effects of Bluetooth radio waves within the environment of the office environment (specifically an area within the BVN Architecture's Sydney office). This experiment showed that BLuetooth signals when intercepted by a concrete pillar or results decreased the signal strength (RSSI). Below is an image from his experiment.
+A past University of New South Wales student studied the effects of Bluetooth radio waves within the environment of the office environment (specifically an area within the BVN's Sydney office). This experiment showed that BLuetooth signals when intercepted by a concrete pillar or results decreased the signal strength (RSSI). Below is an image from his experiment.
 
 ![Chris' Grad Project]({{ site.baseurl}}/assets/isovist-like-radio/chris-isovist.png)
 
