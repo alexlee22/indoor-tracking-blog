@@ -25,11 +25,11 @@ Starts with a beacon > Access Point > Database
 
 ![Access Point]({{ site.baseurl}}/assets/ap_arch.png)
 
-![database]({{ site.baseurl}}/assets/isovist-like-radio/db_arch_1.png)
+![database]({{ site.baseurl}}/assets/db_arch_1.png)
 
 Although, been told db shouldn't be separated into two db's at all. Therefore, I took the 'people' out. To maximise the ethics of the project, any information that can reidentify the person being tracked should not be available to others. Can be treated on a different server for another time. It exists but not for the public/wider audience.
 
-![database2]({{ site.baseurl}}/assets/isovist-like-radio/db_arch_2.png)
+![database2]({{ site.baseurl}}/assets/db_arch_2.png)
 
 The endgame isn't a webserver, so there's still some adding to do. 
 
