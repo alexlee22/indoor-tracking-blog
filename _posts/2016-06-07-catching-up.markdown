@@ -29,6 +29,7 @@ The university semester is coming to an end an the assessments are stacking up. 
 
 Tom and Jorka adjusted the file `courierbeacons/Courier/server/dao/beacon.dao.js` when attempting to push live, the results that were using showed the details of the beacons. It was referencing the wrong collection (accessed the beacon files instead of detections). I did a small adjustment and now it shows up the JSON:
 
+~~~ json
 	{
 		time: '2016-05-08T08:34:40.249Z',
 		minor: 25502,
@@ -39,6 +40,7 @@ Tom and Jorka adjusted the file `courierbeacons/Courier/server/dao/beacon.dao.js
 		major: 149,
 		_id: 572efa20747345af0512ea51 
 	}
+~~~
 
 I just need to run a `find()` to sort the `agentID`. I might need to make a Javascript function to sort the time. Got to push it further a bit to get it running, also need to remove sample uploads
 
