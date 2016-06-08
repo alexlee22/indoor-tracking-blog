@@ -167,3 +167,14 @@ pre {
     }
   }
 }
+
+  //table
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  table, th, td {
+    height: 50px;
+    border: 1px solid black;
+  }

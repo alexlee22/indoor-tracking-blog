@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Catching Up
-date: 2016-06-07 3:00:00
+date: 2016-06-07 0:00:00
 type: post
 published: true
 status: publish
