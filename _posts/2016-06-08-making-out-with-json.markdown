@@ -41,7 +41,7 @@ Hopefully that makes it more understandable?!?
 
 JSON can be converted into a table if multiple documents are combined together, same values are stacked together.
 
-![Movin JSON to Tables]({{ site.baseurl}}/assets/making-out-with-json/json-to-table.jpg)
+![Movin JSON to Tables]({{ site.baseurl}}/assets/Making-out-with-JSON/json-to-table.jpg)
 
 Documents are collapsed into one file, any `keys` that are the same are stacked together. MongoDB won't freakout if theres a missing field, unlike SQL. It will simply write the field as null and be done with it!
 
