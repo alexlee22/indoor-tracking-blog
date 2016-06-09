@@ -27,4 +27,6 @@ Some notes I got after the presentation.
 
 Mainly focused the presentation on the thesis side of the project, so my presentation focused on the visualisation of movement and how I would go about that based on the findings. Alex was before me, so I didn't want to repeat myself by repeating what was already said - about technology, the database, the ethics. Whilst it was mentioned, it wasn't the main show.
 
-So the final presentation - I took those notes on board on cleaned it up just a little bit more. Can find it [here](https://docs.google.com/presentation/d/1RjLI0KlCy99NWqED6ou6aief7l5aHq1AGvqZj15unx0/edit?usp=drive_web). 
+So the final presentation - I took those notes on board on cleaned it up just a little bit more. Can find it [here](https://docs.google.com/presentation/d/1RjLI0KlCy99NWqED6ou6aief7l5aHq1AGvqZj15unx0/edit?usp=drive_web).
+
+<iframe src="https://docs.google.com/presentation/d/1RjLI0KlCy99NWqED6ou6aief7l5aHq1AGvqZj15unx0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
