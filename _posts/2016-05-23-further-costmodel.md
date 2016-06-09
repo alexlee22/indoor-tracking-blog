@@ -19,13 +19,13 @@ So for upscaling for this project, we have started to think carefully about how 
 
 These values are based off the number of RBPi's needed to occupy the area of ARUP with 5m, 7m, and 10m increments. 
 
-![5meters]({{ site.baseurl }}/assets/5meters.png)
+![5meters]({{ site.baseurl }}/assets/5meters.PNG)
 
-![7meters]({{ site.baseurl }}/assets/7meters.png)
+![7meters]({{ site.baseurl }}/assets/7meters.PNG)
 
-![10METERS]({{ site.baseurl }}/assets/10METERS.png)
+![10METERS]({{ site.baseurl }}/assets/10METERS.PNG)
 
-![RBPimplementation_costmodel]({{ site.baseurl }}/assets/RBPimplementation_costmodel.png)
+![RBPimplementation_costmodel]({{ site.baseurl }}/assets/RBPimplementation_costmodel.PNG)
 
 
 # Criticisms
