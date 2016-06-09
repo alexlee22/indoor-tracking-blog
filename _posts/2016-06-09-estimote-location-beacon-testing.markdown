@@ -1,7 +1,7 @@
 ---
 layout: post
 title: estimote location beacon testing
-date: 2016-06-09 12:00:00
+date: 2016-06-08 12:00:00
 type: post
 published: true
 status: publish
