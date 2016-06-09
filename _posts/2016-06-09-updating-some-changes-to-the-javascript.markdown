@@ -19,6 +19,7 @@ author: alex
 
 Heres what I did to fix this stuff and make it online kinda. There was just some changes to the `detectionDatabase`, moved some files stuff around and brake it till I made it. There was some stupid stuff with not paying attention (ie. agentId didnt have a capital D).
 
+~~~ js
 	return BeaconDetection
 		.find()
 		.sort({time: -1})
@@ -36,13 +37,16 @@ Heres what I did to fix this stuff and make it online kinda. There was just some
 			beacon.latest.time = outoflist.time;
 			return beacon
 		})
+~~~
 
 Changed the model to include the `Date` and `String` for the time and agentId.
 
+~~~ js
     latest: {
         time: Date,
         agent: String
     },
+~~~
 
 Lastly I changed the startup files in the `config` folder to see if we can track each other, didn't get time to test the stuff due to the testing of rssi/detections.
 
@@ -50,12 +54,16 @@ Lastly I changed the startup files in the `config` folder to see if we can track
 
 The current script uses a `.map` function which does a similar effect to the for loop, but it looks like the script isnt designed properly. When assigning the `beacon.last.agent` and `beacon.lastest.time` it is not applied to the proper format. I want to try and apply a `for` loop or try reassigning diffrent values.
 
+~~~ js
 	for (var x = 0; x < beacons.length; x++){
 	console.log(beacons[x].uuid);
 	}
+~~~
 
 Then apply this type of stuff
 
+~~~ js
 	.find({'uuid': beacons[i].uuid})
+~~~
 
 Need to play around with some more stuff and read some more JS stuff.
