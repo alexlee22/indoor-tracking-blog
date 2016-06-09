@@ -9,7 +9,7 @@ categories: []
 tags: []
 description: Experiment: Approaching Raspberry pi, two raspberry pi's 
 
-author: Tiara
+author: tiara
 ---
 
 Todays 
