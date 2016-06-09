@@ -25,7 +25,7 @@ raspi-config
 
 2. Enter sudo raspi-config in the terminal, then navigate to ssh, hit Enter and select Enable or disable ssh server
 
-#Download 
+# Download 
 
 ### Putty 
 
