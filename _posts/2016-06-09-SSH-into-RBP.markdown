@@ -62,6 +62,7 @@ The simplest way, however is to just plug your RBPi into a computer, and then ho
 Raspberry Pi default login and password are the following:
 
 ### Login as: pi
+
 ### Password: raspberry 
 
 
