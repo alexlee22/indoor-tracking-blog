@@ -13,7 +13,7 @@ author: tiara
 ---
 So for upscaling for this project, we have started to think carefully about how much it would cost to get this show on the road and implement the IPS into ARUP and BVN. 
 
-![costmodel]({{ site.baseurl }}/assets/costmodel.png)
+![costmodel]({{ site.baseurl }}/assets/costmodel.PNG)
 
 <b>https://docs.google.com/spreadsheets/d/1M43rWYlgAy95g27Mp202UL6_K9fjLoq766Cmmh3SibE/edit?usp=sharing</b>
 
