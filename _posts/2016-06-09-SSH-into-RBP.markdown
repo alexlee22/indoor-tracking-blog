@@ -9,14 +9,20 @@ categories: []
 tags: []
 description: Some set up thingys you might need to know
 
-author: Tiara
+author: tiara
 ---
 
 https://www.raspberrypi.org/documentation/remote-access/vnc/windows.md
 
 # SSH into Raspberry Pi 
 
-1. You can enable or disable the SSH server on the Raspberry Pi (it is enabled by default). This is done using ~~~bash raspi-config ~~~
+1. You can enable or disable the SSH server on the Raspberry Pi (it is enabled by default). This is done using 
+
+~~~ 
+bash
+raspi-config
+~~~
+
 2. Enter sudo raspi-config in the terminal, then navigate to ssh, hit Enter and select Enable or disable ssh server
 
 #Download 
