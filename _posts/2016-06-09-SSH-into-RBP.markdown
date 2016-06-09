@@ -57,4 +57,11 @@ There are a number of ways you can grab the IP address for the RBPi,
 
 The simplest way, however is to just plug your RBPi into a computer, and then hover over the wifi icon: your IP address(dynamic) should appear: 10.10.10.54 for example. 
 
+# SSH access: using Putty
+
+Raspberry Pi default login and password are the following:
+
+### Login as: pi
+### Password: raspberry 
+
 
