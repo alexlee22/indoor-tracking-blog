@@ -7,7 +7,7 @@ published: true
 status: publish
 categories: []
 tags: []
-description: a presentation for all the big kids: Supporting face-to-face interactions through spacial layout 
+description: A presentation for all the big kids: Supporting face-to-face interactions through spacial layout 
 
 author: tiara
 ---
