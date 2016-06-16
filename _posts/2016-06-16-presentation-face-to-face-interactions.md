@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Supporting face-to-face interactions through spacial layout: Presentation for Friday
+title: Mid Final Presentation 
 date: 2016-06-16 00:00:00
 type: post
 published: true
 status: publish
 categories: []
 tags: []
-description: A presentation for all the big kids 
+description: A presentation for all the big kids: Supporting face-to-face interactions through spacial layout. 
 
 author: tiara
 ---
