@@ -7,14 +7,12 @@ published: true
 status: publish
 categories: []
 tags: []
-description: A presentation for all the big kids: Supporting face-to-face interactions through spacial layout. 
+description: a presentation for all the big kids: Supporting face-to-face interactions through spacial layout 
 
 author: tiara
 ---
 
-### My presentation. 
-
-Last week in Cathy's class Research methods, each of us(Alex, Annisa and myself) all had a chance to do a presentation to our peers and some of the faculty staff at UNSW be. That was scary enough, but this week we are presenting to some big bosses at ARUP and BVN. 
+Last week in Cathy's class Research methods, each of us(Alex, Annisa and myself) all had a chance to do a presentation for our peers and some of the faculty staff at UNSW be. That was scary enough, but this week we are presenting to some big bosses at ARUP and BVN so our presentations need to be on point if we are going to stay in the game. 
 
 ### Some thoughts from the previous presentation include:
 
