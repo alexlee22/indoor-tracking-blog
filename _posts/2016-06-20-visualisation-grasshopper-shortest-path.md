@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Shortest path and visualization
-date: 2016-06-20 12:00:00
+date: 2016-06-20 10:00:00
 type: post
 published: true
 status: publish
