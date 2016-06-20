@@ -18,16 +18,16 @@ This morning, we had a short meeting with Ben and basically ran over where we we
 
 In Ben's words
 
-Simulated data: I'll Explain its purpose, explain how it works and explain GH section. The data will be FAR cleaner than the data you'll get, but it'll get you started. There's always the opportunity to add more complexity once we've got started.
-
-Should we build a simple system that they can understand end to end?
+> Simulated data: I'll Explain its purpose, explain how it works and explain GH section. The data will be FAR cleaner than the data you'll get, but it'll get you started. There's always the opportunity to add more complexity once we've got started.
+> 
+> Should we build a simple system that they can understand end to end?
 The current system is great, but has LOTS of moving parts. How do you all feel about making a simpler system that you can actually fully understand?
-
-Status of technology map: Where are we? What's still to do?
-
-Time line for the remaining time: What you all plan to do. This isn't to lock you in, it's to make sure that we can get rid of anything that you don't need to do and will just be a distraction.
-
-Experiments with 1d tracking: Fill me in on how they are going. Are you ready to do the data processing yet? 
+> 
+> Status of technology map: Where are we? What's still to do?
+> 
+> Time line for the remaining time: What you all plan to do. This isn't to lock you in, it's to make sure that we can get rid of anything that you don't need to do and will just be a distraction.
+> 
+> Experiments with 1d tracking: Fill me in on how they are going. Are you ready to do the data processing yet? 
 
 ### Moving forward
 
@@ -45,12 +45,12 @@ It was clear what needed to be done.
 
 Draw a timeline and mark on it for each week for how long it is going to take to write a thesis (eg: 1 month) as well as the experimentation and hacking. Then you'll know how long you have got to get all this stuff done. 
 
-### Questions to ask the goals you have set
+#### Questions to ask the goals you have set
 
-Are they realist expectations?
-Are they missing anything?
-Do they have all University imposed deadline on there?
-Are the outcomes clear?
+* Are they realist expectations?
+* Are they missing anything?
+* Do they have all University imposed deadline on there?
+* Are the outcomes clear?
 
 
 ### Task 1
@@ -68,11 +68,11 @@ Then using the base.json(swap the x,y co-ordinations) to match the values in the
 
 ### Task 4
 
-(Ben will help with this)Generate new data based on the layout. Going from one bast station to the other is only feasible because we know the special layout.
+(Ben will help with this) Generate new data based on the layout. Going from one bast station to the other is only feasible because we know the special layout.
 
 ### Task 5
 
-Create a walking mesh(NAV-mesh) for BVN and ARUP. only on the nodes you can walk to. (Make sure there is only traversable edges in areas you can walk to) Read Ben's and Dan's squat paper that will explain what a NAV-mesh does. A traversal graph(Dan can help). Create a mesh of places you can walk to in BVN. Tuning to change the density of the plan, but doesn't cut anywhere off  by accident. 
+Create a walking mesh(nav-mesh) for BVN and ARUP. only on the nodes you can walk to. (Make sure there is only traversable edges in areas you can walk to) Read Ben's and Dan's squat paper that will explain what a NAV-mesh does. A traversal graph(Dan can help). Create a mesh of places you can walk to in BVN. Tuning to change the density of the plan, but doesn't cut anywhere off  by accident. 
 
 Think about maybe needing to bake in Rhino and then bring back into GH to get rid of any computational problems.
 
