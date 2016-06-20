@@ -91,5 +91,5 @@ https://notionparallax.co.uk/2016/mongo
 
 ### Task 9
 
-Get your mental processes dialed in to be a hacker and check out Ben's blog: 
+Get your hacking dialed and check out Ben's blog: 
 https://notionparallax.co.uk/2016/a-thinking-trick-for-beginner-programmers
