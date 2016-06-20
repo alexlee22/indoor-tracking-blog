@@ -37,7 +37,7 @@ Using Ben's shortest path visualization map: https://notionparallax.co.uk/assets
 
 And the shortest path algorithm using grasshopper:
 
-![tx table]({{ site.baseurl }}/assets/grasshopper-shortest-path.png)
+![grasshopper-shortest-path]({{ site.baseurl }}/assets/grasshopper-shortest-path.jpg)
 
 It was clear what needed to be done. 
 
