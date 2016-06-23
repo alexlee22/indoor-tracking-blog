@@ -36,10 +36,10 @@ But for the funkier looking shapes, I had to divide the curves into more points 
 Had problems with the wall where it would not want to create the boundaries, so I traced around it and worked fine.
 
 Final shape:
-![obstructions]({{ site.baseurl }}/assets/obstacles/obstacles.PNG)
+![obstructions]({{ site.baseurl }}/assets/obstacles/obstructions.PNG)
 
 So afterwards, BD had went along and tested out the shortest path plugin and alas!
 
-![delaunay]({{ site.baseurl }}/assets/obstacles/delaunay.PNG)
+![delaunay]({{ site.baseurl }}/assets/obstacles/delaunay.jpg)
 
 Considering it takes a while to compute, will consider about reducing the delaunay mesh as we go along and refine the access point locations.
