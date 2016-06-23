@@ -24,15 +24,15 @@ Make sure you have the Grasshopper plug in for trialling ***shortest path*** Ins
 
 There has got to be a better way then how I did it so if you do know a better wya, please comment below. 
 
-Basically, Annisa in her last post kind of went over the process for getting the furniture outside of the region for testing path determination within ARUPS office, so I am no going to repeat what she said. All I am doing is showing how it can be implemented into BVN instead. 
+Basically, Anniza in her last post kind of went over the process for getting the furniture outside of the region for testing path determination within ARUPS office, so I am no going to repeat what she said. All I am doing is showing how it can be implemented into BVN instead. 
 
 ### Results 
 
-![BVN-shortest-path]({{ site.baseurl }}/assets/bvn_shortestPath.PNG)
+![bvn_shortestPath]({{ site.baseurl }}/assets/bvn_shortestPath.PNG)
 
 ### Grasshopper
 
-![BVN-shortest-path-grasshopper]({{ site.baseurl }}/assets/grasshopper_shortestPath_BVN.PNG)
+![Bgrasshopper_shortestPath_BVN]({{ site.baseurl }}/assets/grasshopper_shortestPath_BVN.PNG)
 
 You can find the actual files at this dropbox link: https://drive.google.com/folderview?id=0B57wYK0849PWaVBrNXVxbGpkZDg&usp=sharing 
 

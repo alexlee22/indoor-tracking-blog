@@ -1,30 +1,42 @@
 ---
 layout: post
-title: Updated Cost Model
-date: 2016-06-23 00:00:00
+title: BVN floor plan and Shortest path algorithm 
+date: 2016-06-23 09:00:00
 type: post
 published: true
 status: publish
 categories: []
 tags: []
-description: ...
-# 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
-twitter-body: you write here and it goes on the share for twitter
-featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
+description: Bring on the pain, BVN floorspace shortest path algorithm within grasshopper finished
 
-author: annisa
+author: tiara
 ---
 
-So, updated the cost model on [here](https://docs.google.com/spreadsheets/d/1M43rWYlgAy95g27Mp202UL6_K9fjLoq766Cmmh3SibE/edit?usp=drive_web).
+Part of accomplishing task 1, Anniza and I split the work for getting both the BVN and the ARUP floor plans ready for the shortest path algorithm within grasshopper. I drew the short straw and ended up modeling the whole BVN floor. 
 
-One thing both organisations have mentioned that cost isn't an issue, but nonetheless, this cost model helps to understand cost comparisons anyway. 
+After deleting all the shit hatching lines and obstruction lines within the floor plan drawings, the shortest algorithm within the grasshopper file was able to be flow throughout the plan. 
 
-Based on a RPI comparison chart found [here](https://drive.google.com/drive/folders/0BynqiTdA7wKZczQ5dGhpU0ZjVGc), we found that that RPI 2: B+ and RPI 3 is the most appropriate for this indoor tracking project. However, given that RPI2 needs additional hardware such as the WiFi and BLE dongles, thought that it might be worth checking and testing out the RPI 3 as it already has WiFi and BLE integrated into the technology. Its also cheaper the RPI 3 alone than buying RPI 2 with additional hardware by minimum $500. 
+### Grasshopper
 
-Testing the technology means:
-- Testing the RSSI 'accuracy' of RPI 2 vs RSSI of RPI 3
-- Accuracy meaning whether the RSSI fluctuates less, the RSSI when converting to distance.
+Make sure you have the Grasshopper plug in for trialling ***shortest path*** Installed. You can find it at http://www.food4rhino.com/project/shortestwalkgh?ufh
 
-Also found that the RPI2's are frequently stocked out or will take a while to stock back in as the resellers get the RPI's from other suppliers. 
+### Bring on the Pain 
 
-Also, still need to put in prices for SD cards, so will do that straight after this. 
+There has got to be a better way then how I did it so if you do know a better wya, please comment below. 
+
+Basically, Anniza in her last post kind of went over the process for getting the furniture outside of the region for testing path determination within ARUPS office, so I am no going to repeat what she said. All I am doing is showing how it can be implemented into BVN instead. 
+
+### Results 
+
+![bvn_shortestPath]({{ site.baseurl }}/assets/bvn_shortestPath.PNG)
+
+### Grasshopper
+
+![Bgrasshopper_shortestPath_BVN]({{ site.baseurl }}/assets/grasshopper_shortestPath_BVN.PNG)
+
+You can find the actual files at this dropbox link: 
+
+~~~ bash
+https://drive.google.com/folderview?id=0B57wYK0849PWaVBrNXVxbGpkZDg&usp=sharing 
+~~~
+
