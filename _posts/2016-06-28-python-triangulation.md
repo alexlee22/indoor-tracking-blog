@@ -37,7 +37,7 @@ I found these guys:
 ~~~
 bash 
 
-     import numpy
+     # import numpy
      import math
      import copy
 
