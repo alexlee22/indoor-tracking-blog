@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Experiment of Average detection Rpi 2 vs Rpi 3
+title: Experiment of Average detection
 date: 2016-06-28 00:00:00
 type: post
 published: true
