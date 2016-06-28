@@ -40,7 +40,13 @@ Time: we experiment 1, min 2 minute 10 minutes and found it wasn't a long enough
 > TT = Total time 
 > A  = Average detection of RSSi for a distance, 
 
+![set up 1]({{ site.baseurl }}/assets/setup1.jpg)
 
+![set up 2]({{ site.baseurl }}/assets/setup2.jpg)
+
+![set up 3]({{ site.baseurl }}/assets/setup3.jpg)
+
+![set up 4]({{ site.baseurl }}/assets/setup4.jpg)
 
 
 
