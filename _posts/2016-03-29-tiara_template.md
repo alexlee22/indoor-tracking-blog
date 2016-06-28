@@ -7,12 +7,12 @@ published: true
 status: publish
 categories: []
 tags: []
-description: breifing of triangulation and a python script to locate things in space.  
+description: briefing of triangulation and a python script to locate things in space.  
 
 author: tiara
 ---
 
-I started consulting a few blogs that discussed doing triangulation. I chose python as a scripting tool because it is built into grasshopper and can easily be translated to be used within the Rpi or database. That didn't stop me from looking into other coding directions, but I came across more python than anything else which was convienient. 
+I started consulting a few blogs that discussed doing triangulation. I chose python as a scripting tool because it is built into grasshopper and can easily be translated to be used within the Rpi or database. That didn't stop me from looking into other coding directions, but I came across more python than anything else which was convenient. 
 
 ### Triangulation 
 
@@ -28,7 +28,7 @@ In ancient times, it could be difficult to determine distances, especially for u
 >
 > Therefore we know that d = Ltan θ1+Ltan θ2, or solving for L and simplifying,  L=d⋅sin θ1⋅sin θ2sin (θ1+θ2).
 
-So how do we put this into something we can use, directing data straight from a source into any floor plan with any positons of recievers? 
+So how do we put this into something we can use, directing data straight from a source into any floor plan with any positions of receivers? 
 
 I found these guys:
 
@@ -344,7 +344,7 @@ class Delaunay2d:
 
 ### Moving forward
 
-Applying this to a grasshoper script which can plug and play any floor plan, any location of recievers(beacons: closest three, and then give us a location). Little steps!!
+Applying this to a Grasshopper script which can plug and play any floor plan, any location of receivers(beacons: closest three, and then give us a location). Little steps!!
 
 
 
