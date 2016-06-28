@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Experiment: Average detection & Rpi 2 vs Rpi 3
+title: Experiment of Average detection, Rpi 2 vs Rpi 3
 date: 2016-06-28 00:00:00
 type: post
 published: true
 status: publish
 categories: []
 tags: []
-description: Rpi 2 vs 3 and what is the average detection of RSSi over time. 
- 
+description: What is the average detection of RSSi over time. 
+
 author: tiara
 ---
 
