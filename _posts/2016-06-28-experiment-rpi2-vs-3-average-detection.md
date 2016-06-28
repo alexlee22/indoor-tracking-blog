@@ -7,7 +7,8 @@ published: true
 status: publish
 categories: []
 tags: []
-description: Which is better: Rpi 2 or 3 and what is the average detection of RSSi over time.  
+description: Rpi 2 vs 3 and what is the average detection of RSSi over time. 
+ 
 author: tiara
 ---
 
