@@ -12,8 +12,6 @@ description: Time-line breakdown and run-sheet for the rest of the semester
 author: tiara
 ---
 
-~~~ 
-
 So going further with the explanation of the time-line for the rest of the semester, I quickly wanted to run through a few goals for each step of the process of the project from now until it is due. 
 
 # Experimentation
