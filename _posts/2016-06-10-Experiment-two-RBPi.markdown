@@ -43,7 +43,7 @@ Roughly 25-27s walking 22m, so roughly 50-52s walking +- 22m.
 
 ### The actual Results 
 
-![results graphed]({{ site.baseurl }}/assets/{{results_graphed.PNG}})
+![results graphed]({{ site.baseurl }}/assets/{{results-graphed.PNG}})
 
 
 ### Problem with this outcome. 
