@@ -33,7 +33,7 @@ Using the last known three baseStations and their known distances apart, we can 
 
 ![triangle centroid]({{ site.baseurl }}/assets/trinagle-centroid.PNG)
 
-The potential issue with this, however is 1) determining which BaseStations are the closest, and 2) 
+The potential issue with this, however is 1) determining which BaseStations are the closest, and 2) differentiate between one path way and another. For example, the triangle may form at an opposite position form where it actually is. I hope to do some mock testing next week to test the veracity of this method. 
 
 ### Moving forward
 
