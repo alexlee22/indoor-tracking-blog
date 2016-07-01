@@ -23,9 +23,11 @@ So I began playing with some ideas of triangulation.  A traditional mode is expl
 
 ![triangle centroid]({{ site.baseurl }}/assets/normal-triangulation.PNG)
 
+
 So my thoughts are to use a modified version of a triangulation formula, but using an area/centroid calculation to find the point. 
 
 ![triangle centroid]({{ site.baseurl }}/assets/centroid-triangle.PNG)
+
 
 Using the last known three baseStations and their known distances apart, we can map where the person is by the centroid and the exclusion of the furniture, The results would look a little like this. 
 
