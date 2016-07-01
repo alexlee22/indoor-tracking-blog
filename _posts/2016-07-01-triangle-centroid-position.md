@@ -17,19 +17,19 @@ author: tiara
 
 Since the RSSi is not really giving a clear indication of an accurate proximity of a person, for example, in this image(credits to Annisa for drawing the graph), Rssi at 1m is the same as it is at 4m, we need another way of determining where a person is within a space. 
 
-![shitty rssi]({{ site.baseurl }}/assets/{{shitty-rssi.PNG)
+![shitty rssi]({{ site.baseurl }}/assets/shitty-rssi.PNG)
 
 So I began playing with some ideas of triangulation.  A traditional mode is explained in the diagram below, however the lengths(described by the lines within the triangle) are almost impossible to accurately determine based on the RSSi values) as explained above. 
 
-![triangle centroid]({{ site.baseurl }}/assets/{{normal-triangulation.PNG)
+![triangle centroid]({{ site.baseurl }}/assets/normal-triangulation.PNG)
 
 So my thoughts are to use a modified version of a triangulation formula, but using an area/centroid calculation to find the point. 
 
-![triangle centroid]({{ site.baseurl }}/assets/{{centroid-triangle.PNG)
+![triangle centroid]({{ site.baseurl }}/assets/centroid-triangle.PNG)
 
 Using the last known three baseStations and their known distances apart, we can map where the person is by the centroid and the exclusion of the furniture, The results would look a little like this. 
 
-![triangle centroid]({{ site.baseurl }}/assets/{{trinagle-centroid.PNG)
+![triangle centroid]({{ site.baseurl }}/assets/trinagle-centroid.PNG)
 
 The potential issue with this, however is 1) determining which BaseStations are the closest, and 2) 
 

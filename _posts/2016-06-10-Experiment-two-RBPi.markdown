@@ -25,7 +25,7 @@ Height of the RPI (ceiling or mid height)
 
 ### Set up 
 
-![experiment 5 set up]({{ site.baseurl }}/assets/{{exp5_setup.PNG}})
+![experiment 5 set up]({{ site.baseurl }}/assets/exp5_setup.PNG)
 
 2 different heights: mid height (...m) and just below ceiling (2.55m)
 -+ 10m, regular walking speed
@@ -39,11 +39,11 @@ Roughly 25-27s walking 22m, so roughly 50-52s walking +- 22m.
 
 ### The Expected Results
 
-![expected results]({{ site.baseurl }}/assets/{{expected_results.PNG}})
+![expected results]({{ site.baseurl }}/assets/expected_results.PNG)
 
 ### The actual Results 
 
-![results graphed]({{ site.baseurl }}/assets/{{results-graphed.PNG}})
+![results graphed]({{ site.baseurl }}/assets/results-graphed.PNG)
 
 
 ### Problem with this outcome. 
