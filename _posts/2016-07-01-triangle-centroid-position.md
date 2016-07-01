@@ -15,7 +15,7 @@ featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
 author: tiara
 ---
 
-Since the RSSi is not really giving a clear indication of an accurate proximity of a person, for example, in this image(credits to Annisa for drawing the graph), Rssi at 1m is the same as it is at 4m, we need another way of determining where a person is within a space. 
+Since the RSSi is not really giving a clear indication of an accurate proximity of a person, for example, in this image(credits to Annisa for drawing the graph), Rssi at 0m is the same as it is at 4m, we need another way of determining where a person is within a space. 
 
 ![shitty rssi]({{ site.baseurl }}/assets/shitty-rssi.PNG)
 
@@ -28,8 +28,7 @@ So my thoughts are to use a modified version of a triangulation formula, but usi
 
 ![triangle centroid]({{ site.baseurl }}/assets/centroid-triangle.PNG)
 
-
-Using the last known three baseStations and their known distances apart, we can map where the person is by the centroid and the exclusion of the furniture, The results would look a little like this. 
+Using the last known three baseStations and their known distances apart, we can map where the person is by the centroid and the exclusion of the furniture, The results would look a little like this. The Blue dots represent the location of the three nearest base stations to the received broad casted BLE by the estimote sticker(or whatever we end up using). The red is the actual position of the individual/centroid of the triangle, for an example. 
 
 ![triangle centroid]({{ site.baseurl }}/assets/trinagle-centroid.PNG)
 
