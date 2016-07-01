@@ -1,13 +1,16 @@
 ---
 layout: post
 title: Positions, triangles and centroids
-date: 2016-07-01 11:00:00
+date: 2016-07-01 0:00:00
 type: post
 published: true
 status: publish
 categories: []
 tags: []
 description: Centroid-triangulation method for locating a person indoors
+# 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
+twitter-body: you write here and it goes on the share for twitter
+featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
 
 author: tiara
 ---
