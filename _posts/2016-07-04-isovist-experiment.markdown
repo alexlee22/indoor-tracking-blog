@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Isovist Experiment
-date: 2016-07-04 00:00:00
+date: 2016-07-04 00:10:00
 type: post
 published: true
 status: publish
