@@ -15,7 +15,7 @@ featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
 author: annisa
 ---
 
-Last Thurs, an experiment was conducted at BVN. The write out of the experiment lives here (https://docs.google.com/document/d/1YinAsD2N56cFMge53XMncbp50QZECwIqkA5I-ptZ2r0/edit). Just to make it easier, this is what the experiment aims to do:
+Last Thurs, an experiment was conducted at BVN. The write out of the experiment lives [here](https://docs.google.com/document/d/1YinAsD2N56cFMge53XMncbp50QZECwIqkA5I-ptZ2r0/edit). Just to make it easier, this is what the experiment aims to do:
 
 Aims to determine the stability of the RSSI, what point do these values start to fluctate and become unreliable? The amount of detections and determine whether the RPI2 was superior to the RPI3 - and vice versa.
 
