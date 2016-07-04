@@ -12,7 +12,7 @@ description: First attempt at a GH for locating a person via the centroid of a t
 author: tiara
 ---
 
-So over the weekend I made a mock grasshopper script that uses the closest three BaseStations(points on a surface area) to try and locate a person based on the closest three BaseStations and the centroid of a triangle to try and map where the actual position of a person is. 
+So over the weekend I made a mock grasshopper script that uses the closest three BaseStations(points on a surface area) to try and pinpoint where the actual position of a person is. 
 
 ![shitty rssi]({{ site.baseurl }}/assets/centroid-triangle-grasshopper.PNG)
 
