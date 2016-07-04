@@ -1,13 +1,13 @@
 ---
 layout: post
-title: First attempt at GH for triangle and centroid 	
-date: 2016-07-04 11:00:00
+title: First attempt at GH for triangle and centroid
+date: 2016-07-04 0:00:00
 type: post
 published: true
 status: publish
 categories: []
 tags: []
-description: First attempt at a GH for locating a person via the centroid of a triangle. 
+description: First attempt at a GH for locating a person via the centroid of a triangle
 # 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 twitter-body: you write here and it goes on the share for twitter
 featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
