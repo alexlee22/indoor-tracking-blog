@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RSSI experiment
-date: 2016-05-12 12:00:00
+date: 2016-04-07 00:00:00
 type: post
 published: true
 status: publish
