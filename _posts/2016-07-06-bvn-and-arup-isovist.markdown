@@ -31,4 +31,8 @@ Based off the isovist script, ARUP will need 34 base stations. ARUP has many noo
  
 ![ARUP base stations]({{ site.baseurl }}/assets/isovist/ISOVIST_ARUP_FURN.PNG)
 
+Just some things to take note of:
+- If you look closely at any of the images, I closed off individual rooms so that the isovist is bounded by walls, even where the doors are - reason being is that as most of these rooms has the door closed, thought it would be more applicable. 
+- This isovist model isn't a very accurate reading - but rather an educated guess of how the signals would travel in the worst case scenario. In real world situations, the isovist model will not likely to be a perfect radius coming from the last post [here](http://where-in.space/2016/isovist-experiment). Also, the different environments would react differently to different situations. 
+
 The next part was extracing the XY coordinates. This is part of a simulation/animation that BD had started to brew up. Coordinates of BVN and ARUP can be found on github right [here](https://github.com/ArupAus/code2016/tree/master/helpers).
