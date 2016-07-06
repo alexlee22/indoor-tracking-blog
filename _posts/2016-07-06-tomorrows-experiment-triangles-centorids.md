@@ -43,3 +43,7 @@ So tomorrows experiment, is suppose to help with just that. It is suppose to hel
 
 I have made some progress with deferring the centroid to snap to the outskirts of the furniture layout if it lands within the furniture layout, however I don't want to put it up just yet as it needs some more tweeking. I think I can get it working properly by tomorrow arvo so Ill have something substantial for tomorrows blog. 
 
+### Also!
+
+I am going to try and combine the shortest path algorithm with the triangle centroid thingy I did in my previous blog. It will be a bit rough till I get this furniture thing going and I am not really sure how I will store the different values. 
+
