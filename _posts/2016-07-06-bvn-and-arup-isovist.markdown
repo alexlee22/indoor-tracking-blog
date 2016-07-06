@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BVN and ARUP isovist
-date: 2016-07-06 12:00:00
+date: 2016-07-06 00:10:00
 type: post
 published: true
 status: publish
