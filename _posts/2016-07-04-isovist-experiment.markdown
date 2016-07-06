@@ -47,3 +47,36 @@ Option 2:
 Walk around the circumference of the circle at slow walking speed with the estimote sticker always facing the estimote sticker - so the user is not to stand facing away from the receiver - e.g. side stepping. However, this way is less controlled as it can be difficult to determine at what point the signal was detected. This can be better with video however, still needs to be heavily thought of as it can be difficult to determine the location of a person around the radius with video. 
 
 ![5]({{ site.baseurl }}/assets/isovist/5.png)
+
+UPDATE:
+
+Option 3:
+
+Instead of hanging estimotes on the ceiling at equal distances around the circumference of a 1m circle, preferrable to use RPI's instead. One thing that was mentioned to me was that the options explained above would measure the signal interference of the RPI's instead of the beacons itself - suppose to be the other way around. 
+
+So with this in mind, there are 4 RPI's that are available to use tomorrow. Unfortunately there aren't enough RPI's - a few died and aren't enough to share around the lot of us. 
+
+But with the 4 that I do have, place them equally around the circumference of the 1m circle. Assuming that the RPI's attached directly to the top of the ceiling will affect the signal quality of the results, could possibly put a small cardboard box or 4 of whatever that is available that is lightweight that will separate the RPI and the concrete ceiling. 
+
+![6]({{ site.baseurl }}/assets/isovist/6.png)
+
+In the middle of the circle, a human will stand there with the beacon attached to them - preferrably worn as a necklace. There are now 2 different beacons that needed to be tested - the estimote sticker and the ibks105. The ibks105 could possibly replace the estimote stickers due the unrealiable results emitted from them. We'll hope to find some clarification concluding this experiment. 
+
+![7]({{ site.baseurl }}/assets/isovist/7.png)
+
+Run the testble.py script for about an hour or so - open for discussion. 
+
+This experiment will be conducted at BVN's training room. 
+
+Equipment needed:
+1 x ibks beacon
+1 x estimote sticker
+4 x RPI's
+Some tape and tape measure
+Long extension cords - need to ask IT, not sure if there are enough extension cords.
+
+Parameters:
+1m radius - RPI placed at 4 points of the circle
+Height of the RPI
+Orientation of the RPI, make sure BLE dongles are pointed directly towards the centre of the circle
+Oridentation of the person - make sure person does not rotate around the circle
