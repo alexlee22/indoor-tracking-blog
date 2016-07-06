@@ -25,12 +25,10 @@ Once I got a rough indication, let it run for a good 30 mins or so for each envi
 
 Starting at the BVN office, images say we needed around 27 base stations. Can argue that if we add more, it may mean better accuracy, better results etc. 
 
-image 
 ![BVN Base Stations]({{ site.baseurl }}/assets/isovist/ISOVIST_BVN_FURN.PNG)
 
 Based off the isovist script, ARUP will need 34 base stations. ARUP has many nooks and crannies in the office, so again, can also argue for more basestations. 
  
-image 
 ![ARUP base stations]({{ site.baseurl }}/assets/isovist/ISOVIST_ARUP_FURN.PNG)
 
 The next part was extracing the XY coordinates. This is part of a simulation/animation that BD had started to brew up. Coordinates of BVN and ARUP can be found on github right [here](https://github.com/ArupAus/code2016/tree/master/helpers).
