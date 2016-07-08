@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Experiment 6: Polar Pattern and detection averages
-date: 2016-07-08 00:00:00
+title: Experiment 6 Polar Pattern and detection averages
+date: 2016-07-08 10:00:00
 type: post
 published: true
 status: publish
