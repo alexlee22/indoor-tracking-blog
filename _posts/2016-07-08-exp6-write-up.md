@@ -1,13 +1,16 @@
 ---
 layout: post
 title: Experiment 6 Polar Pattern and detection averages
-date: 2016-07-08 09:00:00
+date: 2016-07-08 0:00:00
 type: post
 published: true
 status: publish
 categories: []
 tags: []
-description: Write up of experiment 6, some issues and steps for progression
+description: Write up of experiment 6, some issues and steps for progression 
+# 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
+twitter-body: you write here and it goes on the share for twitter
+featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
 
 author: tiara
 ---
