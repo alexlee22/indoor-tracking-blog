@@ -17,7 +17,7 @@ author: tiara
 
 So as requested by Ben I have included an experimental write up/diagram of what we did for the experiment 6 yesterday. 
 
-![shitty rssi]({{ site.baseurl }}/assets/exp6-wwriteup.jpg) 
+![shitty rssi]({{ site.baseurl }}/assets/exp6-setup.jpg) 
 
 # Fixed diagrams -kinda 
 
