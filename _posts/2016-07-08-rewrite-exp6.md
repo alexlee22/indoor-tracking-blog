@@ -21,7 +21,7 @@ So as requested by Ben I have included an experimental write up/diagram of what 
 
 # Fixed diagrams -kinda 
 
-These are fixed, kinda. I'm not really sure. I still think this is wrong, but anyways, here is what I came up ith when I moved the values of the rssi to their corresponding angle. That means when i was at 90 degrees, I worked out what was the RSSI value for that specific meter 
+These are fixed, kinda. I'm not really sure. I still think this is wrong, but anyways, here is what I came up with when I moved the values of the RSSi to their corresponding angle. That means when i was at 90 degrees, I worked out what was the RSSI value for that specific meter 
 
 ### Estimote
 
