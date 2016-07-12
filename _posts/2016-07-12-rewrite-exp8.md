@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Experiment 8: Determining closest Beacon
+title: Experiment 8 Determining closest Beacon
 date: 2016-07-12 0:00:00
 type: post
 published: true
