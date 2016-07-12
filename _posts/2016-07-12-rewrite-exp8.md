@@ -23,9 +23,9 @@ Annisa and I have been brainstorming today how we can determine which Base Stati
 
 Basically, the aim is to get the lowest time period possible for a relatively stable average for the rssi. You see in the first blue box, within 30 seconds, the average rssi value jumps between -60, and -57 between 1,2,3,4 meters. However hypothetically if the same experiment was conducted again but for a longer period of time, more rssi values would be received and therefore a more stable account of the average for that base station. 
 
-![experiment 8]({{ site.baseurl }}/assets/exp8_setup.jpg) 
+![experiment 8]({{ site.baseurl }}/assets/exp8_room1.jpg) 
 
-![experiment 8]({{ site.baseurl }}/assets/exp8_setup.jpg) 
+![experiment 8]({{ site.baseurl }}/assets/exp8_room2.jpg) 
 
 ### Analysis: Theoretcial saturation
 
