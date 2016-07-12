@@ -57,8 +57,6 @@ So another way is tracking someone with areas.
 
 So the image is meant to explain that , the pink dot is where the exact person is, but the person can also be anywhere within the area of the circle. So rather than using location, it also uses proximity to find the approximate area of where a person could potentially be. 
 
-This can go hand in hand with tiara's triangle/centroid thing. 
-
 However this method also needs the range of which the signal is classified as 'not applicable' - if that makes sense. Generally, for this method, similar to the isovist , need to find out what the signal falloff point is. This would be translated in distance to which I'm trying to avoid for now as distance does not equal accuracy. Thoughts?
 
 
