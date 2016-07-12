@@ -37,7 +37,7 @@ So...
 
 ![2]({{ site.baseurl }}/assets/closest beacon vis/2.png) 
 
-- Timeframe of detection: As mentioned, the RSSI value fluctuates per detection. So one second, the beacon can be closest to base station 1, but the following second, the beacon could be closest to beacon 2 when the person wearing the tracker has not moved. This would mean the person could as well be jumping and bouncing between one basestation to another in one second. 
+- Timeframe of detection: As mentioned, the RSSI value fluctuates per detection. So one second, the beacon can be closest to base station 1, but the following second, the beacon could be closest to base station 3 when the person wearing the tracker has not moved. This would mean the person could as well be jumping and bouncing between one basestation to another in one second. 
 
 ![3]({{ site.baseurl }}/assets/closest beacon vis/3.png) 
 
