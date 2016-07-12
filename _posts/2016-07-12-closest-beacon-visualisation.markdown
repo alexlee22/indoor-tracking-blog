@@ -17,7 +17,7 @@ author: annisa
 
 ### CLOSEST BEACON
 
-So one thing that we wanted to achieve but have not fully tackled it in terms of the visualisation is pulling the closest base station to a beacon - I'm trying to minimise the error margin and uncertainty. Whilst uncertainty may be good as it can open up more questions and things to build up upon, I wanted to create this visualisation as a way of finding proximity rather than exact location. 
+So one thing that we wanted to achieve but have not fully tackled it in terms of the visualisation is pulling the closest base station to a beacon. I wanted to create this visualisation as a way of finding proximity rather than exact location. 
 
 Based on the experiment found [here](http://where-in.space/2016/rssi-experiment), drawing the RSSI as a way of determining exactly how far a person is away from a particular base station can be quite challenging as the RSSI values fluctuate too much.
 
@@ -25,7 +25,7 @@ So rather than deciding to create a visualisation that relies upon the distance 
 
 ![1]({{ site.baseurl }}/assets/closest beacon vis/1.png) 
 
-...create a visualisation that finds the closest base station to a beacon. Based on that [experiment]( ), what it has sort of showed was that it can pick up the closest beacon to a particular base station to some degree. Whilst the results may fluctuate, the further away you are from a base station, the lower the signal gets. 
+...create a visualisation that finds the closest base station to a beacon. Based on that [experiment](http://where-in.space/2016/rssi-experiment), what it has sort of showed was that it can pick up the closest beacon to a particular base station to some degree. Whilst the results may fluctuate, the further away you are from a base station, the lower the signal gets. 
 
 #### What the basic methodology would look like:
 
