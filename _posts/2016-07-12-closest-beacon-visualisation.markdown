@@ -41,7 +41,7 @@ So...
 
 ![3]({{ site.baseurl }}/assets/closest beacon vis/3.png) 
 
-So just as an example, a base station picks up a ibks beacon which has say 2 detections for 5 seconds. As the RSSI fluctuates per detection, suggesting to average the RSSI for those 5 seconds. So rather than having the RSSI fluctuate between -50 to -80 within a few seconds, we can average and get a reading of say -60. But how do I know that averaging the values for 5 seconds is sufficient? or 10 seconds? etc Tiara says to do an experiment. 
+So just as an example, a base station picks up a ibks beacon which has say 2 detections for 5 seconds. As the RSSI fluctuates per detection, suggesting to average the RSSI for those 5 seconds. So rather than having the RSSI fluctuate between -50 to -80 every second, we can average and get a reading of say -60. But how do I know that averaging the values for 5 seconds is sufficient? or 10 seconds? etc Tiara says to do an experiment. 
 
 - So after that, extract the highest average RSSI value between all basestations for those 5 seconds - then determine which is the closest base station to a beacon. Then find the second set of 5 second intervals and implement the shortest path algorithm to determine its path. 
 
