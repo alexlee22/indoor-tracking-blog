@@ -37,6 +37,19 @@ Part of it is deciding at what point you are happy with the time difference and 
 
 If anything is unclear please let me know. Hopefully we will have some results to post for tomorrow's blog. 
 
+### Expected Data
+
+What we have noticed so far from our past experiments is there are major fluxuations in the rssi even even when the breacon isn't moving(gasp!). However, if we wait too long a time period to extract a stable indication of the average rssi during a time period, we might miss out on alot of movement during that time. 
+
+What we want to do is to compare the average rssi values over different periods of times and find what is sweet spot between a low time period and a stable rssi value reading at different distances apart. 
+
+### The Data
+
+Thanks to Annisa's hecktic illustrating skillage, (and my lack of the torrent for the program) we have created some 'expected data diagrams' for what we think experiment 8 will look like. 
+
+![experiment 8]({{ site.baseurl }}/assets/exp8/30 seconds.png)
+![experiment 8]({{ site.baseurl }}/assets/exp8/1 minute.png) 
+![experiment 8]({{ site.baseurl }}/assets/exp8/2 minute.png) 
 
 
 
