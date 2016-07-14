@@ -20,7 +20,7 @@ So coming from this experiment found [here](http://where-in.space/2016/exp7-othe
 
 Used the .json detection file to plot points into matplotlib and jupyter....and its actually kinda cool. Har-har i like it. Would probably use it from now on in replacement of any other. The code and raw files of the following graphs are also found [here](https://github.com/tuksun/BlankMindBlog/tree/gh-pages/helpers/experiments/exp7/raw_json). 
 
-##Results:
+## Results:
 
 So the first image represents all the detections that are detected within this time period with both the esimote sticker and ikbs105. Theres around 6000 more or less points in this graph. 
 
