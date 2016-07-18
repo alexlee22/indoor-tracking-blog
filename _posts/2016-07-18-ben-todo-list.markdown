@@ -17,7 +17,7 @@ author: tiara
 
 So after a meeting with the team, we need to start thinking seriously about the implementation of this project. 
 
-### Following up on Ben's todo list
+### Following up on Ben's to do list
 
 if your not sure, check out this link
 
@@ -29,7 +29,7 @@ The two files are located in the helpers file of this blog
 
 As an example of the file:
 
-![shitty rssi]({{ site.baseurl }}/assets/ BVN_basestation_locations.PNG) 
+![shitty rssi]({{ site.baseurl }}/assets/BVN_basestation_locations.PNG) 
 
 Planning to implement it into Ben's moving node system as well as integrate the grasshopper furniture boundaries within the plan as well by e.o.d tomorrow (fingers crossed)
 
@@ -41,7 +41,7 @@ This I think has been done. I could review the experiments tomorrow and mark any
 
 This we can do as a group. We have all agreed to spend 1 hour together tomorrow morning fleshing out our ideas for this. It will probably develop into a series of 3 phases. Stay tuned for more. 
 
-4. Getting people on board with being tracked
+### 4. Getting people on board with being tracked
 
 This is more of a diplomatic thing and so It is best to leave it too the professionals like Matthew at BVN and BCW at ARUP. I can draw up a quite explanation of what we are going to do and a short brief statement from each of us saying what we hope to achieve with the data. This would allow people to think through the benefits of taking part in the experiment and become actively participatory within the experiments. 
 
