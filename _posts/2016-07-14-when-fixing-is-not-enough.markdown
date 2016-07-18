@@ -1,7 +1,7 @@
 ---
 layout: post
 title: When Fixing is not Enough
-date: 2016-07-14 00:00:00
+date: 2016-07-14 0:00:00
 type: post
 published: true
 status: publish
