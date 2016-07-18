@@ -27,4 +27,4 @@ There's still a few problems with solving data memory issues. If the server cras
 
 I started to write the documents in greater detail and added a section on the git repository to add and explain the changes I made to the JavaScript. I also drew a map (in progress) of how the data is sent through queries to a person. The challenging will be making it possible to explain to someone technologically impaired. 
 
-![Diagram]({{ site.baseurl }}/assets/appliying-hotfixing-and-starting-documenting/dia.jpg)
+![Diagram]({{ site.baseurl }}/assets/diag.jpg)
