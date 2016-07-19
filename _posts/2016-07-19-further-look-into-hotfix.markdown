@@ -7,7 +7,7 @@ published: false
 status: publish
 categories: []
 tags: []
-description: Funny Sub-Title
+description: Why its necessary at this point
 # 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 twitter-body: you write here and it goes on the share for twitter
 featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
@@ -90,4 +90,6 @@ I spent some more time cleaning up and completing the hotfix and started to docu
 
 ### Why? and whats next?
 
-The server was crashing with a collection of 800k detections. Both streaming and searching through the collection caused crashes and an attempt to aggrigate did not help reduce the crash variable.
+The server was crashing with a collection of 800k detections. Both streaming and searching through the collection caused crashes and an attempt to aggrigate did not help reduce the crash variable. With attempts to make a new query and fix the old ones, the methords were uncessfull. So to set up a back-up plan if we can't figure out the soluiton, this type of hotfix was necessary. I designed the way it flows based on the probmes that had occured: database was too large and/or the query was crook.
+
+With this shell script, we can find the approximate maximum amount of documents before the query crashes the server, which will allow us to possibly understand what could be wrong with the query. I have a feeling that the stream/ and aggregate query can only take in an amount before. It could also not be cleaning after each document due to its humongouse collection size which might crash when it only gets 1/2 way though. Not 100% sure how Javascript actually works
