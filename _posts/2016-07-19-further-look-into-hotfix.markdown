@@ -3,7 +3,7 @@ layout: post
 title: Further look into hotfix
 date: 2016-07-19 0:00:00
 type: post
-published: false
+published: true
 status: publish
 categories: []
 tags: []
@@ -15,9 +15,9 @@ featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
 author: alex
 ---
 
-### Rxplaining the Hotfix
+### Explaining the Hotfix
 
-I spent some more time cleaning up and completing the hotfix and started to document the process. The hotfix allows us to save past data and maintain a real-time indoor tracking system. Storing the information and restting the collection allows for the server to maintain and clean the process without having to increase the memory excessivley. It is not a scable solution at this point, the query will need further looking into. Heres the documentation on the process of the shell script.
+I spent some more time cleaning up and completing the hotfix and started to document the process. The hotfix allows us to save past data and maintain a real-time indoor tracking system. Storing the information and resetting the collection allows for the server to maintain and clean the process without having to increase the memory excessively. It is not a scalable solution at this point, the query will need further looking into. Here’s the documentation on the process of the shell script.
 
         # - NOTE - # Manditory, tells you and the computer where to access the shell back end stuff, like how you would with a python script.
         #! /bin/sh
@@ -31,7 +31,7 @@ I spent some more time cleaning up and completing the hotfix and started to docu
         {
 
 
-        # - NOTE - # An old concept of removing the 'crashed' server before extracting the data from the beacondetections collection. The port in which it checks is consistant, therefore will allways remove the existing server. May be needed if more resets are occuring but is currently not active.
+        # - NOTE - # An old concept of removing the 'crashed' server before extracting the data from the beacondetections collection. The port in which it checks is consistent, therefore will always remove the existing server. May be needed if more resets are occurring but is currently not active.
         #sudo kill `sudo lsof -t -i:9000`
 
 
@@ -66,7 +66,7 @@ I spent some more time cleaning up and completing the hotfix and started to docu
         sleep 60
 
 
-        # - NOTE - # Start the infiniate checking loop to see if the server is up. IF up don't do anything but IF down restart the process
+        # - NOTE - # Start the infinite checking loop to see if the server is up. IF up don't do anything but IF down restart the process
         while $highnoon;
         do
                 # Check if port is in use, in which the server will be running
@@ -88,8 +88,8 @@ I spent some more time cleaning up and completing the hotfix and started to docu
         #Restart loop
         done
 
-### Why? and whats next?
+### Why? and what’s next?
 
-The server was crashing with a collection of 800k detections. Both streaming and searching through the collection caused crashes and an attempt to aggrigate did not help reduce the crash variable. With attempts to make a new query and fix the old ones, the methords were uncessfull. So to set up a back-up plan if we can't figure out the soluiton, this type of hotfix was necessary. I designed the way it flows based on the probmes that had occured: database was too large and/or the query was crook.
+The server was crashing with a collection of 800k detections. Both streaming and searching through the collection caused crashes and an attempt to aggregate did not help reduce the crash variable. With attempts to make a new query and fix the old ones, the methods were unsuccessful. So to set up a back-up plan if we can't figure out the solution, this type of hotfix was necessary. I designed the way it flows based on the problems that had occurred: database was too large and/or the query was crook.
 
-With this shell script, we can find the approximate maximum amount of documents before the query crashes the server, which will allow us to possibly understand what could be wrong with the query. I have a feeling that the stream/ and aggregate query can only take in an amount before. It could also not be cleaning after each document due to its humongouse collection size which might crash when it only gets 1/2 way though. Not 100% sure how Javascript actually works
+With this shell script, we can find the approximate maximum amount of documents before the query crashes the server, which will allow us to possibly understand what could be wrong with the query. I have a feeling that the stream/ and aggregate query can only take in an amount before. It could also not be cleaning after each document due to its humongous collection size which might crash when it only gets 1/2 way though. Not 100% sure how JavaScript actually works.
