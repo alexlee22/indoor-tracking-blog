@@ -15,9 +15,9 @@ featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
 author: alex
 ---
 
+### Rxplaining the Hotfix
 
-
-Heres the documentation on the process of the shell script.
+I spent some more time cleaning up and completing the hotfix and started to document the process. The hotfix allows us to save past data and maintain a real-time indoor tracking system. Storing the information and restting the collection allows for the server to maintain and clean the process without having to increase the memory excessivley. It is not a scable solution at this point, the query will need further looking into. Heres the documentation on the process of the shell script.
 
         # - NOTE - # Manditory, tells you and the computer where to access the shell back end stuff, like how you would with a python script.
         #! /bin/sh
@@ -87,3 +87,7 @@ Heres the documentation on the process of the shell script.
 
         #Restart loop
         done
+
+### Why? and whats next?
+
+The server was crashing with a collection of 800k detections. Both streaming and searching through the collection caused crashes and an attempt to aggrigate did not help reduce the crash variable.
