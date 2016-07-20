@@ -1,0 +1,8 @@
+[
+  { "name": "alex",   "basestation": "Alpha",  "time": "2016-07-12T09:52:24.117117" },
+  { "name": "annisa", "basestation": "Bravo",  "time": "2016-07-12T09:52:26.021353" },
+  { "name": "tiara",  "basestation": "Kilo",   "time": "2016-07-12T09:52:28.893738" },
+  { "name": "alex",   "basestation": "Bravo",  "time": "2016-07-12T09:52:19.344178" },
+  { "name": "annisa", "basestation": "Kilo",   "time": "2016-07-12T09:52:29.852827" },
+  { "name": "tiara",  "basestation": "Alpha",  "time": "2016-07-12T09:52:29.852827" }
+]

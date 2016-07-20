@@ -12,6 +12,41 @@ description: Plan for getting where in space into ARUP and BVN offices
 author: tiara
 ---
 
+import json file in gh done
+
+load and read json file done
+
+create script that will read the X, Y numbers from the json file and translate it into coordinates that gh can read done
+
+based on the detections json file: create script that will read the json file done
+
+split up the json file into person by person and identify which basestation detected the person in order (based by time)
+
+e.g. Annisa detected by:
+ Alpha T12:23:01:232435
+ Bravo T12:24:01:232435
+done
+
+Reference the basestation detections as the start and end point of the path by Annisa
+
+Complete shortest walk path
+
+Join start and end points at one time frame to another start and end points to make a continuous path.
+
+for points in data
+if basestation in data == basestation detection in detections
+reference points at basestation in data 
+make point A as [0] in list
+make B as [1] in list
+make C as [1] in list
+make D as [2] in list
+
+in theory this will join the lines up
+
+if annisa is picked up by bravo, reference point at bravo XY
+
+
+
 
 # Where in space: Deployment Plan
 
