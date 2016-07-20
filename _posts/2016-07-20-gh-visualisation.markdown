@@ -47,7 +47,8 @@ Join start and end points at one time frame to another start and end points to m
 
 Something I want to acheive of if there are other ways (the mapping thing): 
 
-if basestation in data (BS json file) == basestation detection in detections (fakedata json file)
+if basestation in data (BS json file) == basestation detection in detections (fakedata json file) , rather than splitting up python script, reference both json files into one
+
 rs.add point (check if there is a 'reference' or something rather to reference points from the BS python script)
 
 Coordinate the index so that: 
