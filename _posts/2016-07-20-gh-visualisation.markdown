@@ -58,11 +58,11 @@ rs.add point (check if there is a 'reference' or something rather to reference p
 
 Coordinate the index so that: 
 
-*make point A as [0] in detection list
+* make point A as [0] in detection list
 
 * make B as [1] in detection list
 
-*make C as [1] in detection list
+* make C as [1] in detection list
 
 * make D as [2] in detection list
 
