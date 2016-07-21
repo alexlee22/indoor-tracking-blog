@@ -28,10 +28,10 @@ def makeSpoofUUIDs(thisMany, make_fresh)
                "rgb(128, 177, 211)","rgb(253, 180, 98)" ,"rgb(179, 222, 105)","rgb(252, 205, 229)",
                "rgb(217, 217, 217)","rgb(188, 128, 189)","rgb(204, 235, 197)","rgb(255, 237, 111)"].shuffle #TODO, this will fail with more than 12 paths
     thisMany.times do
-      sampleUUIDs << {"Name"=>names.pop, "UUID"=> uuidSpoofer(), "Colour"=>colours.pop}
+      sampleUUIDs << {:Name=>names.pop, :UUID=> uuidSpoofer(), :Colour=>colours.pop}
     end
     File.open("uuid_data.json", 'w') { |file|
-      file.write(sampleUUIDs.to_json)
+      file.write JSON.pretty_generate(sampleUUIDs)
     }
   else
     puts "using existing UUIDS"
@@ -83,7 +83,7 @@ end
 def get_movement_data(numberOfRecordings, makeNewMovementData, now)
   if makeNewMovementData
     puts "using new movement data"
-    File.open("movement_data_#{$identifier}.json", 'w') { |file|
+    File.open("sim_movement_data/movement_data_#{$identifier}.json", 'w') { |file|
 
       origin_time = now
       all_paths = []
@@ -93,12 +93,14 @@ def get_movement_data(numberOfRecordings, makeNewMovementData, now)
         move_mode = true
         now = origin_time # reset this for each person or paths will have staggered starts
         this_persons_path = []
+        uuid = personHash["UUID"]
+        name = personHash["Name"]
 
         numberOfRecordings.times do |index|
-          # puts move_mode
-          if move_mode
-            #add a movement
-            now  = now + seconds2days(rand(5))          # advance time just a little bit or all the time stamps will be the same
+          timeFormat = "%Y-%m-%d %H:%M:%S %Z"
+
+          now  = now + seconds2days(rand(2.0...7.0)) # advance time just a little bit or all the time stamps will be the same
+          if move_mode #add a movement
 
             if index == 0
               base = ($bases.sample)["Name"] #first time around, no previous base
@@ -106,34 +108,42 @@ def get_movement_data(numberOfRecordings, makeNewMovementData, now)
               base = pick_a_base_in_range(this_persons_path.last[:base])
             end
 
-            this_persons_path << { "Time": now.strftime("%Y-%m-%d %H:%M:%S %Z"), # dont format the new time, can't work with it as a string,
-                                   "RSSI": rand(200)-100,                        # pick a random number for rssi,
-                                   "base": base,                                 # pick a base station in range,
-                                   "UUID": personHash["UUID"],                   # record uuid
-                                   "Name_dont_use": personHash["Name"]           # Not in the real data, just friendlier to work with
-                                 }
+            temp_path = { :Time          => now.strftime(timeFormat),      # dont format the new time, can't work with it as a string,
+                          :RSSI          => rand(200)-100,                 # pick a random number for rssi,
+                          :base          => base,                          # pick a base station in range,
+                          :UUID          => uuid,                          # record uuid
+                          :Name_dont_use => name,                          # Not in the real data, just friendlier to work with
+                        }
+            this_persons_path << temp_path
             move_mode = flip(move_mode, $stay_moving) # should we flip move mode? 95% chance of staying the same
-          else
-            #add the same position
-            this_persons_path << this_persons_path.last
+          else #add the same position
+            temp_path = { :Time          => now.strftime(timeFormat),      # dont format the new time, can't work with it as a string,
+                          :RSSI          => rand(200)-100,                 # pick a random number for rssi,
+                          :base          => this_persons_path.last[:base], # pick a base station in range,
+                          :UUID          => uuid,                          # record uuid
+                          :Name_dont_use => name,                          # Not in the real data, just friendlier to work with
+                        }
+            this_persons_path << temp_path
+
             move_mode = flip(move_mode, $stay_still) # should we flip move mode? 95% chance of staying the same
           end
+
         end
-        # puts this_persons_path
         all_paths << this_persons_path
       end
+      # puts all_paths
       all_paths.flatten!.sort_by { |hsh| hsh["Time"] }
-      file.write all_paths.to_json
+      file.write JSON.pretty_generate(all_paths)
     }
   else
     puts "using existing movement data"
   end
-  movement_data = JSON.parse( File.read('movement_data.json') )
+  movement_data = JSON.parse( File.read($sim_movement_data_path + 'movement_data.json') )
   return movement_data
 end
 
 def get_bases(fileName)
-  return JSON.parse(File.read(fileName))
+  return JSON.parse(File.read($base_station_path + fileName))
 end
 
 def build_svg()
@@ -150,12 +160,13 @@ def build_svg()
       # base_markers << "<circle cx=\"#{b["X"]}\" cy=\"#{b["Y"]}\" r=\"180\" class=\"ranging\"/>"
       nameTxt = "<text x=\"#{b["X"] + $base_radius}\" y=\"#{b["Y"]}\">#{b["Name"]}</text>"
       base_markers << nameTxt
-      puts "Name: " << nameTxt
+      # puts "Name: " << nameTxt
     end
     svg_extras =  svg_outline << "<g>" << base_markers <<"</g>"
     return svg_head << arrow_marker_defs << svg_extras <<  meat  << svg_tail
   end
 
+  puts $people_paths
   svg_paths = ""
   $people_paths.each do |uuid|
     # e.g. "<polyline points = \"20,20 40,25 60,40 80,120 120,140 200,180\" />"
@@ -187,7 +198,6 @@ def build_svg()
     # person_hash = sampleUUIDs.select { |a| a["UUID"] == uuid["UUID"] }
     # puts "person_hash",person_hash
   end
-
   return svg_wrap_meat_in_fluff(svg_paths)
 end
 
@@ -214,7 +224,7 @@ end
 def build_legend()
   table = "<table>"
   $sampleUUIDs.each do |p|
-    puts p
+    # puts p
     table << "<tr><td class=\"#{p["UUID"]}\" >#{p["Name"]}</td></tr>"
   end
   table << "</table>"
@@ -235,11 +245,8 @@ def save_html()
   "</html>"
 
   File.open("paths_#{$identifier}.html", 'w') { |file|
-        file.write(html_doc)
-      }
-
-
-  # puts html_doc
+    file.write( html_doc )
+  }
 end
 
 def json_to_point_spacings()
@@ -273,9 +280,11 @@ $stay_moving = 70
 $stay_still  = 90
 $dot_speed = 20 #seconds to complete path
 
+$sim_movement_data_path = "sim_movement_data/"
+$base_station_path = "basestation_location/"
 # $file_name = 'bases.json'
-$file_name = 'baseStations_ARUP.json'
-# $file_name = 'baseStations_BVN.json'
+# $file_name = 'baseStations_ARUP.json'
+$file_name = 'baseStations_BVN.json'
 $identifier = $file_name.split(".")[0]
 
 $bases = get_bases($file_name)
@@ -296,10 +305,11 @@ movement_data = get_movement_data(numberOfRecordings, makeNewMovementData, now)
 
 # This builds lists of each person's movements
 $people_paths = []
+puts "$sampleUUIDs:",$sampleUUIDs
+# puts "movement_data", movement_data
 $sampleUUIDs.each do |uuid_pair|
   $people_paths << movement_data.select { |a| a["UUID"] == uuid_pair["UUID"] }
 end
-# puts "people_paths:\n", people_paths
 
 
 save_html()
