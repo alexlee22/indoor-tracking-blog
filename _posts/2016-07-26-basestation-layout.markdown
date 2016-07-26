@@ -35,7 +35,6 @@ Unfortunately couldn't put the rest of the basestations on cabled pillars as the
 As ARUP's basestations were not that far apart from each other, increased the density of the basestations at BVN - would also make for better results as they were originally around 7m apart from one another. At the moment they are still in the middle of workstations, I can move it to the end if its better. Can also question to add more. According to the Rhino file, there's 38 basestations - can add more too (open for discussion).
 
 ![BVN basestation]({{ site.baseurl }}/assets/gh visualisation/basestations_BVN.PNG)
-![BVN isovist]({{ site.baseurl }}/assets/gh visualisation/isovist_BVN.PNG)
 
 ### Files
 These files live in > helpers/gh_visualisation/visualisation with almost everything/01_Isovist_basestationLayout.gh<
