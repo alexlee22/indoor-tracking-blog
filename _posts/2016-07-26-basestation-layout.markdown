@@ -45,27 +45,12 @@ If you look at the Rhino file, you should be able to see `_gh_boundary_isovist` 
 
 Cleaned these files out. Traced out the outer boundary with some furniture if they were close enough to each other, so it did reduce the amount of the convex hulls but there is still a few in there in the files. These files live in `helpers/gh_visualisation/visualisation with almost everything/02_InnerBoundaries.gh`
 
-BVN
-![BVN boundary]({{ site.baseurl }}/assets/gh visualisation/boundary_BVN.PNG)
-
-ARUP 
-![ARUP boundary]({{ site.baseurl }}/assets/gh visualisation/boundary_ARUP.PNG)
-
 ## Nav-mesh/Delaunay
 
-Because the floor plan wasn't dense enough with 8000 or so points, there was the occasional gap in the line where the edge of the line couldn't meet up with the rest of the mesh which meant that area wasn't really a walkable path. 
-
-image
-
-Increased the point density to 18000 points - this definately made sure it was pretty walkable everywhere - however, as you can see from the image below, there were instances where the mesh would spill over the obstacles, there wasn't this problem with ARUP.
+Because the floor plan wasn't dense enough with 8000 or so points, there was the occasional gap in the line where the edge of the line couldn't meet up with the rest of the mesh which meant that area wasn't really a walkable path. Increased the point density to 18000 points - this definately made sure it was pretty walkable everywhere - however, as you can see from the image below, there were instances where the mesh would spill over the obstacles, there wasn't this problem with ARUP.
 
 ![Spill Over Boundaries]({{ site.baseurl }}/assets/gh visualisation/spill_BVN.PNG) 
-
-BVN
-![BVN navmesh]({{ site.baseurl }}/assets/gh visualisation/boundary_BVN.PNG)
-
-ARUP
-image
+![Navmesh]({{ site.baseurl }}/assets/gh visualisation/navmesh_BVN.PNG) 
 
 These files live in `helpers/gh_visualisation/visualisation with almost everything/03_navGraph.gh`
 
