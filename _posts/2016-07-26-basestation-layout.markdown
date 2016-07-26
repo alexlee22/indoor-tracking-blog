@@ -59,7 +59,7 @@ image
 
 Increased the point density to 18000 points - this definately made sure it was pretty walkable everywhere - however, as you can see from the image below, there were instances where the mesh would spill over the obstacles, there wasn't this problem with ARUP.
 
-![Spill Over Boundaries]({{ site.baseurl }}/assets/gh visualisation/spill.PNG) 
+![Spill Over Boundaries]({{ site.baseurl }}/assets/gh visualisation/spill_BVN.PNG) 
 
 BVN
 ![BVN navmesh]({{ site.baseurl }}/assets/gh visualisation/boundary_BVN.PNG)
