@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Catching up on blogposts
+title: Basestation layout, shortest path
 date: 2016-07-26 00:00:00
 type: post
 published: true
@@ -35,20 +35,21 @@ Unfortunately couldn't put the rest of the basestations on cabled pillars as the
 As ARUP's basestations were not that far apart from each other, increased the density of the basestations at BVN - would also make for better results as they were originally around 7m apart from one another. At the moment they are still in the middle of workstations, I can move it to the end if its better. Can also question to add more. According to the Rhino file, there's 38 basestations - can add more too (open for discussion).
 
 ![BVN basestation]({{ site.baseurl }}/assets/gh visualisation/basestations_BVN.PNG)
+![BVN isovist]({{ site.baseurl }}/assets/gh visualisation/isovist_BVN.PNG)
 
 ### Files
-These files live in > helpers/gh_visualisation/visualisation with almost everything/01_Isovist_basestationLayout.gh<
-If you look at the Rhino file, you should be able to see _gh_boundary_isovist and _gh_boundary_outer boundary layers. These layers are different as I had to use a separate curve for the isovist to get the outer most boundary for the isovist. The '_gh_boundary_outer' layer also gets the outer most boundary but also includes some furniture to reduce the amount of convex hulls later in the process. 
+These files live in `helpers/gh_visualisation/visualisation with almost everything/01_Isovist_basestationLayout.gh`
+If you look at the Rhino file, you should be able to see `_gh_boundary_isovist` and `_gh_boundary_outer boundary` layers. These layers are different as I had to use a separate curve for the isovist to get the outer most boundary for the isovist. The `_gh_boundary_outer` layer also gets the outer most boundary but also includes some furniture to reduce the amount of convex hulls later in the process. 
 
 ## Obstacles - Inner Boundary
 
-Cleaned these files out. Traced out the outer boundary with some furniture if they were close enough to each other, so it did reduce the amount of the convex hulls but there is still a few in there in the files. These files live in >helpers/gh_visualisation/visualisation with almost everything/02_InnerBoundaries.gh<
+Cleaned these files out. Traced out the outer boundary with some furniture if they were close enough to each other, so it did reduce the amount of the convex hulls but there is still a few in there in the files. These files live in `helpers/gh_visualisation/visualisation with almost everything/02_InnerBoundaries.gh`
 
 BVN
-image
+![BVN boundary]({{ site.baseurl }}/assets/gh visualisation/boundary_BVN.PNG)
 
 ARUP 
-image
+![ARUP boundary]({{ site.baseurl }}/assets/gh visualisation/boundary_ARUP.PNG)
 
 ## Nav-mesh/Delaunay
 
@@ -56,43 +57,45 @@ Because the floor plan wasn't dense enough with 8000 or so points, there was the
 
 image
 
-Increased the point density to 18000 points - this definately made sure it was pretty walkable everywhere - however, as you can see from the image below, there were instances where the mesh would spill over the obstacles, there wasn't this problem with ARUP. 
+Increased the point density to 18000 points - this definately made sure it was pretty walkable everywhere - however, as you can see from the image below, there were instances where the mesh would spill over the obstacles, there wasn't this problem with ARUP.
+
+![Spill Over Boundaries]({{ site.baseurl }}/assets/gh visualisation/spill.PNG) 
 
 BVN
-image
+![BVN navmesh]({{ site.baseurl }}/assets/gh visualisation/boundary_BVN.PNG)
 
 ARUP
 image
 
-These files live in >helpers/gh_visualisation/visualisation with almost everything/03_navGraph.gh<
+These files live in `helpers/gh_visualisation/visualisation with almost everything/03_navGraph.gh`
 
 ## Basestation to Basestation
 
 So this is stemming off my previous fluff post (I'll still put diagrams on that page dont you worry). This is just a starting point to each of our angles - whether it may be closest beacon or triangles and centroids. What this script does is that it firstly finds the XY coordinates of each basestation that was layed out at 'Isovist Basestation Layout' - right now these basestations are named. These XY coords are driven by a json file that has these basestations and their coordinates. 
 
-And with a separate file (which will be the json detections file, also the script is just using a fake detections json file),
+And with a separate file (which will be the json detections file, also the script is just using a fake detections json file)...
 
 ~~~
 [
-  { "name": "alex",   "basestation": "Kilo",  "time": "2016-07-12T09:52:24.117117" },
-  { "name": "annisa", "basestation": "Bravo", "time": "2016-07-12T09:52:26.021353" },
-  { "name": "tiara",  "basestation": "Spock", "time": "2016-07-12T09:52:28.893738" },
-  { "name": "alex",   "basestation": "Lima",  "time": "2016-07-12T09:52:19.344178" },
-  { "name": "annisa", "basestation": "Papa",  "time": "2016-07-12T09:52:29.852827" },
-  { "name": "tiara",  "basestation": "Alpha", "time": "2016-07-12T09:52:29.852827" },
-  { "name": "alex",   "basestation": "Kilo",  "time": "2016-07-12T09:52:24.117117" },
-  { "name": "annisa", "basestation": "Bravo", "time": "2016-07-12T09:52:26.021353" },
-  { "name": "tiara",  "basestation": "Golf",  "time": "2016-07-12T09:52:28.893738" },
-  { "name": "alex",   "basestation": "Neil",  "time": "2016-07-12T09:52:19.344178" },
-  { "name": "annisa", "basestation": "Golf",  "time": "2016-07-12T09:52:29.852827" },
-  { "name": "tiara",  "basestation": "Sierra", "time": "2016-07-12T09:52:29.852827"}
+  { "name": "alex",   "basestation": "Alpha",    "time": "2016-07-12T09:52:24.117117"  },
+  { "name": "annisa", "basestation": "Kilo",     "time": "2016-07-12T09:52:26.021353"  },
+  { "name": "tiara",  "basestation": "Jean",     "time": "2016-07-12T09:52:28.893738"  },
+  { "name": "alex",   "basestation": "Yankee",   "time": "2016-07-12T09:52:19.344178"  },
+  { "name": "annisa", "basestation": "Zoo",      "time": "2016-07-12T09:52:29.852827"  },
+  { "name": "tiara",  "basestation": "Polar",    "time": "2016-07-12T09:52:29.852827"  },
+  { "name": "alex",   "basestation": "Uniform",  "time": "2016-07-12T09:52:24.117117"  },
+  { "name": "annisa", "basestation": "Echo",     "time": "2016-07-12T09:52:26.021353"  },
+  { "name": "tiara",  "basestation": "Quebec",   "time": "2016-07-12T09:52:28.893738"  },
+  { "name": "alex",   "basestation": "Wine",     "time": "2016-07-12T09:52:19.344178"  },
+  { "name": "annisa", "basestation": "Charlie",  "time": "2016-07-12T09:52:29.852827"  },
+  { "name": "tiara",  "basestation": "Yankee",   "time": "2016-07-12T09:52:29.852827"  }
 ]
 ~~~
 
-use the basestation that detected the person as a point in space of where they are - then maps a path between basestation A to basestation B, then also maps from basestation B to basestation C etc to make one continuous path. However, should be noted that it does not look at time nor rssi at this point in time. Also thanks to the people who helped (you the MVP). 
+...use the basestation that detected the person as a point in space of where they are - then maps a path between basestation A to basestation B, then also maps from basestation B to basestation C etc to make one continuous path. However, should be noted that it does not look at time nor rssi at this point in time. Also thanks to the people who helped (you the MVP). 
 
 Expected Path
-image
+![BVN expected path]({{ site.baseurl }}/assets/gh visualisation/path.PNG)
 
 With Boundaries
-image
+![BVN shortest path]({{ site.baseurl }}/assets/gh visualisation/expectedpath.PNG)
