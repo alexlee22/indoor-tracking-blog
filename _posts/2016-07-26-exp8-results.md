@@ -20,28 +20,28 @@ What we had hopes would happen is that when we compared the different graphs tog
 
 ### The results at time intervals 30 seconds 
 
-![experiment 8]({{ site.baseurl }}/assets/exp8/30seconds.png) 
+![experiment 8]({{ site.baseurl }}/assets/exp8/newplot.png) 
 
 ### The results at time intervals 1 minute
 
-![experiment 8]({{ site.baseurl }}/assets/exp8/1minute.png) 
+![experiment 8]({{ site.baseurl }}/assets/exp8/newplot (1).png) 
 
 ### The results at time intervals 2 minutes 
 
-![experiment 8]({{ site.baseurl }}/assets/exp8/2minutes.png) 
+![experiment 8]({{ site.baseurl }}/assets/exp8/newplot (2).png) 
 
 ### The results at time intervals 5 minutes
 
-![experiment 8]({{ site.baseurl }}/assets/exp8/5minutes.png) 
+![experiment 8]({{ site.baseurl }}/assets/exp8/newplot (3).png) 
 
 ### The results for the complete hour 
 
 The results plotted for the 0 metres, 1 metre, 2 metre and 3 metre Raspberry Pi over the course of one hour. 
 
-![experiment 8]({{ site.baseurl }}/assets/exp8/0meters_exp8_results.PNG) 
-![experiment 8]({{ site.baseurl }}/assets/exp8/1metre_exp8.PNG) 
-![experiment 8]({{ site.baseurl }}/assets/exp8/2meters_exp8.PNG) 
-![experiment 8]({{ site.baseurl }}/assets/exp8/3metres_exp8.PNG) 
+![experiment 8]({{ site.baseurl }}/assets/exp8/0 metres.png) 
+![experiment 8]({{ site.baseurl }}/assets/exp8/1 meters.png) 
+![experiment 8]({{ site.baseurl }}/assets/exp8/2 metres.png) 
+![experiment 8]({{ site.baseurl }}/assets/exp8/3 metres.png) 
 
 ### Conclusion
 
