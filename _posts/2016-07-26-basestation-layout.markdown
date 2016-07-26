@@ -25,15 +25,17 @@ Been doing some housekeeping on the Rhino floor plans of both BVN and ARUP. This
 ### ARUP 
 Theres some basestation's laid out in ARUP already on some cabled pillars that stem on some of the workstations in the office. It also seems that these basestations are not very apart from each other which is great if we want to see who is closest to what basestation. 
 
-image
-
 Unfortunately couldn't put the rest of the basestations on cabled pillars as there weren't really any in other areas. But tried to follow the same idea with the rest of the ARUP floor plan by putting them in places that are not very apart from each other but within reach of power sockets. As you can see from the image below, it doesn't cover the entire floor plan - especially in the workshop area. According to the Rhino file theres 35 basestations - Can add more but questioning if we really need it (Open for discussion).
 
-image
+![ARUP basestation]({{ site.baseurl }}/assets/gh visualisation/basestations_ARUP.PNG) 
+![ARUP isovist]({{ site.baseurl }}/assets/gh visualisation/isovist_ARUP.PNG) 
 
 ### BVN 
 
 As ARUP's basestations were not that far apart from each other, increased the density of the basestations at BVN - would also make for better results as they were originally around 7m apart from one another. At the moment they are still in the middle of workstations, I can move it to the end if its better. Can also question to add more. According to the Rhino file, there's 38 basestations - can add more too (open for discussion).
+
+![BVN basestation]({{ site.baseurl }}/assets/gh visualisation/basestations_BVN.PNG)
+![BVN isovist]({{ site.baseurl }}/assets/gh visualisation/isovist_BVN.PNG)
 
 ### Files
 These files live in > helpers/gh_visualisation/visualisation with almost everything/01_Isovist_basestationLayout.gh<
@@ -72,8 +74,20 @@ So this is stemming off my previous fluff post (I'll still put diagrams on that 
 And with a separate file (which will be the json detections file, also the script is just using a fake detections json file),
 
 ~~~
-snippet of fake detections file
-
+[
+  { "name": "alex",   "basestation": "Kilo",  "time": "2016-07-12T09:52:24.117117" },
+  { "name": "annisa", "basestation": "Bravo", "time": "2016-07-12T09:52:26.021353" },
+  { "name": "tiara",  "basestation": "Spock", "time": "2016-07-12T09:52:28.893738" },
+  { "name": "alex",   "basestation": "Lima",  "time": "2016-07-12T09:52:19.344178" },
+  { "name": "annisa", "basestation": "Papa",  "time": "2016-07-12T09:52:29.852827" },
+  { "name": "tiara",  "basestation": "Alpha", "time": "2016-07-12T09:52:29.852827" },
+  { "name": "alex",   "basestation": "Kilo",  "time": "2016-07-12T09:52:24.117117" },
+  { "name": "annisa", "basestation": "Bravo", "time": "2016-07-12T09:52:26.021353" },
+  { "name": "tiara",  "basestation": "Golf",  "time": "2016-07-12T09:52:28.893738" },
+  { "name": "alex",   "basestation": "Neil",  "time": "2016-07-12T09:52:19.344178" },
+  { "name": "annisa", "basestation": "Golf",  "time": "2016-07-12T09:52:29.852827" },
+  { "name": "tiara",  "basestation": "Sierra", "time": "2016-07-12T09:52:29.852827"}
+]
 ~~~
 
 use the basestation that detected the person as a point in space of where they are - then maps a path between basestation A to basestation B, then also maps from basestation B to basestation C etc to make one continuous path. However, should be noted that it does not look at time nor rssi at this point in time. Also thanks to the people who helped (you the MVP). 
