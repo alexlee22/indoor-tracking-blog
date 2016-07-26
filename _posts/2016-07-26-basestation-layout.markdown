@@ -17,12 +17,12 @@ author: annisa
 
 Lack of blog posts recently, sorry! But in case anyone was wondering, I'm still alive. So was told that combining the script all in one uses unnecessary computing power so break it up into steps. Theres 4 different files and one big one. 
 
-### Cleaning up floor plans
+## Cleaning up floor plans
 Been doing some housekeeping on the Rhino floor plans of both BVN and ARUP. This involved just getting alot of the junk - e.g. random lines to make the floor plan down to its nice bare bones and into some layers. Not all of them are in layers though, mainly just the baked GH curves, the basestation points, str columns and the furniture. 
 
-### Isovist - Basestation Layout
+## Isovist - Basestation Layout
 
-#### ARUP 
+### ARUP 
 Theres some basestation's laid out in ARUP already on some cabled pillars that stem on some of the workstations in the office. It also seems that these basestations are not very apart from each other which is great if we want to see who is closest to what basestation. 
 
 image
@@ -31,15 +31,15 @@ Unfortunately couldn't put the rest of the basestations on cabled pillars as the
 
 image
 
-#### BVN 
+### BVN 
 
 As ARUP's basestations were not that far apart from each other, increased the density of the basestations at BVN - would also make for better results as they were originally around 7m apart from one another. At the moment they are still in the middle of workstations, I can move it to the end if its better. Can also question to add more. According to the Rhino file, there's 38 basestations - can add more too (open for discussion).
 
-#### Files
+### Files
 These files live in > helpers/gh_visualisation/visualisation with almost everything/01_Isovist_basestationLayout.gh<
 If you look at the Rhino file, you should be able to see _gh_boundary_isovist and _gh_boundary_outer boundary layers. These layers are different as I had to use a separate curve for the isovist to get the outer most boundary for the isovist. The '_gh_boundary_outer' layer also gets the outer most boundary but also includes some furniture to reduce the amount of convex hulls later in the process. 
 
-### Obstacles - Inner Boundary
+## Obstacles - Inner Boundary
 
 Cleaned these files out. Traced out the outer boundary with some furniture if they were close enough to each other, so it did reduce the amount of the convex hulls but there is still a few in there in the files. These files live in >helpers/gh_visualisation/visualisation with almost everything/02_InnerBoundaries.gh<
 
@@ -49,7 +49,7 @@ image
 ARUP 
 image
 
-### Nav-mesh/Delaunay
+## Nav-mesh/Delaunay
 
 Because the floor plan wasn't dense enough with 8000 or so points, there was the occasional gap in the line where the edge of the line couldn't meet up with the rest of the mesh which meant that area wasn't really a walkable path. 
 
@@ -65,7 +65,7 @@ image
 
 These files live in >helpers/gh_visualisation/visualisation with almost everything/03_navGraph.gh<
 
-### Basestation to Basestation
+## Basestation to Basestation
 
 So this is stemming off my previous fluff post (I'll still put diagrams on that page dont you worry). This is just a starting point to each of our angles - whether it may be closest beacon or triangles and centroids. What this script does is that it firstly finds the XY coordinates of each basestation that was layed out at 'Isovist Basestation Layout' - right now these basestations are named. These XY coords are driven by a json file that has these basestations and their coordinates. 
 
