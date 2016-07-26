@@ -49,8 +49,9 @@ Cleaned these files out. Traced out the outer boundary with some furniture if th
 
 Because the floor plan wasn't dense enough with 8000 or so points, there was the occasional gap in the line where the edge of the line couldn't meet up with the rest of the mesh which meant that area wasn't really a walkable path. Increased the point density to 18000 points - this definately made sure it was pretty walkable everywhere - however, as you can see from the image below, there were instances where the mesh would spill over the obstacles, there wasn't this problem with ARUP.
 
-![Spill Over Boundaries]({{ site.baseurl }}/assets/gh visualisation/spill_BVN.PNG) 
 ![Navmesh]({{ site.baseurl }}/assets/gh visualisation/navmesh_BVN.PNG) 
+
+![Spill Over Boundaries]({{ site.baseurl }}/assets/gh visualisation/spill_BVN.PNG) 
 
 These files live in `helpers/gh_visualisation/visualisation with almost everything/03_navGraph.gh`
 
@@ -80,7 +81,7 @@ And with a separate file (which will be the json detections file, also the scrip
 ...use the basestation that detected the person as a point in space of where they are - then maps a path between basestation A to basestation B, then also maps from basestation B to basestation C etc to make one continuous path. However, should be noted that it does not look at time nor rssi at this point in time. Also thanks to the people who helped (you the MVP). 
 
 Expected Path
-![BVN expected path]({{ site.baseurl }}/assets/gh visualisation/path.PNG)
+![BVN shortest path]({{ site.baseurl }}/assets/gh visualisation/expectedpath.PNG)
 
 With Boundaries
-![BVN shortest path]({{ site.baseurl }}/assets/gh visualisation/expectedpath.PNG)
+![BVN expected path]({{ site.baseurl }}/assets/gh visualisation/path.PNG)
