@@ -16,7 +16,7 @@ author: tiara
 Visualiasation process for measuring the when and where of interactions within an office 
 
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/_xavgL12Ub8" frameborder="0" allowfullscreen></iframe>
+<iframe width="840" height="630" src="https://www.youtube.com/embed/_xavgL12Ub8" frameborder="0" allowfullscreen></iframe>
 
 ![experiment 1 set up diagram]({{ site.baseurl }}/assets/interactions_method/placing baseStations.png) 
 
