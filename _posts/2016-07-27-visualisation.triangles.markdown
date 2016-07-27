@@ -33,4 +33,4 @@ Visualiasation process for measuring the when and where of interactions within a
 
 ![experiment 1 set up diagram]({{ site.baseurl }}/assets/interactions_method/furtherword_.png) 
 
-![experiment 1 set up diagram]({{ site.baseurl }}/assets/interactions_method/Tracking interactions.jpg) 
+![experiment 1 set up diagram]({{ site.baseurl }}/assets/interactions_method/furtherword.jpg) 
