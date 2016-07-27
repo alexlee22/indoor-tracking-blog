@@ -13,8 +13,7 @@ description: The proposed mode of tracking the when and where interactions happe
 author: tiara
 ---
 
-Visualiasation process
-
+Visualiasation process for measuring the when and where of interactions within an office 
 
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/_xavgL12Ub8" frameborder="0" allowfullscreen></iframe>
