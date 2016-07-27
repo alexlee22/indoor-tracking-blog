@@ -1,13 +1,13 @@
 ---
 layout: post
-title: All Experiments 
+title: Experiment 1
 date: 2016-07-15 0:00:00
 type: post
 published: true
 status: publish
 categories: []
 tags: []
-description: A structured and complete write up of all experiments with reflection and analysis
+description: Rewrite of experiment 1 because we didnt do it the first time
 # 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 twitter-body: you write here and it goes on the share for twitter
 featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
@@ -54,7 +54,12 @@ Because the IPS is going to be placed within an activity based work environment(
 
 ### Results
 
+For a moving beacon
+
 ![experiment 1 results]({{ site.baseurl }}/assets/exp1/Experiment 1 bar graph_moving.png) 
+
+For a stationary beacon 
+
 ![experiment 1 results]({{ site.baseurl }}/assets/exp1/exp 1 stationary.png) 
 
 ### Observations
@@ -64,114 +69,4 @@ In general, experiment 1 gave us a very good indication that placing the Raspber
 ### Conclusion
 
 The findings gave an indication(key word here) that if you are moving, your more likely to be picked up by a low flying or 'mid height' base station. On the other hand, if your stationary, then its better to put the base station up high. Therefore when we go to place Rpi's around the office, we might want to think carefully about the type of activity a person might be doing irespective of the xy coordinant position within floor plan. 
-
-# Experiment 2
-
-### Purpose
-
-### Hypothesis
-
-### Materials
-
-### Procedure
-
-### Observations
-
-### Conclusion 
-
-experiment 2 seems to be missing? (eek!)
-
-### Experiment 3
-
-In a controlled environment, is it possible to record and measure the rssi values when influenced by height, distance, speed recorded magnitude intervals. 
-
-In overall, this is an ok experiment but what it does give us is some indication as to the behaviour of the rssi and the shape of signals. The estimote was our experimentation beacon and we have since moved onto using another type of beacon(the hockey pucks). so in essents, its ok to refer to but not in great detail. we might need to think more carefully about writing this bad boy up again or even repeating the experiment with new technology. 
-
-Purpose: 
-
-Hypothesis
-Materials
-Procedure
-Observations
-conclusion 
-
-### Experiment 4
-
-no results for experiment 4( major problemo). 
-
-Purpose: 
-
-Hypothesis
-Materials
-Procedure
-Observations
-conclusion 
-
-### Experiment 5
-
-Measuring the rssi detected as the beacon moves between four Raspberry pi's. Two at midheight and two at ceiling height. group 1 consisted of one of the Rpi at mid height and ceiling height at one end of 8 metres and group 2 also consisting of 
-
-Om this is when we started to get better at our experimentation process but unfortunately one of the Rpi's died therefore we might need to repeat this experiment, however I think if we do a good job at recording experiment 1 we might not have too(mess is more). 
-Also the graphing still needs alot of work and could be done very quickly through protly or jupyter. 
-This experiment could also have some more diagrams and image sof the set up(common people!) 
-
-Purpose: 
-
-Hypothesis
-Materials
-Procedure
-Observations
-conclusion 
-
-### Experiment 6
-
-Purpose: 
-
-Hypothesis
-Materials
-Procedure
-Observations
-conclusion 
-
-### Experiment 7
-
-Purpose: 
-
-Hypothesis
-Materials
-Procedure
-Observations
-conclusion 
-
-### Experiment 8
-
-Purpose: 
-
-Hypothesis
-Materials
-Procedure
-Observations
-conclusion 
-
-
-
-# Other stuff
-
-### Tracking Laws and Ethics 
-
-In case you were interested. 
-
-
-### update of task list 
-
-Timeplan: Completed
-Task 1: completed
-Task 2: completed
-Task 3: completed
-Task 4: Completed
-Task 5: Completed
-Task 6: Completed
-Task 7: The agenda for coming week
-Task 8: The agenda for coming week 
-Task 9: The agenda for coming week
 
