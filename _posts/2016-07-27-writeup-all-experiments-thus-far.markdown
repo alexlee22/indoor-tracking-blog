@@ -1,21 +1,20 @@
 ---
 layout: post
 title: Experiment 1
-date: 2016-07-15 0:00:00
+date: 2016-07-27 16:24:00
 type: post
 published: true
 status: publish
 categories: []
 tags: []
-description: Rewrite of experiment 1 because we didnt do it the first time
-# 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
+description: Rewrite for experiment 1 because we didnt do it the first time
+# 110 marker 1  234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 twitter-body: you write here and it goes on the share for twitter
 featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
 
 author: tiara
 ---
 
-# Analysis of experiments 1-8
 
 ### Introduction
 
