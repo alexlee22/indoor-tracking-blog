@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Interaction and visualisation
-date: 2016-04-15 13:25:59
+date: 2016-07-27 13:25:59
 type: post
 published: true
 status: publish
