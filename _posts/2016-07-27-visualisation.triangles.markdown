@@ -20,7 +20,7 @@ Visualiasation process for measuring the when and where of interactions within a
 
 ![experiment 1 set up diagram]({{ site.baseurl }}/assets/interactions_method/placing baseStations.png) 
 
-![experiment 1 set up diagram]({{ site.baseurl }}/assets/interactions_method/testme.png) 
+![visualisation set up diagram]({{ site.baseurl }}/assets/interactions_method/testme.png) 
 
 ![experiment 1 set up diagram]({{ site.baseurl }}/assets/interactions_method/drawatriangle-centroid_.png) 
 
