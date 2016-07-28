@@ -39,9 +39,9 @@ Unfortunately, there wasn't any available plastic clear tubing in the diameter w
 
 5. Allow the camera full 360 view of its surrounding context 
 
-### Materials and components 
-
 ![Making a prototype]({{ site.baseurl }}/assets/prototype/exploded model.PNG) 
+
+### Materials and components 
 
 ![Making a prototype]({{ site.baseurl }}/assets/prototype/little_pi.png)
 
