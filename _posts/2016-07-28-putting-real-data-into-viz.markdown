@@ -21,11 +21,11 @@ As the viz was currently working with a bunch of wild names and the dump data wa
 
 And coming from the results of the viz, the four beacons just jumped between those three basestations - occasionally doing nothing when the start and end points were also stemming off the same basestation. Although, this had also brought up a few things to think about:
 	
-	* Advancements of time - as the start and end points could be stemming off the same basestation, would it be easy enough to determine stops and go's? The dump data is also exporting the time into milliseconds - and as actual numbers which is probably better to work out sliding time windows. 
+* Advancements of time - as the start and end points could be stemming off the same basestation, would it be easy enough to determine stops and go's? The dump data is also exporting the time into milliseconds - and as actual numbers which is probably better to work out sliding time windows. 
 
-	* Because the detections are jumping back and forth, how will I know which direction are they going? Arrows on top of arrow on top of arrows could look messy - consider density lines or another visualisation technique?
+* Because the detections are jumping back and forth, how will I know which direction are they going? Arrows on top of arrow on top of arrows could look messy - consider density lines or another visualisation technique?
 
-	* Does RSSI still matter?
+* Does RSSI still matter?
 
 Next steps is make a viz using sim data instead of real real data. 
 
