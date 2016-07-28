@@ -27,43 +27,43 @@ This project is a collective research endeavour that aims to identify behavioura
 	 
 The Indoor Positioning System (IPS) requires the following to operate:
 
-*<b>BLE Beacon:</b> Periodically advertises packets of information within a certain range.
+<b>* BLE Beacon:</b> Periodically advertises packets of information within a certain range.
 
-*<b>Receiver:</b> Detects BLE beacon signals when within range. Also collects and uploads the detected beacon information to the database.
+<b>* Receiver:</b> Detects BLE beacon signals when within range. Also collects and uploads the detected beacon information to the database.
 
-*<b>Database:</b> Storage facility of the beacon detections.
+<b>* Database:</b> Storage facility of the beacon detections.
 
-*<b>Server:</b> Information from the database is translated into a user-friendly web server. 
+<b>* Server:</b> Information from the database is translated into a user-friendly web server. 
 
 Prior investigation of hardware and software suitability is necessary for both the IPS and future office scalability. Reliability, accuracy and stability must be of high priority. Elements listed below have been suggested as the most suitable for this research - backed by research:
 
-*<b>Beacon:</b> iBKS105 by Accent Systems
+<b>* Beacon:</b> iBKS105 by Accent Systems
 
-*<b>Receiver:</b> Raspberry Pi 3: Model B
+<b>* Receiver:</b> Raspberry Pi 3: Model B
 
-*<b>Database:</b> MongoDB, Amazon Web Server - S3
+<b>* Database:</b> MongoDB, Amazon Web Server - S3
 
-*<b>Server:</b> Amazon Web Server - Ec2
+<b>* Server:</b> Amazon Web Server - Ec2
 
 #### 1.2 Rough plan for basestation deployment
 
 Determining the layout of Raspberry Pi locations is necessary for optimal floor coverage and intensity. The image below is a rough indication of the amount of Raspberry Pi’s that are needed before purchase and full deployment. The Raspberry Pi’s will be located within reach of an available power supply.
 
-BVN: 42 Basestations
+BVN: <b>42 Basestations</b>
 ![BVN basestation]({{ site.baseurl }}/assets/gh visualisation/basestations_BVN2.PNG)
 
-ARUP: 37 Basestations
+ARUP: <b>37 Basestations</b>
 ![ARUP basestation]({{ site.baseurl }}/assets/gh visualisation/basestations_ARUP2.PNG) 
 
-####1.3 Cost Plan
+#### 1.3 Cost Plan
 This section outlines the estimated cost for the elements needed to operate the IPS. Full cost plan is provided in this 
 [link](https://docs.google.com/spreadsheets/d/1M43rWYlgAy95g27Mp202UL6_K9fjLoq766Cmmh3SibE/edit#gid=0).
 
 BVN Breakdown
-<iframe width="605" height="126" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1M43rWYlgAy95g27Mp202UL6_K9fjLoq766Cmmh3SibE/pubchart?oid=1963134417&amp;format=image"></iframe>
+<iframe width="605" height="126" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1M43rWYlgAy95g27Mp202UL6_K9fjLoq766Cmmh3SibE/pubchart?oid=1963134417&amp;format=interactive"></iframe>
 
 ARUP Breakdown
-<iframe width="600" height="123" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1M43rWYlgAy95g27Mp202UL6_K9fjLoq766Cmmh3SibE/pubchart?oid=1784038529&amp;format=image"></iframe>
+<iframe width="600" height="123" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1M43rWYlgAy95g27Mp202UL6_K9fjLoq766Cmmh3SibE/pubchart?oid=1784038529&amp;format=interactive"></iframe>
 
 #### 1.4 Presentation to stakeholders
 
@@ -85,7 +85,7 @@ Participants are given the ability to opt-in and opt-out at any stage of the res
 
 ### Phase 2: Installation and Trial Run(s)
 
-####2.1 Test #1: Small scale installation of IPS 
+#### 2.1 Test #1: Small scale installation of IPS 
 
 This initial test consists of installing a small number of Raspberry Pi’s around each office environment to collect a sample of indoor positioning data. Indoor positioning data is collected from beacons worn by individuals involved in the research. Aims to identify and solve any potential problems and limitations of the current system. Will also test server capacity to help identify future expectations when scaled up for production. 
 
@@ -104,7 +104,7 @@ Aim to maintain data collection for 1-2 Month(s). This duration of time should a
 
 Constant monitoring (if working, subpar or broken) of the IPS should be maintained to ensure maximum percentage of uptime and technological reliability. Additionally important for data consistency and accuracy. Constant testing and first-hand monitoring is required throughout the process.
 
-###Phase 4: Data Analysis, Reporting and Conclusion
+### Phase 4: Data Analysis, Reporting and Conclusion
 
 #### 4.1 Data Visualisation
 
@@ -114,6 +114,6 @@ Designed and developed as a way of presenting our body of research. The visualis
 * Circulation
 * Interaction
 
-####4.2 Drawing conclusions, lifecycle and further developments
+#### 4.2 Drawing conclusions, lifecycle and further developments
 
 This involves drawing conclusions about the findings and whether objectives of the research are met. Additionally, presents final report regarding the problems and limitations identified from the research observations. 
