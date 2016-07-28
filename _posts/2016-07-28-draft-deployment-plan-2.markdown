@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Draft Deployment Plan #2
-date: 2016-07-20 00:00:00
+date: 2016-07-28 12:00:00
 type: post
 published: true
 status: publish
