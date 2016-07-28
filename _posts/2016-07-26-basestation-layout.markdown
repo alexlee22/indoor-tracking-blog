@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Basestation layout, shortest path
+title: Catching up on blogposts
 date: 2016-07-26 00:00:00
 type: post
 published: true
@@ -45,13 +45,23 @@ If you look at the Rhino file, you should be able to see `_gh_boundary_isovist` 
 
 Cleaned these files out. Traced out the outer boundary with some furniture if they were close enough to each other, so it did reduce the amount of the convex hulls but there is still a few in there in the files. These files live in `helpers/gh_visualisation/visualisation with almost everything/02_InnerBoundaries.gh`
 
+BVN
+![BVN boundary]({{ site.baseurl }}/assets/gh visualisation/boundary_BVN.PNG)
+
+ARUP 
+![ARUP boundary]({{ site.baseurl }}/assets/gh visualisation/boundary_ARUP.PNG)
+
 ## Nav-mesh/Delaunay
 
 Because the floor plan wasn't dense enough with 8000 or so points, there was the occasional gap in the line where the edge of the line couldn't meet up with the rest of the mesh which meant that area wasn't really a walkable path. Increased the point density to 18000 points - this definately made sure it was pretty walkable everywhere - however, as you can see from the image below, there were instances where the mesh would spill over the obstacles, there wasn't this problem with ARUP.
 
-![Navmesh]({{ site.baseurl }}/assets/gh visualisation/navmesh_BVN.PNG) 
+![Spill Over Boundaries]({{ site.baseurl }}/assets/gh visualisation/spill.PNG) 
 
-![Spill Over Boundaries]({{ site.baseurl }}/assets/gh visualisation/spill_BVN.PNG) 
+BVN
+![BVN navmesh]({{ site.baseurl }}/assets/gh visualisation/boundary_BVN.PNG)
+
+ARUP
+image
 
 These files live in `helpers/gh_visualisation/visualisation with almost everything/03_navGraph.gh`
 
@@ -81,9 +91,7 @@ And with a separate file (which will be the json detections file, also the scrip
 ...use the basestation that detected the person as a point in space of where they are - then maps a path between basestation A to basestation B, then also maps from basestation B to basestation C etc to make one continuous path. However, should be noted that it does not look at time nor rssi at this point in time. Also thanks to the people who helped (you the MVP). 
 
 Expected Path
-![BVN shortest path]({{ site.baseurl }}/assets/gh visualisation/expectedpath.PNG)
-
-With Boundaries
 ![BVN expected path]({{ site.baseurl }}/assets/gh visualisation/path.PNG)
 
-Also looking back on some of these images, a few boundaries have been missed etc. Will do that quickly later.
+With Boundaries
+![BVN shortest path]({{ site.baseurl }}/assets/gh visualisation/expectedpath.PNG)
