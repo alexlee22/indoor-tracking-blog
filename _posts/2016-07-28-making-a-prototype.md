@@ -39,10 +39,6 @@ Unfortunately, there wasn't any available plastic clear tubing in the diameter w
 
 5. Allow the camera full 360 view of its surrounding context 
 
-### Design 
-
-![Making a prototype]({{ site.baseurl }}/assets/prototype/prototype_480.png) 
-
 ### Materials and components 
 
 ![Making a prototype]({{ site.baseurl }}/assets/prototype/exploded model.PNG) 
