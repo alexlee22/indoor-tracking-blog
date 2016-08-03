@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to read the data and what does it mean?
+title: How to Read the Data and What Does it Mean?
 date: 2016-08-03 0:00:00
 type: post
 published: true
