@@ -70,7 +70,7 @@ There we go! Now we can find the kids table where she would be most likely aroun
 
 Want to view it online? [Well now you can! CLICK HERE!]( https://tuksun.github.io/Test-Vis/) Thanks to the magic of JavaScript, Processing (P5.JS) and the web. Click a colour to individually <del>stalk</del> track individuals within a space. To view all again just click on the map.
 
-### You require additional pylons
+### You must construct additional pylons
 
 Its currently still looking really raw, the purpose was to see how the raw tracking data can be visualised without the use of Metadata. Some more features I would love to include are:
 
