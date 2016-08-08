@@ -33,7 +33,9 @@ Base Stations positioned up high which are clear from material obstruction(and m
 ### Materials
 
 1. Base Station(Raspberry pi), 
+
 2. Beacon (estimote sticker), 
+
 3. various miscellanious wiring and laptops for recording data(see procedure)
 
 ### Procedure
