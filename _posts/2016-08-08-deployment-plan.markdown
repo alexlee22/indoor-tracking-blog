@@ -49,7 +49,7 @@ Table 1: Outlines required elements to operate the IPS.
 
 1.1.2. Chosen Hardware and Software
 
-The elements listed below are chosen following the conclusion of a systematic technology review. Reliability, accuracy and stability are required for scalability which have been influencing factors.
+The elements listed below are chosen following the conclusion of a systematic technology review. In order to achieve sufficient scalability, reliability, accuracy and stability are requirments for the chosen software and hardware.
 
 Table 2: Outlines the chosen hardware and software that fulfill the requirements of IPS.
 
@@ -145,7 +145,7 @@ The name of the participant and unique identifier of the beacon will need to be 
 
 ### 1.4 Cost Plan	
 
-	This section outlines the estimated cost for the elements needed to operate the IPS. Full cost plan is provided in this (link](https://docs.google.com/spreadsheets/d/1M43rWYlgAy95g27Mp202UL6_K9fjLoq766Cmmh3SibE/edit#gid=0)
+This section outlines the estimated cost for the elements needed to operate the IPS. Full cost plan is provided in this (link](https://docs.google.com/spreadsheets/d/1M43rWYlgAy95g27Mp202UL6_K9fjLoq766Cmmh3SibE/edit#gid=0)
 
 # 2. INSTALLATION AND TRIAL RUN(S)
 
