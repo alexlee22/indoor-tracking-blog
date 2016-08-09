@@ -55,10 +55,13 @@ Also, from the GH file, you'll be able to tell that the list of points are all r
 
 Reason being that the lines go back and forth between basestation to basestation is because:
 
-	1. Each beacon was getting picked up by all three basestations
-	2. Because theres only 3 basestations theres not many places it can go to so the shortest path of beaconA could be the same path as beaconB etc.
-	3. Fluctuation of points at each detection
-	4. RSSI isnt really a factor yet, etc etc. 
+1. Each beacon was getting picked up by all three basestations
+
+2. Because theres only 3 basestations theres not many places it can go to so the shortest path of beaconA could be the same path as beaconB etc.
+
+3. Fluctuation of points at each detection
+
+4. RSSI isnt really a factor yet, etc etc. 
 
 ![10]({{ site.baseurl }}/assets/moreviz01/10.JPG)
 
