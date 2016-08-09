@@ -68,7 +68,7 @@ Reason being that the lines go back and forth between basestation to basestation
 ### Trying to separate the curves
 <b>Alright so based on the exercise above and the previous viz, going back and forth between basestation to basestation is a really big problem.</b> You can see what path the person may be taking, but you cant see how many people are taking that path, or have a clear indication of what is going on because for example, you may have 100 people taking the same route, but the viz only shows this as a singular line. Theres no overlap, just one singular curve representing 100 people. The most that this script does at the moment is tell you whether people are going in both directions from a vector arrow, but still, these arrows may still show up once but it wont tell you how many people are taking that route. 
 
-![3]({{ site.baseurl }}/assets/moreviz01/3.JPG)
+![3]({{ site.baseurl }}/assets/moreviz01/3.jpg
 
 ![5]({{ site.baseurl }}/assets/moreviz01/5.JPG)
 
