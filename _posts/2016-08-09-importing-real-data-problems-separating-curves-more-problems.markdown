@@ -94,3 +94,6 @@ This was just a test, heh. I figured why not try seeing as the other stuff didnt
 ### Other ideas:
 
 * Make a script that says, if (basestation001) also shows up in the same list AGAIN, possibly shift the point perpendicular to the original point location.
+
+Thingss to think about ahead:
+Whilst opacity or colour could help in the long run, it still comes across a few challenges, once you start plotting curves for 100+ people over a period of an entire day, week etc, curves will overlap and will get lost under all that. Have to find a way to separate them out.
