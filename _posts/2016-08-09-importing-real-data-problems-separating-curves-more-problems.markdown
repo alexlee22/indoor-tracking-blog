@@ -51,7 +51,7 @@ This data can be found in the BlankMindBlog/helpers/gh_visualisation/json_detect
 
 Also, from the GH file, you'll be able to tell that the list of points are all random. Reason being is that when i placed the points of the basestations onto the map for the isovist, I probably added and removed some to places where it seemed fit by eye so yaa...So i sorted the basestation points based on the location of the points - ascending to descending. This basestation sorting is still abit iffy as there should be a better way of sorting these points. Possibly left to right, then up and down , like the image below, suggestions? Sorting the basestations is important as it can save us managing the basestations with the server and in real life, faulties, placing the points on the viz etc. 
 
-![2]({{ site.baseurl }}/assets/moreviz01/2.jpg)
+![2]({{ site.baseurl }}/assets/moreviz01/2.JPG)
 
 Reason being that the lines go back and forth between basestation to basestation is because:
 
