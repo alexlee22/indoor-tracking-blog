@@ -75,11 +75,11 @@ Reason being that the lines go back and forth between basestation to basestation
 So i tried a few things.
 
 Removing duplicate lines:
-So also tried doing this, I didn't necessarily want to remove them but i wanted to find where they are overlapping one another and rather than removing, id shift them perpendicular to the original curve location, so the overlapping curves would be overlapping anymore but rather sitting next to each other. But GH didn't recognise this is overlapping curves as yet again, its counted as still only one curve. 
+So also tried doing this, I didn't necessarily want to remove them but i wanted to find where they are overlapping one another and rather than removing, id shift them perpendicular to the original curve location, so the overlapping curves wouldn't be overlapping anymore but rather sitting next to each other. But GH didn't recognise this is overlapping curves as yet again, its counted as still only one curve. 
 ![9]({{ site.baseurl }}/assets/moreviz01/9.JPG)
 
 Opacity:
-Changing opacity could possibly help with this as it can give you somewhat an indication of how many people are treading along that path. similar thing to what density maps do. Somethng like this [link](http://3.bp.blogspot.com/-c1gS1YIJDpw/VL5oNJJWePI/AAAAAAAADFY/nhCNtpVOgJ4/s1600/mt_map_033.PNG). It does show darker points of opacity with different people, as a new curve is made for a new person so theres an overlap of geometry. I haven't tried doing a full loop, so to see once people go backt he same way they started, will it change opacity - possibly not, but will try.
+Changing opacity could possibly help with this as it can give you somewhat an indication of how many people are treading along that path. similar thing to what density maps do. Something like this [link](http://3.bp.blogspot.com/-c1gS1YIJDpw/VL5oNJJWePI/AAAAAAAADFY/nhCNtpVOgJ4/s1600/mt_map_033.PNG). It does show darker points of opacity with different people, as a new curve is made for a new person so theres an overlap of geometry. I haven't tried doing a full loop, so to see once people go back the same way they started, will it change opacity? - possibly not, but will try.
 ![7]({{ site.baseurl }}/assets/moreviz01/7.JPG)
 
 Colour:
