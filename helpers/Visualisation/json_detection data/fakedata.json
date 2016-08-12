@@ -1,0 +1,14 @@
+[
+  { "name": "alex",   "basestation": "Alpha",    "time": "2016-07-12T09:52:24.117117"  },
+  { "name": "alex",   "basestation": "Yankee",   "time": "2016-07-12T09:52:29.344178"  },
+  { "name": "alex",   "basestation": "Uniform",  "time": "2016-07-12T09:52:34.117117"  },
+  { "name": "alex",   "basestation": "Wine",     "time": "2016-07-12T09:52:45.344178"  },
+  { "name": "annisa", "basestation": "Kilo",     "time": "2016-07-12T09:52:24.021353"  },
+  { "name": "annisa", "basestation": "Zoo",      "time": "2016-07-12T09:52:29.852827"  },
+  { "name": "annisa", "basestation": "Echo",     "time": "2016-07-12T09:52:34.021353"  },
+  { "name": "annisa", "basestation": "Charlie",  "time": "2016-07-12T09:52:45.852827"  },
+  { "name": "tiara",  "basestation": "Jean",     "time": "2016-07-12T09:52:24.893738"  },
+  { "name": "tiara",  "basestation": "Polar",    "time": "2016-07-12T09:52:29.852827"  },
+  { "name": "tiara",  "basestation": "Quebec",   "time": "2016-07-12T09:52:34.893738"  },
+  { "name": "tiara",  "basestation": "Yankee",   "time": "2016-07-12T09:52:45.852827"  }
+]
