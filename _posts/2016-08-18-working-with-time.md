@@ -68,20 +68,21 @@ Below is a sample of json value imputs I made to test if the processing of time 
 
 The first step was importing the json file into the grasshopper script so the python can read the file. Was simple enough:
 
-![snapshot1]({{ site.baseurl }}/assets/time/Q:\Users\tdobbs\Documents\BlankMindBlog\assets\time\time_import.png)
+![time import]({{ site.baseurl }}/assets/prototype/time\time_import.png) 
 
 
 ### Cull Index 
 
 The next step was not really necessary but helpful to sort all the low rssi detections from the most useful higher rssi values. 
 
-![snapshot1]({{ site.baseurl }}/assets/time/Q:\Users\tdobbs\Documents\BlankMindBlog\assets\time\cull_low_rssi.png) 
+![cull low rssi]({{ site.baseurl }}/assets/prototype/time/cull_low_rssi.png) 
+
 
 
 ### Average all detections within a 30 second time period 
 
-![snapshot1]({{ site.baseurl }}/assets/time/Q:\Users\tdobbs\Documents\BlankMindBlog\assets\time\average_rssi.png) 
 
+![average the rssi within a time period]({{ site.baseurl }}/assets/prototype/time/average_rssi.png) 
 
 ~~~ Bash
 
@@ -102,18 +103,22 @@ def StringToDateTime(string):
 
 Take the datetime and then reformat it/ understand it based on this datetime translation key: %Y-%m-%dT%H:%M:%S.%f 
 
+<b>
+
 Date = %Y-%m-%dT%H
 
 time = %M:%S.%f
 
+</b>
+
 ~~~ Bash
 
-times = [StringToDateTime(time) for time in timeList] 
-rssi = rssiList
-instance = 0
-firstTime = times[0]
-currentTimePeriodEnd = firstTime + datetime.timedelta(0,timeDifference)
-avgList = []
+   times = [StringToDateTime(time) for time in timeList] 
+   rssi = rssiList
+   instance = 0
+   firstTime = times[0]
+   currentTimePeriodEnd = firstTime + datetime.timedelta(0,timeDifference)
+   avgList = []
 
 chunk = []
 
