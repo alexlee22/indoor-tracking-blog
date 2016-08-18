@@ -38,13 +38,13 @@ For example 30 second intervals as 'Segements' (and I'll come back to this with 
 
 Animation is the process of making the illusion of motion and change by means of the rapid display of a sequence of static images that minimally differ from each other (according to wikipedia) 
 
-PROBLEMS: 
+PROBLEMS: grabbing a segment of that data and analysing it
 
 2. Static images: The bouncing ball animation (below) consists of these six frames.
 
 ![something or other]({{ site.baseurl }}/assets/time/static_images.png)
 
-PROBLEMS: 
+PROBLEMS: Conveying motion is disjointed 
 
 ### Early work using time
 
@@ -102,13 +102,6 @@ def StringToDateTime(string):
 
 Take the datetime and then reformat it/ understand it based on this datetime translation key: %Y-%m-%dT%H:%M:%S.%f 
 
-<b>
-
- Date = %Y-%m-%dT%H, 
- time = %M:%S.%f 
-
-</b> 
-
 ~~~ Bash
 
    times = [StringToDateTime(time) for time in timeList] 
@@ -138,9 +131,6 @@ for index, time in enumerate(times):
 ~~~ 
 
 Now take the first time period and then the last time period(plus 30 seconds) and then average all the detections within that time period. 
-
-
-### Moving forwards 
 
 
 
