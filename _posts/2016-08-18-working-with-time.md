@@ -42,7 +42,7 @@ PROBLEMS:
 
 2. Static images: The bouncing ball animation (below) consists of these six frames.
 
-![snapshot1]({{ site.baseurl }}/assets/time/Q:\Users\tdobbs\Documents\BlankMindBlog\assets\time\Animexample3edit.png)
+![snapshot1]({{ site.baseurl }}/assets/time/Q:\Users\tdobbs\Documents\BlankMindBlog\assets\time\static_images.png)
 
 PROBLEMS: 
 
@@ -68,7 +68,7 @@ Below is a sample of json time and rssi values used as imputs for producing time
 
 The first step was importing the json file into the grasshopper script so the python can read the file. Was simple enough:
 
-![time import]({{ site.baseurl }}/assets/prototype/time\time_import.png) 
+![time import]({{ site.baseurl }}/assets/prototype/time/time_import.png) 
 
 
 ### Cull Index 
