@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Explaining how the navgraph is made 
-date: 2016-07-20 00:00:00
+date: 2016-08-18 00:00:00
 type: post
 published: true
 status: publish
