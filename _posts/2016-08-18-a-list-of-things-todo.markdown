@@ -113,8 +113,8 @@ Going through the process and limitations of the navgraph in the GH/Rhino script
 
 2. Dimensions of people - individual and group 
 
-### (10) Represent sliced data in a visualization
+### (10) Represent data in a visualization
 
-1. Talk about how others have represented this in different ways - colour, opacity, vectors, lines etc.
+1. Talk about how others have represented this in different ways - colour, opacity, vectors, lines, grids, cartograms etc.
 
 2. Different colours used for different purposes - scale etc.
