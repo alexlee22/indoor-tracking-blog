@@ -42,7 +42,7 @@ PROBLEMS:
 
 2. Static images: The bouncing ball animation (below) consists of these six frames.
 
-![snapshot1]({{ site.baseurl }}/assets/time/Q:\Users\tdobbs\Documents\BlankMindBlog\assets\time\static_images.png)
+![something or other]({{ site.baseurl }}/assets/time/static_images.png)
 
 PROBLEMS: 
 
@@ -68,21 +68,20 @@ Below is a sample of json time and rssi values used as imputs for producing time
 
 The first step was importing the json file into the grasshopper script so the python can read the file. Was simple enough:
 
-![time import]({{ site.baseurl }}/assets/prototype/time/time_import.png) 
+![something or other]({{ site.baseurl }}/assets/time/time_import.png) 
 
 
 ### Cull Index 
 
 The next step was not really necessary but helpful to sort all the low rssi detections from the most useful higher rssi values. 
 
-![cull low rssi]({{ site.baseurl }}/assets/prototype/time/cull_low_rssi.png) 
+![something or other]({{ site.baseurl }}/assets/time/cull_low_rssi.png) 
 
 
 
 ### Average all detections within a 30 second time period 
 
-
-![average the rssi within a time period]({{ site.baseurl }}/assets/prototype/time/average_rssi.png) 
+![something or other]({{ site.baseurl }}/assets/time/average_rssi.png) 
 
 ~~~ Bash
 
