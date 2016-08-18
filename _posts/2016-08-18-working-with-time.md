@@ -17,7 +17,8 @@ author: tiara
 
 In Einstein's theory of relativity time is a literal fourth dimension of spacetime in the sense that spacetime has a natural distance measure that blends time and the three dimensions of space. 
 
-<p><a href="https://commons.wikimedia.org/wiki/File:8-cell-simple.gif#/media/File:8-cell-simple.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/5/55/8-cell-simple.gif" alt="8-cell-simple.gif"></a><br> Check out 3D projection of a tesseract undergoing a simple rotation in four dimensional space. In plain words, time is a human construct used to determine change. For many, time appears to 'stand still' when nothing happens. By <a href="https://en.wikipedia.org/wiki/User:JasonHise" class="extiw" title="wikipedia:User:JasonHise">JasonHise</a> at <a href="https://en.wikipedia.org/wiki/" class="extiw" title="wikipedia:">English Wikipedia</a> 
+<p><a href="https://commons.wikimedia.org/wiki/File:8-cell-simple.gif#/media/File:8-cell-simple.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/5/55/8-cell-simple.gif" alt="8-cell-simple.gif"></a><br> Check out 3D projection of a tesseract undergoing a simple rotation in four dimensional space. In plain words, time is a human construct used to determine change. For many, time appears to 'stand still' when nothing happens. By <a href="https://en.wikipedia.org/wiki/User:JasonHise" class="extiw" title="wikipedia:User:JasonHise">JasonHise</a> at <a href="https://en.wikipedia.org/wiki/" class="extiw" title="wikipedia:">English Wikipedia</a></br> 
+
 
 ### Potential ways of conveying time 
 
