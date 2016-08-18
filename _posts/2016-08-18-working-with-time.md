@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Why work with time
+title: Work with time
 date: 2016-08-18 11:00:00
 type: post
 published: true
 status: publish
 categories: []
 tags: []
-description: Working with time as a variable and effective communication
+description: Time as a variable and effective communication
 # 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 twitter-body: you write here and it goes on the share for twitter
 featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
@@ -17,9 +17,7 @@ author: tiara
 
 In Einstein's theory of relativity time is a literal fourth dimension of spacetime in the sense that spacetime has a natural distance measure that blends time and the three dimensions of space. 
 
-<p><a href="https://commons.wikimedia.org/wiki/File:8-cell-simple.gif#/media/File:8-cell-simple.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/5/55/8-cell-simple.gif" alt="8-cell-simple.gif"></a><br>By <a href="https://en.wikipedia.org/wiki/User:JasonHise" class="extiw" title="wikipedia:User:JasonHise">JasonHise</a> at <a href="https://en.wikipedia.org/wiki/" class="extiw" title="wikipedia:">English Wikipedia</a> - Transferred from&nbsp;<span class="plainlinks"><a class="external text" href="//en.wikipedia.org">en.wikipedia</a></span>&nbsp;to Commons., Public Domain, https://commons.wikimedia.org/w/index.php?curid=1724044</p>
-
-Check out 3D projection of a tesseract undergoing a simple rotation in four dimensional space. In plain words, time is a human construct used to determine change. For many, time appears to 'stand still' when nothing happens. 
+<p><a href="https://commons.wikimedia.org/wiki/File:8-cell-simple.gif#/media/File:8-cell-simple.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/5/55/8-cell-simple.gif" alt="8-cell-simple.gif"></a><br> Check out 3D projection of a tesseract undergoing a simple rotation in four dimensional space. In plain words, time is a human construct used to determine change. For many, time appears to 'stand still' when nothing happens. By <a href="https://en.wikipedia.org/wiki/User:JasonHise" class="extiw" title="wikipedia:User:JasonHise">JasonHise</a> at <a href="https://en.wikipedia.org/wiki/" class="extiw" title="wikipedia:">English Wikipedia</a> 
 
 ### Potential ways of conveying time 
 
@@ -28,9 +26,11 @@ Check out 3D projection of a tesseract undergoing a simple rotation in four dime
 ### Potential problems with conveying time 
 
 
-
-
 ### Early work using time
+
+
+
+
 
 In response to experiment 8, we realised we needed to take the average a period of time in order to get a better indication of the rssi 
 With much pursuit 
@@ -73,12 +73,12 @@ The first step was importing the json file into the grasshopper script so the py
 
 The next step was not really necessary but helpful to sort all the low rssi detections from the most useful higher rssi values. 
 
-![snapshot1]({{ site.baseurl }}/assets/time/Q:\Users\tdobbs\Documents\BlankMindBlog\assets\time\time_import.png) 
+![snapshot1]({{ site.baseurl }}/assets/time/Q:\Users\tdobbs\Documents\BlankMindBlog\assets\time\cull_low_rssi.png) 
 
 
 ### Average all detections within a 30 second time period 
 
-![snapshot1]({{ site.baseurl }}/assets/time/Q:\Users\tdobbs\Documents\BlankMindBlog\assets\time\time_import.png) 
+![snapshot1]({{ site.baseurl }}/assets/time/Q:\Users\tdobbs\Documents\BlankMindBlog\assets\time\average_rssi.png) 
 
 
 ~~~ Bash
