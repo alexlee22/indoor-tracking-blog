@@ -102,9 +102,12 @@ def StringToDateTime(string):
 
 Take the datetime and then reformat it/ understand it based on this datetime translation key: %Y-%m-%dT%H:%M:%S.%f 
 
-*** Date = %Y-%m-%dT%H ***
+<b>
 
-*** time = %M:%S.%f ***
+ Date = %Y-%m-%dT%H, 
+ time = %M:%S.%f 
+
+</b> 
 
 ~~~ Bash
 
