@@ -17,24 +17,36 @@ author: tiara
 
 In Einstein's theory of relativity time is a literal fourth dimension of spacetime in the sense that spacetime has a natural distance measure that blends time and the three dimensions of space. 
 
-<p><a href="https://commons.wikimedia.org/wiki/File:8-cell-simple.gif#/media/File:8-cell-simple.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/5/55/8-cell-simple.gif" alt="8-cell-simple.gif"></a><br> Check out 3D projection of a tesseract undergoing a simple rotation in four dimensional space. In plain words, time is a human construct used to determine change. For many, time appears to 'stand still' when nothing happens. By <a href="https://en.wikipedia.org/wiki/User:JasonHise" class="extiw" title="wikipedia:User:JasonHise">JasonHise</a> at <a href="https://en.wikipedia.org/wiki/" class="extiw" title="wikipedia:">English Wikipedia</a></br> </p>
+<p><a href="https://commons.wikimedia.org/wiki/File:8-cell-simple.gif#/media/File:8-cell-simple.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/5/55/8-cell-simple.gif" alt="8-cell-simple.gif"></a><br> Check out 3D projection of a tesseract undergoing a simple rotation in four dimensional By <a href="https://en.wikipedia.org/wiki/User:JasonHise" class="extiw" title="wikipedia:User:JasonHise">JasonHise</a> at <a href="https://en.wikipedia.org/wiki/" class="extiw" title="wikipedia:">English Wikipedia</a></p>
+
+In plain words, time is a human construct used to determine change. For many, time appears to 'stand still' when nothing happens. Understanding and approaching the variable of time has alot to do with what I assume is an potential face-to-face interactions. 
+
+### Very quickly...what is a potential for interaction 
+
+<b> Here I want to make a clear destinction between what I say is a interaction and what is a potential for interaction. A potential for interactions is what I use to assume someone is having an interaction but do not know for sure, which will have to be the case in my thesis(as it will be an automated approach to tracking interactions). Interactions on the other hand is something that can be more subjective and knowing for sure if someone has interacted with someone else is hard for a computer to do</b>
 
 
-### Potential ways of conveying time 
+### Defining time: Segments
 
-1. Segements (and Ill come back to this with a later post) but essentially it is dividing up the program into 
+For example 30 second intervals as 'Segements' (and I'll come back to this with a later post) but essentially it is dividing up the program into) as a indication of moments in Time. In response to experiment 8, we realised we needed to take the average a period of time in order to get a better indication of the rssi (because of its fluxuation). see 'early work using time' as to how I plan to do this. 
 
-### Potential problems with conveying time 
+### Representation of time 
 
+1. Animation: This animation moves at 10 frames per second.
+
+<p><a href="https://commons.wikimedia.org/wiki/File:Animexample.gif#/media/File:Animexample.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Animexample.gif" alt="Animexample.gif"></a></p>
+
+Animation is the process of making the illusion of motion and change by means of the rapid display of a sequence of static images that minimally differ from each other (according to wikipedia) 
+
+PROBLEMS: 
+
+2. Static images: The bouncing ball animation (below) consists of these six frames.
+
+![snapshot1]({{ site.baseurl }}/assets/time/Q:\Users\tdobbs\Documents\BlankMindBlog\assets\time\Animexample3edit.png)
+
+PROBLEMS: 
 
 ### Early work using time
-
-
-
-
-
-In response to experiment 8, we realised we needed to take the average a period of time in order to get a better indication of the rssi 
-With much pursuit 
 
 ~~~ bash 
 
