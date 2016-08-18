@@ -107,10 +107,14 @@ Going through the process and limitations of the navgraph in the GH/Rhino script
 
 7. Read Sq&at, talk to Dan.
 
-### (9) Slicing Data and representing them in a visualisation
+### (9) Slicing Data 
 
 1. Using dimensions of time
 
 2. Dimensions of people - individual and group 
 
-3. Talk about how others have represented this in different ways - colour, opacity, vectors, lines etc.
+### (10) Represent sliced data in a visualization
+
+1. Talk about how others have represented this in different ways - colour, opacity, vectors, lines etc.
+
+2. Different colours used for different purposes - scale etc.
