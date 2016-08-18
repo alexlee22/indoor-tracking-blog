@@ -100,13 +100,26 @@ import Rhino
 import scriptcontext
 import datetime
 
-## Find me the index that is >=
-## to the time difference of the first index
+~~~
+
+Find me the index that is >= to the time difference of the first index
+
+~~~ bash 
 
 def StringToDateTime(string):
     return datetime.datetime.strptime(string, '%Y-%m-%dT%H:%M:%S.%f')# the GH needs the formatting for the new datetime
 
-times = [StringToDateTime(time) for time in timeList] # input is a list of strings (for whatever reason) so convert them to a datetime
+~~~ 
+
+Take the datetime and then reformat it/ understand it based on this datetime translation key: %Y-%m-%dT%H:%M:%S.%f 
+
+Date = %Y-%m-%dT%H
+
+time = %M:%S.%f
+
+~~~ Bash
+
+times = [StringToDateTime(time) for time in timeList] 
 rssi = rssiList
 instance = 0
 firstTime = times[0]
@@ -115,7 +128,12 @@ avgList = []
 
 chunk = []
 
-# while the index of f is within the range of rssiList, do something
+~~~ 
+
+Input is a list of strings (for whatever reason) so convert them to a datetime,  while the index of f is within the range of rssiList, do something
+
+~~~ bash 
+
 for index, time in enumerate(times):
     # emumerate(takes a number of things(within a range) and mentions them one by one. This was used to gather all detections within a time period which is then sent to be averaged. 
     if time <= currentTimePeriodEnd:
@@ -125,10 +143,10 @@ for index, time in enumerate(times):
         avgList.append(avg)
         chunk = []
         currentTimePeriodEnd = currentTimePeriodEnd + datetime.timedelta(0,timeDifference)
-# take the first time period and then the last time period(plus 30 seconds) and then average all the detections within that time period. 
+~~~ 
 
+Now take the first time period and then the last time period(plus 30 seconds) and then average all the detections within that time period. 
 
-~~~
 
 ### Moving forwards 
 
