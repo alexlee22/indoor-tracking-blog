@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why work with TIME
-date: 2016-08-18 0:00:00
+date: 2016-08-18 11:00:00
 type: post
 published: true
 status: publish
@@ -20,6 +20,14 @@ In Einstein's theory of relativity time is a literal fourth dimension of spaceti
 <p><a href="https://commons.wikimedia.org/wiki/File:8-cell-simple.gif#/media/File:8-cell-simple.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/5/55/8-cell-simple.gif" alt="8-cell-simple.gif"></a><br>By <a href="https://en.wikipedia.org/wiki/User:JasonHise" class="extiw" title="wikipedia:User:JasonHise">JasonHise</a> at <a href="https://en.wikipedia.org/wiki/" class="extiw" title="wikipedia:">English Wikipedia</a> - Transferred from&nbsp;<span class="plainlinks"><a class="external text" href="//en.wikipedia.org">en.wikipedia</a></span>&nbsp;to Commons., Public Domain, https://commons.wikimedia.org/w/index.php?curid=1724044</p>
 
 Check out 3D projection of a tesseract undergoing a simple rotation in four dimensional space. In plain words, time is a human construct used to determine change. For many, time appears to 'stand still' when nothing happens. 
+
+### Potential ways of conveying time 
+
+
+
+### Potential problems with conveying time 
+
+
 
 
 ### Early work using time
