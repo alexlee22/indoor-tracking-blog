@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Why work with TIME
+title: Why work with time
 date: 2016-08-18 11:00:00
 type: post
 published: true
 status: publish
 categories: []
 tags: []
-description: Working with time as a variable and communicating that to a viewer
+description: Working with time as a variable and effective communication
 # 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 twitter-body: you write here and it goes on the share for twitter
 featuredimg: polar-bear.jpg #if you put an image here it goes on twitter too
@@ -23,7 +23,7 @@ Check out 3D projection of a tesseract undergoing a simple rotation in four dime
 
 ### Potential ways of conveying time 
 
-
+1. Segements (and Ill come back to this with a later post) but essentially it is dividing up the program into 
 
 ### Potential problems with conveying time 
 
