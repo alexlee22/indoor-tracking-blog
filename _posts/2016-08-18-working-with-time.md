@@ -48,7 +48,7 @@ PROBLEMS:
 
 ### Early work using time
 
-Below is a sample of json value imputs I made to test if the processing of time worked. 
+Below is a sample of json time and rssi values used as imputs for producing time segments. The difference between one state to another can be anything between milliseconds, to 30 second intervals(which is the case in this example)
 
 ~~~ bash 
 
