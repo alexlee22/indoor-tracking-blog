@@ -71,7 +71,7 @@ Instead of working forwards from the data, have the idea of your final outcome a
 
 4. Focusing on an outcome in the end, and the parts that we can solve and leave the parts that we can't solve to others.
 
-### (5) CREATING PERSONA BASED DATA: ETHICS 
+### (5) CREATING PERSONA BASED DATA
 
 1. Ethics for capturing the demographics of people
 
@@ -85,9 +85,9 @@ Instead of working forwards from the data, have the idea of your final outcome a
 
 Gradient idea between presenting someone with raw, dirty data to visualization and result at the end. 
 
-1. Automating = (hyperthetcially) There were 5 potential interactions over course of day
+1. Automating = (hypothetically) There were 5 potential interactions over course of day
 
-2. Visualising the interaction and how you can draw attention to the event(analysing the process and effectiveness in communication)
+2. Visualizing the interaction and how you can draw attention to the event(analyzing the process and effectiveness in communication)
 
 ### (8) NAVGRAPHS
 
@@ -104,6 +104,8 @@ Going through the process and limitations of the navgraph in the GH/Rhino script
 5. Progress/Update
 
 6. Using Offsets around Boundaries to determine a more natural path
+
+7. Read Sq&at, talk to Dan.
 
 ### (9) Slicing Data and representing them in a visualisation
 
