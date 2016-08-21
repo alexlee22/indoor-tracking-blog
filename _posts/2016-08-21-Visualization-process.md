@@ -48,4 +48,4 @@ is just finding a process for presenting someone with a process for taking raw, 
 
 Made a start on trying to measure the face-to-face interactions when comparing users paths. Its nothing yet but as I develope more interaction scenarios, working our a code to help identify them will be my next steps. 
 
-![something or other]({{ site.baseurl }}/assets/interaction-script001.png )
+![something or other]({{ site.baseurl }}/assets/interaction-script001.png)
