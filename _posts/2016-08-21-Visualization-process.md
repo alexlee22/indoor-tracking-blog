@@ -44,3 +44,8 @@ What we hope it too look like...
 
 is just finding a process for presenting someone with a process for taking raw, dirty data to visualization and result at the end. The easy part is automating the whole thing (Automating = (hypothetically) There were 5 potential interactions over course of day). However the second part of the problem is visualizing the interaction and how you can draw attention to the event(analyzing the process and effectiveness in communication). 
 
+### Top end start 
+
+Made a start on trying to measure the face-to-face interactions when comparing users paths. Its nothing yet but as I develope more interaction scenarios, working our a code to help identify them will be my next steps. 
+
+![something or other]({{ site.baseurl }}/assets/interaction-script001.png )
