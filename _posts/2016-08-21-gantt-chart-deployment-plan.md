@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deployment plan Gantt chart: timeline
-date: 2016-08-21 16:00:00
+date: 2016-08-21 15:30:00
 type: post
 published: true
 status: publish
