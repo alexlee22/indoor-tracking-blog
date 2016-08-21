@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AUTOMATED VS VISUAL ANALYTICS
-date: 2016-08-21 14:00:00
+date: 2016-08-21 15:00:00
 type: post
 published: true
 status: publish
