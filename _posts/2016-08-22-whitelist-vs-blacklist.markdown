@@ -17,7 +17,7 @@ author: alex
 
 Ben and I came across a discussion regarding the process of how the RPi filters the data find only the beacons assigned. Ben became fussy with the details of testing a blacklist and whitelist method. The different between whitelist and blacklist can get really technical, so the easiest explanation I found which helps explain it to people was from stack overflow 
 
-    For example, consider automatically rejecting incoming phone calls. You could have a black list of marketing companies, so everyone but them would be able to call you. Or you could have white list containing your friends' numbers, so only they would be able to call you.
+*For example, consider automatically rejecting incoming phone calls. You could have a black list of marketing companies, so everyone but them would be able to call you. Or you could have white list containing your friends' numbers, so only they would be able to call you.*
 
 If that’s still not clear, a while list is a drivers licence or identification for getting into a bar, without one you cannot enter because your likely underage. While a blacklist is a known list of troublemakers which need to be kept out of the club.
 
