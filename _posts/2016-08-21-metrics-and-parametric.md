@@ -34,7 +34,7 @@ According to Wikipedia, In science, a parameter space is the set of all possible
 
 Often the parameters are inputs of a function, in which case the technical term for the parameter space is domain of a function. Parametrically, if we compare the top member of the equilateral triangle with the acute triangle 'P' member, the two members are the same because they fall on the same arrangement. The two members however are not metrically the same.
 
-When this starts to get interesting is when we start looking at how people interact and use space, time and distance to calculate that. Naturally, humans move in a linear 2Dimensional space. (climbing over mountains and seas don't count because we are in an office for this experiment, unless we fly) we are only really dealing with X, Y and time as a 3 Dimension. 
+When this starts to get interesting is when we start looking at how people interact and use space, time and distance to calculate that. Naturally, humans move in a line within a 2 Dimensional space. (climbing over mountains and seas don't count because we are in an office for this experiment, unless we fly) we are only really dealing with X, Y and time as a 3 Dimension. 
 
 ### Concepts of Segments 
 
