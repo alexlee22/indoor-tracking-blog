@@ -36,7 +36,7 @@ The ---outer_BVN layer maps out the outer perimeter of the floor plan. This curv
 
 ![boundary of outer curve]({{ site.baseurl }}/assets/27-09-2016/outer curve.JPG)
 
-The ---inner_BVN layer maps out the perimeter of the obstacles across the floor plan. As people do not teleport through physical objects, all the workstations, casework and television mounts need to be excluded from the walkable areas of the floor plan. Each obstacle in the Rhino file is individually grouped and referenced back into Grasshopper. The end points of these groups are found where convex hulls are applied to approximately draw a wrapping shape around the specific obstacle group. 
+The ---inner_BVN layer maps out the perimeter of the obstacles across the floor plan. As people do not teleport through physical objects, all the workstations, casework and television mounts need to be excluded from the walkable areas of the floor plan. Each obstacle in the Rhino file is individually grouped and referenced back into Grasshopper. The end points of these groups are found, then convex hulls are applied to approximately draw a wrapping shape around the specific obstacle group. 
 
 ![boundary of obstacles]({{ site.baseurl }}/assets/27-09-2016/inner curve.JPG)
 
