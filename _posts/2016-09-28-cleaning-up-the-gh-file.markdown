@@ -21,9 +21,7 @@ The following files live in this folder, https://github.com/tuksun/BlankMindBlog
 
 1. BOUNDARIES_ACTIVE
 2. NAV MESH
-
 3. ISOVIST MODEL
-
 4. SORTING BASESTATIONS & STATES
 
 <b>01_BOUNDARIES_ACTIVE</b>
