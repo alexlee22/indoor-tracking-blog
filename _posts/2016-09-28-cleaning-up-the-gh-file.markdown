@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cleaning up the GH file
-date: 2016-09-28 00:00:00
+date: 2016-09-27 00:00:00
 type: post
 published: true
 status: publish
@@ -19,12 +19,15 @@ The following files live in this folder, https://github.com/tuksun/BlankMindBlog
 
 ### GH FILES
 
-01_BOUNDARIES_ACTIVE
-02_NAV MESH
-03_ISOVIST MODEL
-04_SORTING BASESTATIONS & STATES
+1. BOUNDARIES_ACTIVE
+2. NAV MESH
 
-01_BOUNDARIES_ACTIVE
+3. ISOVIST MODEL
+
+4. SORTING BASESTATIONS & STATES
+
+<b>01_BOUNDARIES_ACTIVE</b>
+
 This GH file maps out the walkable boundaries across the floor plan. There are four main layers that should be paid attention to in the Rhino File.
 
 1. _gh_boundaries_outer_BVN
@@ -46,7 +49,8 @@ The ---outeroffset_BVN and ---inneroffset_BVN layer maps out a 200mm offset from
 
 Green line is the boundary of the obstacles, blue line is the offset boundary from the obstacble boundary by 200mm.
 
-02_NAV MESH
+<b>02_NAV MESH</b>
+
 This GH file is responsible of setting out the mesh on the floor plan. The each individual curve on the mesh represents a walkable path that a person may take. This part can be manual but the point of this GH file is to remove all the manual processes as much as it can in the initial process. What this file does is using perimeter curve in the ---outeroffset_BVN to randomly generate points. The number of points will determine the flow of the walkable path. The less points you have populated across the floor plan, the sharper a persons path may possibly be. This GH file is currently populated with 24000 points. 
 
 ![24000 points]({{ site.baseurl }}/assets/27-09-2016/24000 points.JPG)
@@ -64,7 +68,8 @@ Therefore, as there are no curves in this part of the area, the visualisation wi
 Therefore, this is where the manual part comes in ... 
 In places that are disconnected curves in the mesh, curves are manually drawn back in the Rhino file into the ---navmesh Rhino layer.
 
-03_ISOVIST MODEL
+<b>03_ISOVIST MODEL</b>
+
 This GH file feeds hand in hand with the 04_SORTING BASESTATIONS & STATES GH file. The Rhino layers that are important is:
 
 1. basestation_points 
@@ -74,7 +79,7 @@ Points are placed into the basestation_points Rhino layer. The points on this la
 
 To see how the draft isovist model looks like lives in this [link](http://where-in.space/2016/bvn-and-arup-isovist)
 
-04_SORTING BASESTATIONS & STATES
+<b>04_SORTING BASESTATIONS & STATES</b>
 This GH file is just a matter of adding a name to a basestation and state and sorting them alphabetically based on a curve. The difference between basestation and state, is that basestation is the deployed raspberry pi on the floor plan (aka. the real thing) and state is intended when driving the fake data. 
 
 image
