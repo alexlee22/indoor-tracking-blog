@@ -1,4 +1,5 @@
 //Digispark USB/Serial communication
+//Run this in DigiSpark edited* Arduino IDE
 #include <DigiUSB.h>
 
 
