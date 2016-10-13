@@ -17,17 +17,17 @@ author: aiden
 
 ## Tutorials
 
-*<u>https://www.youtube.com/watch?v=MmDBvgrYGZs</u>*
+*<u>https://www.youtube.com/watch?v=MmDBvgrYGZs</u>*.
 
   **Installing Drivers and Programming the DigiSpark ATtiny85 dev boards - Tutorial**
 
 
-*<u>http://www.raspberry-pi-geek.com/Archive/2014/03/Adding-analog-input-to-the-Pi-using-the-Digispark/(offset)/2</u>*
+*<u>http://www.raspberry-pi-geek.com/Archive/2014/03/Adding-analog-input-to-the-Pi-using-the-Digispark/(offset)/2</u>*.
 
   **Adding analog input to the Pi using the Digispark**
   
   
-*<u>https://digistump.com/wiki/digispark?redirect=1</u>*
+*<u>https://digistump.com/wiki/digispark?redirect=1</u>*.
 
     **Getting Started with your Digispark**
 
