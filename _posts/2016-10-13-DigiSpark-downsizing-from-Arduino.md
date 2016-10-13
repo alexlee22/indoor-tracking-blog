@@ -7,7 +7,7 @@ published: true
 status: publish
 categories: []
 tags: []
-description: DigiSpark - downsizing from Arduino
+description: Drivers, Programming, and Power
 # 110 marker 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
 twitter-body: DigiSpark - downsizing from Arduino
 featuredimg: https://5p.io/content/images/2015/12/Digispark-Pinout.png
