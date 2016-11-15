@@ -56,16 +56,19 @@ request.onload = function() {
   if (request.status >= 200 && request.status < 400) {
     // Success!
     var data = JSON.parse(request.responseText);
-    var listOfbaddies = ["fake", "personal", "ace","delta","oscar","whiskey","freddie","king","london"];
+    var listOfbaddies = ["fake", "personal", "ace", "delta"]; //,"freddie","whiskey","london","king", "oscar"
     var thelist = document.querySelector(".post-content");
     for (var i = 0; i < data.length; i++) {
         var name = data[i]['agentName'];
         if(isAbaddie(name, listOfbaddies)){
             var then = Date.parse(data[i]['timeRecorded']);
             var tDelta = Math.round((Date.now() - then)/1000/60);
-            thelist.innerHTML += `<div class="statusBox"><h3>${name} <span class="tdelta">(${tDelta} ${tDelta==1 ? 'minute':'minutes'} ago)</span></h3>
-                                  <p class="last-seen-date">${new Date(then)}</p>
-                                 <div class="barchart" style="width:${tDelta}%"></div></div>`;
+            thelist.innerHTML +=
+                `<div class="statusBox">
+                    <h3>${name} <span class="tdelta">(${tDelta} ${tDelta==1 ? 'minute':'minutes'} ago)</span></h3>
+                    <p class="last-seen-date">${new Date(then)}</p>
+                    <div class="barchart" style="width:${tDelta}%"></div>
+                </div>`;
         }
     }
   } else {
