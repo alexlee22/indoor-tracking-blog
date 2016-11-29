@@ -47,3 +47,21 @@ authors:
     facebookURL:  tiara.dobbs          # ignore the https://www.facebook.com/ part
     instagramURL: Pigsu_                # ignore the http://instagram.com/ part
     linkedInURL:  ben-doherty-b2a19359" # ignore the https://ca.linkedin.com/in/ part
+  aiden:
+    display_name: Aiden
+    first_name: Aiden
+    last_name: Ray
+    twitter_username: tbag
+    github_username:  notionparallax
+    facebookURL:  tiara.dobbs          # ignore the https://www.facebook.com/ part
+    instagramURL: Pigsu_                # ignore the http://instagram.com/ part
+    linkedInURL:  ben-doherty-b2a19359" # ignore the https://ca.linkedin.com/in/ part
+  ben:
+    display_name: Ben
+    first_name: Ben
+    last_name: Doherty
+    twitter_username: notionparallax
+    github_username:  notionparallaxt
+    facebookURL:  ben.doherty1          # ignore the https://www.facebook.com/ part
+    instagramURL: Pigsu_                # ignore the http://instagram.com/ part
+    linkedInURL:  ben-doherty-b2a19359" # ignore the https://ca.linkedin.com/in/ part
