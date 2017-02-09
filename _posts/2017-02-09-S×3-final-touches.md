@@ -21,8 +21,10 @@ The S×3 is very close to being ready to plug in to the Raspberry Pis and collec
 ##Current state
 - All have been bootloaded and are programmable via USB on my windows 10 machine.
 - A python script has been written to accept data over USB and print to file via stdout.
-- Alex has assisted in setting up python scripts and my own AWS server to colelct the sensor data from the RPis
+- Alex has assisted in setting up scripts (python and shell) and my own AWS server to collect the sensor data from the RPis
 
 ##What's left?
-- 
+- Calibration of the analogue sensors is needed
+    + currently the function ([Steinhart-Hart](https://en.wikipedia.org/wiki/Steinhart%E2%80%93Hart_equation)) Equation which transforms the ADC thermistor resitances to temperature is giving 37°C or -100°C. I have a feeling this is incorrect...
+    + This **slight** discrepancy is due to incorrect coefficients being used in the equation, I assumed the values from the [Vishay datasheet](http://www.vishay.com/docs/29049/ntcle100.pdf) would give the correct temperature.
 
