@@ -233,9 +233,11 @@
       }
     }
     
-    &.alex   { &:hover {background-color: $alex-color;}   }
-    &.annisa { &:hover {background-color: $annisa-color;} }
-    &.tiara  { &:hover {background-color: $tiara-color;}  }
+    &.alex   { &:hover {background-color: $alex-color;}  }
+    &.annisa { &:hover {background-color: $annisa-color;}}
+    &.tiara  { &:hover {background-color: $tiara-color;} }
+    &.aiden  { &:hover {background-color: $aiden-color;} }
+    &.ben    { &:hover {background-color: $ben-color;}   }
 
     @include media(max-width 900px) {
       //single column
